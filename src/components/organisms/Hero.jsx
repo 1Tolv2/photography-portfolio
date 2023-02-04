@@ -7,7 +7,7 @@ import Section from "../atoms/Section";
 
 export const Hero = () => {
   return (
-    <Section center className="overflow-hidden">
+    <Section center>
       <div className="absolute top-8 left-1/2 -translate-x-1/2 flex gap-10">
         <TextRegular>ABOUT</TextRegular>
         <TextRegular>PROJECTS</TextRegular>
@@ -22,17 +22,22 @@ export const Hero = () => {
           <Heading3>FULL STACK DEVELOPER</Heading3>
         </div>
       </div>
-      <div className="absolute top-0 left-0 -z-10 w-screen h-screen">
+      <div className="absolute top-0 left-0 -z-10 w-screen h-screen ">
         <div
           className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-10"
           style={{
             backgroundImage:
-              "linear-gradient(180deg, rgba(70, 162, 214, 0) 0%, rgba(37, 112, 136, 0.78) 50%, #0B2027 77.6%, rgba(0, 0, 0, 0.96) 97.92%)",
+              "linear-gradient(180deg, rgba(70, 162, 214, 0) 0%, rgba(37, 112, 136, 0.78) 50%, #0B2027 77.6%, #000000 97.92%)",
           }}
         />
         <div className="absolute top-0 left-0 w-full h-full bg-primary-900 opacity-70 z-10" />
-
-        <img src="/IMG_8952.jpg" className="scale-150" alt="mountains" />
+        <div className="absolute top-0 left-0 flex justify-center items-center w-screen h-screen overflow-hidden">
+          <img
+            src="/IMG_8952.jpg"
+            alt="mountains"
+            className="w-[150%] h-auto"
+          />
+        </div>
       </div>
     </Section>
   );

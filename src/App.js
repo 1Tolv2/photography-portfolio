@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <header></header>
-      <main className="min-h-screen w-screen overflow-hidden">
+      <main className="min-h-screen w-screen overflow-x-hidden">
         <Hero />
       </main>
     </div>
