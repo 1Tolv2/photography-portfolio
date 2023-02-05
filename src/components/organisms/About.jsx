@@ -57,7 +57,7 @@ const About = () => {
            linear-gradient-blue-left"
           />
           <BackgroundImage
-            bgImage="url('/IMG_9089.jpg')"
+            bgImage="url('img-9089.jpg')"
             opacity="0"
             className="left-0"
           />
