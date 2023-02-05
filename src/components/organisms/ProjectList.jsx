@@ -14,22 +14,15 @@ const ProjectList = ({ projects }) => {
       title: "Full Stack Vehicle Maintenance App",
       description:
         "A React Native + Expo application for registering maintenance on you car och motorcycle. The backend is an Express REST API with a MongoDB database.",
-      link: "",
-      icon: "",
+      link: "https://github.com/1Tolv2/vehicle-react-native-app",
+      icon: "/motorcycle.svg",
     },
     {
       title: "24-hour Weather App",
       description:
         "A small React weather app displaying the current days weather. The data comes from the OpenWeather API. The background changes throughout the day based on the suns activity and type of weather data.",
-      link: "",
-      icon: "",
-    },
-    {
-      title: "24-hour Weather App",
-      description:
-        "A small React weather app displaying the current days weather. The data comes from the OpenWeather API. The background changes throughout the day based on the suns activity and type of weather data.",
-      link: "",
-      icon: "",
+      link: "https://github.com/1Tolv2/Weather-react-app",
+      icon: "/cloud.svg",
     },
   ];
   return (
@@ -38,9 +31,16 @@ const ProjectList = ({ projects }) => {
         {data.map((item, index) => {
           if (index % 2 === 0) {
             return (
-              <div className="float-right frosted-card w-[280px] h-[350px] py-10 px-5 mb-10">
+              <div className="float-right frosted-card w-[280px] h-[350px] py-10 px-5 mb-10 overflow-hidden">
                 <Heading3>{item.title}</Heading3>
                 <TextSmall className="mt-3">{item.description}</TextSmall>
+                {item.icon && (
+                  <img
+                    src={item.icon}
+                    className="absolute -bottom-8 -right-6 h-[160px] max-w-[200px]  opacity-10"
+                    alt="icon"
+                  />
+                )}
               </div>
             );
           }
@@ -50,9 +50,16 @@ const ProjectList = ({ projects }) => {
         {data.map((item, index) => {
           if (index % 2 !== 0) {
             return (
-              <div className="float-left frosted-card w-[280px] h-[350px] py-10 px-5 mb-10">
+              <div className="float-left frosted-card w-[280px] h-[350px] py-10 px-5 mb-10  overflow-hidden">
                 <Heading3>{item.title}</Heading3>
                 <TextSmall className="mt-3">{item.description}</TextSmall>
+                {item.icon && (
+                  <img
+                    src={item.icon}
+                    className="absolute -bottom-8 -right-6 h-[160px] max-w-[200px] opacity-10"
+                    alt="icon"
+                  />
+                )}
               </div>
             );
           }
