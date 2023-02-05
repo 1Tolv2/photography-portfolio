@@ -3,9 +3,9 @@ import React from "react";
 const Section = ({ children, center = false, className = "" }) => {
   return (
     <div
-      className={`relative min-h-screen w-screen ${
+      className={`relative min-h-screen h-full w-screen ${
         center ? "flex justify-center items-center" : ""
-      } ${className}`}
+      } ${className} overflow-x-hidden`}
     >
       {children}
     </div>

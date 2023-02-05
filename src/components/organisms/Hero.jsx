@@ -5,7 +5,7 @@ import Heading3 from "../atoms/Heading3";
 import TextRegular from "../atoms/TextRegular";
 import Section from "../atoms/Section";
 
-export const Hero = () => {
+const Hero = () => {
   return (
     <Section center>
       <div className="absolute top-8 left-1/2 -translate-x-1/2 flex gap-10">
@@ -27,7 +27,7 @@ export const Hero = () => {
           className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-10"
           style={{
             backgroundImage:
-              "linear-gradient(180deg, rgba(70, 162, 214, 0) 0%, rgba(37, 112, 136, 0.78) 50%, #0B2027 77.6%, #000000 97.92%)",
+              " linear-gradient(180deg, rgba(70, 162, 214, 0) 0%, rgba(37, 112, 136, 0.78) 47.45%, #0B2027 73.65%, #000000 90.49%)",
           }}
         />
         <div className="absolute top-0 left-0 w-full h-full bg-primary-900 opacity-70 z-10" />
@@ -42,3 +42,5 @@ export const Hero = () => {
     </Section>
   );
 };
+
+export default Hero;

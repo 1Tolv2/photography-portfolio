@@ -1,12 +1,13 @@
-import { Hero } from "./components/organisms/Hero";
 import "./App.css";
+import About from "./components/organisms/About";
+import Hero from "./components/organisms/Hero";
 
 function App() {
   return (
     <div>
-      <header></header>
-      <main className="min-h-screen w-screen overflow-x-hidden">
+      <main>
         <Hero />
+        <About />
       </main>
     </div>
   );
