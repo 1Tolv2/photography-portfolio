@@ -4,7 +4,7 @@ const Section = ({ children, center = false, className = "" }) => {
   return (
     <div
       className={`relative min-h-screen h-fit w-screen ${
-        center ? "flex justify-center items-center" : ""
+        center ? "flex flex-col justify-center items-center" : ""
       } ${className}`}
     >
       {children}
