@@ -10,7 +10,7 @@ const About = () => {
   return (
     <>
       <Section center>
-        <div className="relative grid grid-cols-2 w-3/4 max-w-[1200px]">
+        <div className="relative grid grid-cols-2 w-3/4 max-w-[1000px] gap-5">
           <SectionStartText
             title="I am"
             sectionName="ABOUT"
@@ -60,9 +60,8 @@ const About = () => {
             className="left-0"
           />
         </div>
-        <SkillList />
       </Section>
-      <div className="bg-black w-full h-[100px]" />
+      <SkillList />
     </>
   );
 };
