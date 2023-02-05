@@ -11,4 +11,5 @@ module.exports = {
     },
   },
   plugins: [],
+  safelist: [{ pattern: /opacity-\d+/ }],
 };
