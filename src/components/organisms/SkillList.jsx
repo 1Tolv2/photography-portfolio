@@ -6,8 +6,8 @@ const SkillList = () => {
   const data = [
     {
       icon: "/logo192.png",
-      title: "Web Development",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur debitis natus hic?",
+      title: "Full Stack Development",
+      text: "From the UI to the database, I enjoy challenging myself in all areas of the stack.",
     },
     {
       icon: "/logo192.png",
@@ -16,12 +16,12 @@ const SkillList = () => {
     },
     {
       icon: "/logo192.png",
-      title: "Back-end Development",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur debitis natus hic?",
+      title: "UI/UX Design",
+      text: "A big passion of mine to improve my designs and concepts to strive for a greater user experince.",
     },
   ];
   return (
-    <div className="absolute text-center -bottom-28 grid grid-cols-3 h-fit w-[900px] mx-auto gap-8">
+    <div className="relative -top-10 text-center grid grid-cols-3 h-fit w-[900px] mx-auto gap-8">
       {data.map((item, index) => (
         <div className="h-full frosted-card py-10 px-5" key={index}>
           <img src={item.icon} alt="icon" className="w-10 mx-auto " />
