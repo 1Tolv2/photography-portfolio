@@ -11,5 +11,5 @@ module.exports = {
     },
   },
   plugins: [],
-  safelist: [{ pattern: /opacity-\d+/ }],
+  safelist: [{ pattern: /opacity-\d+/ }, { pattern: /bg-\w+/ }],
 };
