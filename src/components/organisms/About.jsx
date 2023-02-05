@@ -56,8 +56,9 @@ const About = () => {
             className="left-0"
           />
         </div>
+        <SkillList />
       </Section>
-      <SkillList />
+      <div className="bg-black w-full h-[100px]" />
     </>
   );
 };

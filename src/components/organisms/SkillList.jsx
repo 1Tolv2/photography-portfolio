@@ -21,7 +21,7 @@ const SkillList = () => {
     },
   ];
   return (
-    <div className="text-center relative -top-24 grid grid-cols-3 h-fit w-[900px] mx-auto gap-8">
+    <div className="absolute text-center -bottom-28 grid grid-cols-3 h-fit w-[900px] mx-auto gap-8">
       {data.map((item, index) => (
         <div className="h-full frosted-card py-10 px-5" key={index}>
           <img src={item.icon} alt="icon" className="w-10 mx-auto " />
