@@ -11,7 +11,11 @@ const About = () => {
     <>
       <Section center>
         <div className="relative grid grid-cols-2 w-3/4 max-w-[1200px]">
-          <SectionStartText title="I am" sectionName="ABOUT">
+          <SectionStartText
+            title="I am"
+            sectionName="ABOUT"
+            className="-left-[19rem]"
+          >
             <TextRegular>
               a junior full stack developer with some work experice in front
               end. I have a huge passion to learn and create great and intuitive
