@@ -1,12 +1,14 @@
 import React from "react";
 
-const BackgroundImage = ({ bgImage }) => {
+const BackgroundImage = ({ bgImage, className = "", opacity = "60" }) => {
   return (
     <>
-      <div className="absolute top-0 left-0 w-full h-full bg-primary-900 opacity-60 z-10 mix-blend-hard-light" />
       <div
-        className="flex justify-center items-center w-screen h-screen 
-  bg-cover"
+        className={`absolute top-0 right-0 w-screen h-full bg-primary-900 mix-blend-hard-light z-10 opacity-${opacity}`}
+      />
+      <div
+        className={`flex justify-center items-center w-screen h-screen 
+  bg-cover bg-right-top ${className}}`}
         style={{ backgroundImage: bgImage }}
       />
     </>
