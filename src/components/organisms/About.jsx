@@ -37,10 +37,17 @@ const About = () => {
       </div>
       <div className="absolute top-0 left-0 -z-10 w-screen h-screen ">
         <div
-          className="absolute top-0 left-0 w-full h-full bg-primary-900 opacity-60 z-10"
+          className="absolute top-0 left-0 w-full h-full bg-primary-900 opacity-60 z-30"
           style={{
             backgroundImage:
               "linear-gradient(180deg, rgba(6, 11, 19, 0) 73.51%, rgba(0, 1, 1, 0.82) 89.24%, #000000 100%)",
+          }}
+        />
+        <div
+          className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-20 rotate-180"
+          style={{
+            backgroundImage:
+              "linear-gradient(179.01deg, rgba(70, 162, 214, 0) 7.82%, rgba(11, 32, 39, 0.69) 71.4%, rgba(3, 10, 12, 0.903822) 84.24%, rgba(0, 0, 0, 0.97) 94.22%)",
           }}
         />
         <div
@@ -52,13 +59,6 @@ const About = () => {
         />
 
         <div
-          className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-10 rotate-180"
-          style={{
-            backgroundImage:
-              "linear-gradient(179.01deg, rgba(70, 162, 214, 0) 7.82%, rgba(11, 32, 39, 0.69) 71.4%, rgba(3, 10, 12, 0.903822) 84.24%, rgba(0, 0, 0, 0.97) 94.22%)",
-          }}
-        />
-        <div
           className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-10"
           style={{
             backgroundImage:
@@ -66,12 +66,8 @@ const About = () => {
           }}
         />
 
-        <div className="absolute top-0 left-0 flex justify-center items-center w-screen h-screen overflow-hidden">
-          <img
-            src="/IMG_8830.jpg"
-            alt="mountains"
-            className="w-[150%] h-auto"
-          />
+        <div className="absolute top-5 scale-110 right-[5%] flex justify-center items-center w-screen h-screen overflow-hidden">
+          <img src="/IMG_8830.jpg" alt="mountains" className="" />
         </div>
       </div>
     </Section>
