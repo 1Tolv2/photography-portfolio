@@ -37,7 +37,7 @@ const Projects = () => {
     },
   ];
   return (
-    <Section className="flex flex-col items-center pt-32">
+    <Section className="flex flex-col items-center my-16 py-16">
       <div className="relative w-3/4 max-w-[1000px]">
         <SectionStartText
           title="Featured Projects"
@@ -74,6 +74,13 @@ const Projects = () => {
       </div>
       <div className="absolute top-0 left-0 -z-10 w-screen h-screen ">
         <div
+          className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-20 rotate-180"
+          style={{
+            backgroundImage:
+              "linear-gradient(179.01deg, rgba(70, 162, 214, 0) 7.82%, rgba(11, 32, 39, 0.69) 85.4%, rgba(3, 10, 12, 0.952) 93.24%, rgba(0, 0, 0) 98%)",
+          }}
+        />
+        <div
           className="absolute top-0 left-0 w-full h-full z-10"
           style={{
             backgroundImage:
@@ -81,19 +88,12 @@ const Projects = () => {
           }}
         />
         <div
-          className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-20 rotate-180"
-          style={{
-            backgroundImage:
-              "linear-gradient(179.01deg, rgba(70, 162, 214, 0) 7.82%, rgba(11, 32, 39, 0.69) 85.4%, rgba(3, 10, 12, 0.952) 93.24%, rgba(0, 0, 0) 99%)",
-          }}
-        />
-        <div
-          className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-10
+          className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light
            linear-gradient-blue-left"
         />
         <BackgroundImage
           bgImage="url('IMG_8830.jpg')"
-          opacity="10"
+          opacity="40"
           className="left-0"
         />
       </div>
