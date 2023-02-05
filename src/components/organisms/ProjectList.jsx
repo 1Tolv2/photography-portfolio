@@ -44,6 +44,7 @@ const ProjectList = ({ projects }) => {
               </div>
             );
           }
+          return <></>;
         })}
       </div>
       <div className="w-full mt-32">
@@ -63,6 +64,7 @@ const ProjectList = ({ projects }) => {
               </div>
             );
           }
+          return <></>;
         })}
       </div>
     </div>
