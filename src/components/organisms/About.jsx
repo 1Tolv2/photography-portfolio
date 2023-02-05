@@ -9,7 +9,7 @@ import SkillList from "./SkillList";
 const About = () => {
   return (
     <>
-      <Section center>
+      <Section id="about" center>
         <div className="relative grid grid-cols-2 w-3/4 max-w-[1000px] gap-5">
           <SectionStartText
             title="I am"

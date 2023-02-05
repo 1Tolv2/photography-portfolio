@@ -7,7 +7,7 @@ import TextRegular from "../atoms/TextRegular";
 
 const Contact = () => {
   return (
-    <Section center className=" mt-16 pt-16">
+    <Section id="contact" center className=" mt-16 pt-16">
       <div className="relative w-3/4 max-w-md text-center">
         <div className="absolute text-center -top-16 left-1/2 -translate-x-1/2">
           <RotatedHeading>CONTACT</RotatedHeading>

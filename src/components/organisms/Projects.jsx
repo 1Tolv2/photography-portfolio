@@ -6,7 +6,10 @@ import ProjectList from "./ProjectList";
 
 const Projects = () => {
   return (
-    <Section className="flex flex-col items-center mb-16 mt-40 py-10">
+    <Section
+      id="projects"
+      className="flex flex-col items-center mb-16 mt-40 pt-10 scroll-mt-24"
+    >
       <div className="relative w-3/4 max-w-[1000px]">
         <SectionStartText
           title="Featured Projects"
