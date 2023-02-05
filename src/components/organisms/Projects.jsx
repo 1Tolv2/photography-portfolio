@@ -6,7 +6,7 @@ import ProjectList from "./ProjectList";
 
 const Projects = () => {
   return (
-    <Section className="flex flex-col items-center my-16 py-16">
+    <Section className="flex flex-col items-center mb-16 mt-40 py-10">
       <div className="relative w-3/4 max-w-[1000px]">
         <SectionStartText
           title="Featured Projects"
@@ -21,7 +21,7 @@ const Projects = () => {
           className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-20 rotate-180"
           style={{
             backgroundImage:
-              "linear-gradient(179.01deg, rgba(70, 162, 214, 0) 7.82%, rgba(11, 32, 39, 0.69) 85.4%, rgba(3, 10, 12, 0.952) 93.24%, rgba(0, 0, 0) 98%)",
+              "linear-gradient(179.01deg, rgba(70, 162, 214, 0) 7.82%, rgba(11, 32, 39, 0.69) 80.4%, rgba(3, 10, 12, 0.952) 93.24%, rgba(0, 0, 0) 98%)",
           }}
         />
         <div
