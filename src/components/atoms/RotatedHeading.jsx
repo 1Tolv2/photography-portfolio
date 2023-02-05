@@ -1,6 +1,6 @@
 import React from "react";
 
-const SectionHeading = ({ children }) => {
+const RotatedHeading = ({ children }) => {
   return (
     <p className="text-9xl font-black text-white opacity-10 w-fit">
       {children}
@@ -8,4 +8,4 @@ const SectionHeading = ({ children }) => {
   );
 };
 
-export default SectionHeading;
+export default RotatedHeading;
