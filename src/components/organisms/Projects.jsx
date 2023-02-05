@@ -2,7 +2,7 @@ import React from "react";
 import Section from "../atoms/Section";
 
 const Projects = () => {
-  return <Section>Projects</Section>;
+  return <Section></Section>;
 };
 
 export default Projects;
