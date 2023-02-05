@@ -14,23 +14,25 @@ const About = () => {
           <SectionStartText
             title="I am"
             sectionName="ABOUT"
-            className="-left-[19rem]"
+            className="-left-[19rem] "
           >
-            <TextRegular>
-              a junior full stack developer with some work experice in front
-              end. I have a huge passion to learn and create great and intuitive
-              applications.
-            </TextRegular>
-            <br />
-            <TextRegular>
-              When I'm not programming I enjoy painting and going on motorcycle
-              trips, I'm already planning my next one!
-            </TextRegular>
-            <br />
-            <TextRegular>
-              These are the technologies I am currently working with:
-            </TextRegular>
-            <TechList />
+            <div className="text-white">
+              <TextRegular>
+                a junior full stack developer with some work experice in front
+                end. I have a huge passion to learn and create great and
+                intuitive applications.
+              </TextRegular>
+              <br />
+              <TextRegular>
+                When I'm not programming I enjoy painting and going on
+                motorcycle trips, I'm already planning my next one!
+              </TextRegular>
+              <br />
+              <TextRegular>
+                These are the technologies I am currently working with:
+              </TextRegular>
+              <TechList />
+            </div>
           </SectionStartText>
           <div></div>
         </div>
