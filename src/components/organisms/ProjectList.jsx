@@ -25,42 +25,48 @@ const ProjectList = ({ projects }) => {
       icon: "/cloud.svg",
     },
   ];
+
+  const renderCard = (item) => {
+    return (
+      <>
+        <div>
+          <Heading3>{item.title}</Heading3>
+          <TextSmall className="mt-3">{item.description}</TextSmall>
+        </div>
+        <a href={item.link}>
+          <img alt="external link" src="external-link.svg" className="w-6" />
+        </a>
+        {item.icon && (
+          <img
+            src={item.icon}
+            className="absolute -bottom-8 -right-6 h-[160px] max-w-[200px]  opacity-10"
+            alt="icon"
+          />
+        )}
+      </>
+    );
+  };
+
   return (
     <div className="grid grid-cols-2 w-full mx-auto mt-10 pr-20 gap-10">
       <div className="flex flex-col items-end w-full h-fit">
         {data.map((item, index) => {
           if (index % 2 === 0) {
             return (
-              <div className="float-right frosted-card w-[280px] h-[350px] py-10 px-5 mb-10 overflow-hidden">
-                <Heading3>{item.title}</Heading3>
-                <TextSmall className="mt-3">{item.description}</TextSmall>
-                {item.icon && (
-                  <img
-                    src={item.icon}
-                    className="absolute -bottom-8 -right-6 h-[160px] max-w-[200px]  opacity-10"
-                    alt="icon"
-                  />
-                )}
+              <div className="flex flex-col justify-between float-right frosted-card w-[280px] h-[340px] py-7 px-5 mb-10 overflow-hidden">
+                {renderCard(item)}
               </div>
             );
           }
           return <></>;
         })}
       </div>
-      <div className="w-full mt-32">
+      <div className="w-full mt-[200px]">
         {data.map((item, index) => {
           if (index % 2 !== 0) {
             return (
-              <div className="float-left frosted-card w-[280px] h-[350px] py-10 px-5 mb-10  overflow-hidden">
-                <Heading3>{item.title}</Heading3>
-                <TextSmall className="mt-3">{item.description}</TextSmall>
-                {item.icon && (
-                  <img
-                    src={item.icon}
-                    className="absolute -bottom-8 -right-6 h-[160px] max-w-[200px] opacity-10"
-                    alt="icon"
-                  />
-                )}
+              <div className="flex flex-col justify-between float-left frosted-card w-[280px] h-[340px] py-7 px-5 mb-10  overflow-hidden">
+                {renderCard(item)}
               </div>
             );
           }
