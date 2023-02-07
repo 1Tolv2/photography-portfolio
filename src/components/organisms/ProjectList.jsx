@@ -48,12 +48,12 @@ const ProjectList = ({ projects }) => {
   };
 
   return (
-    <div className="flex flex-col md:grid md:grid-cols-2 w-full mx-auto mt-10 md:pr-10 lg:pr-20 gap-10">
+    <div className="flex flex-col md:grid md:grid-cols-2 w-full mx-auto mt-10 md:pr-10 lg:pr-20 gap-10 text-left">
       <div className="flex flex-wrap justify-center md:flex-col md:items-end w-full h-fit gap-10">
         {data.map((item, index) => {
           if (index % 2 === 0) {
             return (
-              <div className="flex flex-col justify-between float-right frosted-card min-w-[280px] max-w-[300px] min-h-[340px] max-h-[380px] py-7 px-5 md:mb-10 overflow-hidden">
+              <div className="flex flex-col justify-between float-right frosted-card w-full sm:min-w-[280px] max-w-[300px] min-h-[340px] max-h-[380px] py-7 px-5 md:mb-10 overflow-hidden">
                 {renderCard(item)}
               </div>
             );
