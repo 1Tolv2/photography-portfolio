@@ -1,5 +1,6 @@
 import React from "react";
 import Heading1 from "../atoms/Heading1";
+import Heading2 from "../atoms/Heading2";
 import Heading3 from "../atoms/Heading3";
 const HeroText = () => {
   return (
@@ -8,12 +9,12 @@ const HeroText = () => {
         UNDER CONSTRUCTION
       </p>
       <div className="flex w-full items-baseline">
-        <Heading3>HELLO</Heading3>
+        <Heading2>HELLO</Heading2>
         <span className="w-full h-0.5 bg-white ml-5 " />
       </div>
       <Heading1>SOFIA JOHNSSON</Heading1>
       <div className="text-right">
-        <Heading3>FULL STACK DEVELOPER</Heading3>
+        <Heading2>FULL STACK DEVELOPER</Heading2>
       </div>
     </div>
   );

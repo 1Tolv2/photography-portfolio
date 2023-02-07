@@ -21,10 +21,13 @@ const SkillList = () => {
     },
   ];
   return (
-    <div className="relative -top-10 text-center grid grid-cols-3 h-fit w-[900px] mx-auto gap-8">
+    <div className="relative -top-10 text-center flex flex-wrap lg:grid lg:grid-cols-3 justify-center ítems-center h-fit w-full md:max-w-[1200px] mx-auto px-4 md:px-10 gap-6 md:gap-8">
       {data.map((item, index) => (
-        <div className="h-full frosted-card py-10 px-5" key={index}>
-          <img src={item.icon} alt="icon" className="w-10 mx-auto " />
+        <div
+          className="h-full frosted-card max-w-[350px] w-fit mx-auto py-6 md:py-10 px-5"
+          key={index}
+        >
+          <img src={item.icon} alt="icon" className="w-10 mx-auto" />
           <Heading3>{item.title}</Heading3>
           <TextSmall className="mt-3">{item.text}</TextSmall>
         </div>

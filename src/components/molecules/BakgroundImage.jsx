@@ -13,7 +13,7 @@ const BackgroundImage = ({
       />
       <div
         className={`flex justify-center items-center w-screen h-screen 
-          bg-cover bg-right-top  bg-no-repeat ${className}`}
+          bg-cover bg-right-top bg-no-repeat ${className}`}
         style={{ backgroundImage: bgImage }}
       />
     </>

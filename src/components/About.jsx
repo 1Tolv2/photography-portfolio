@@ -10,11 +10,11 @@ const About = () => {
   return (
     <>
       <Section id="about" center>
-        <div className="relative grid grid-cols-2 w-3/4 max-w-[1000px] gap-5">
+        <div className="relative grid grid-cols-1 md:grid-cols-2 w-3/4 max-w-[1000px] gap-5">
           <SectionStartText
             title="I am"
             sectionName="ABOUT"
-            className="-left-[19rem] "
+            className="-left-[15rem] md:-left-[19rem]"
           >
             <div className="text-white">
               <TextRegular>
@@ -34,7 +34,7 @@ const About = () => {
               <TechList />
             </div>
           </SectionStartText>
-          <div></div>
+          <div className="hidden md:block"></div>
         </div>
         <div className="absolute top-0 left-0 -z-10 w-screen h-screen ">
           <div
@@ -59,7 +59,7 @@ const About = () => {
           <BackgroundImage
             bgImage="url('image-of-me.jpg')"
             opacity="0"
-            className="left-0"
+            className="left-0 !bg-center !md:bg-rigth-top"
           />
         </div>
       </Section>
