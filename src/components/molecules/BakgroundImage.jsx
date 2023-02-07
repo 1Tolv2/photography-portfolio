@@ -1,6 +1,11 @@
 import React from "react";
 
-const BackgroundImage = ({ bgImage, className = "", opacity = "60" }) => {
+const BackgroundImage = ({
+  bgImage,
+  className = "",
+  opacity = "60",
+  imageBehaviour = "bg-cover",
+}) => {
   return (
     <>
       <div
@@ -8,7 +13,7 @@ const BackgroundImage = ({ bgImage, className = "", opacity = "60" }) => {
       />
       <div
         className={`flex justify-center items-center w-screen h-screen 
-  bg-cover bg-right-top ${className}`}
+          bg-cover bg-right-top  bg-no-repeat ${className}`}
         style={{ backgroundImage: bgImage }}
       />
     </>
