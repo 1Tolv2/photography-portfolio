@@ -3,7 +3,7 @@ import TextRegular from "../atoms/TextRegular";
 
 const NavBar = () => {
   return (
-    <nav className="absolute top-8 left-1/2 -translate-x-1/2 flex gap-10 ">
+    <nav className="absolute top-8 left-1/2 -translate-x-1/2 flex flex-wrap justify-center gap-5 lg:gap-10 ">
       <a href="#about">
         <TextRegular>ABOUT</TextRegular>
       </a>
