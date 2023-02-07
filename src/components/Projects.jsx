@@ -8,13 +8,13 @@ const Projects = () => {
   return (
     <Section
       id="projects"
-      className="flex flex-col items-center mb-16 mt-40 pt-10 scroll-mt-24"
+      className="flex flex-col items-center mb-16 mt-24 pt-10 scroll-mt-24"
     >
       <div className="relative w-3/4 max-w-[1000px]">
         <SectionStartText
           title="Featured Projects"
           sectionName="PROJECTS"
-          className="-left-[26rem] top-72"
+          className="-left-[26rem] top-70"
         >
           <ProjectList />
         </SectionStartText>
