@@ -1,10 +1,10 @@
 import React from "react";
-import Section from "../atoms/Section";
-import TextRegular from "../atoms/TextRegular";
-import BackgroundImage from "../molecules/BakgroundImage";
-import SectionStartText from "../molecules/SectionStartText";
-import TechList from "../molecules/TechList";
-import SkillList from "./SkillList";
+import Section from "./atoms/Section";
+import TextRegular from "./atoms/TextRegular";
+import BackgroundImage from "./molecules/BakgroundImage";
+import SectionStartText from "./molecules/SectionStartText";
+import TechList from "./molecules/TechList";
+import SkillList from "./organisms/SkillList";
 
 const About = () => {
   return (

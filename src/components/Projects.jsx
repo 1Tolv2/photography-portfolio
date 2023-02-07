@@ -1,8 +1,8 @@
 import React from "react";
-import Section from "../atoms/Section";
-import BackgroundImage from "../molecules/BakgroundImage";
-import SectionStartText from "../molecules/SectionStartText";
-import ProjectList from "./ProjectList";
+import Section from "./atoms/Section";
+import BackgroundImage from "./molecules/BakgroundImage";
+import SectionStartText from "./molecules/SectionStartText";
+import ProjectList from "./organisms/ProjectList";
 
 const Projects = () => {
   return (

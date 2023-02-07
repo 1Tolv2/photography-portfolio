@@ -1,8 +1,8 @@
 import React from "react";
-import Section from "../atoms/Section";
-import BackgroundImage from "../molecules/BakgroundImage";
-import HeroText from "../molecules/HeroText";
-import NavBar from "../molecules/NavBar";
+import Section from "./atoms/Section";
+import BackgroundImage from "./molecules/BakgroundImage";
+import HeroText from "./molecules/HeroText";
+import NavBar from "./molecules/NavBar";
 
 const Hero = () => {
   return (
