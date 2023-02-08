@@ -5,17 +5,17 @@ import TextSmall from "../atoms/TextSmall";
 const SkillList = () => {
   const data = [
     {
-      icon: "/logo192.png",
+      icon: "/engineer.svg",
       title: "Full Stack Development",
       text: "From the UI to the database, I enjoy challenging myself in all areas of the stack.",
     },
     {
-      icon: "/logo192.png",
+      icon: "/update.svg",
       title: "Application Lifecycle Management",
       text: "Building applications with scalability and maintainability in mind.",
     },
     {
-      icon: "/logo192.png",
+      icon: "/design.svg",
       title: "UI/UX Design",
       text: "A big passion of mine to improve my designs and concepts to strive for a greater user experince.",
     },
