@@ -15,6 +15,7 @@ const Projects = () => {
           title="Featured Projects"
           sectionName="PROJECTS"
           className="-left-[22rem] md:-left-[26rem] top-70"
+          titleAlign="center"
         >
           <ProjectList />
         </SectionStartText>
