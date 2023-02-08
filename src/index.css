@@ -28,8 +28,8 @@ ul{
 }
 
 h1 {
-  font-size: 1.875rem;
-  font-size: clamp(1.875rem, 1.0344827586206895rem + 4.137931034482759vw, 6rem);
+  font-size: 1.625rem;
+  font-size: clamp(1.625rem, 0.6496815286624205rem + 4.45859872611465vw, 6rem);
 }
 
 h2 {
