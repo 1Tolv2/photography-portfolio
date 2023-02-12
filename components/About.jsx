@@ -59,7 +59,7 @@ const About = () => {
           <BackgroundImage
             bgImage="url('image-of-me.jpg')"
             opacity="0"
-            className="left-0 !bg-center !md:bg-right-top"
+            className="left-0 !bg-center lg:!bg-right-top"
           />
         </div>
       </Section>
