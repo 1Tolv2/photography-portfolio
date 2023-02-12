@@ -39,7 +39,7 @@ const Contact = () => {
           }}
         />
         <BackgroundImage
-          bgImage="url('20220810_154837.jpg')"
+          bgImage="url('lake2.jpg')"
           opacity="40"
           className="left-0"
         />
