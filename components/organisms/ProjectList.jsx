@@ -53,7 +53,10 @@ const ProjectList = ({ projects }) => {
         {data.map((item, index) => {
           if (index % 2 === 0) {
             return (
-              <div className="flex flex-col justify-between float-right frosted-card w-full sm:min-w-[280px] max-w-[300px] min-h-[340px] max-h-[380px] py-7 px-5 md:mb-10 overflow-hidden">
+              <div
+                key={index}
+                className="flex flex-col justify-between float-right frosted-card w-full sm:min-w-[280px] max-w-[300px] min-h-[340px] max-h-[380px] py-7 px-5 md:mb-10 overflow-hidden"
+              >
                 {renderCard(item)}
               </div>
             );
@@ -65,7 +68,10 @@ const ProjectList = ({ projects }) => {
         {data.map((item, index) => {
           if (index % 2 !== 0) {
             return (
-              <div className="flex flex-col justify-between float-left frosted-card w-[280px] h-[340px] py-7 px-5 md:mb-10  overflow-hidden">
+              <div
+                key={index}
+                className="flex flex-col justify-between float-left frosted-card w-[280px] h-[340px] py-7 px-5 md:mb-10  overflow-hidden"
+              >
                 {renderCard(item)}
               </div>
             );
