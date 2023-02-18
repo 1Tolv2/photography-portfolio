@@ -41,7 +41,8 @@ const Contact = () => {
         <BackgroundImage
           bgImage="url('lake2.jpg')"
           opacity="40"
-          className="bg-center left-0"
+          bgPosition="bg-center"
+          className="left-0"
         />
       </div>
     </Section>

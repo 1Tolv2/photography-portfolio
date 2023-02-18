@@ -5,7 +5,7 @@ const BackgroundImage = ({
   className = "",
   opacity = "60",
   imageBehaviour = "bg-cover",
-  bgPosition = "bg-right-top",
+  bgPosition = "bg-center",
 }) => {
   return (
     <>

@@ -43,6 +43,7 @@ const Projects = () => {
         <BackgroundImage
           bgImage="url('IMG_8830.jpg')"
           opacity="40"
+          bgPosition="bg-right"
           className="left-0"
         />
       </div>
