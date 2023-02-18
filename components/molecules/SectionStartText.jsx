@@ -1,6 +1,6 @@
 import React from "react";
 import SectionHeading from "../atoms/RotatedHeading";
-import Heading2 from "../atoms/Heading2";
+import Heading2 from "../atoms/typography/Heading2";
 
 const SectionStartText = ({
   children,

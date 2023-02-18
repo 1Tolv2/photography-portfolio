@@ -1,9 +1,9 @@
 import React from "react";
-import Heading2 from "./atoms/Heading2";
+import Heading2 from "./atoms/typography/Heading2";
 import RotatedHeading from "./atoms/RotatedHeading";
 import Section from "./atoms/Section";
 import BackgroundImage from "./molecules/BakgroundImage";
-import TextRegular from "./atoms/TextRegular";
+import TextRegular from "./atoms/typography/TextRegular";
 
 const Contact = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import Heading3 from "../atoms/Heading3";
-import TextSmall from "../atoms/TextSmall";
+import Heading3 from "../atoms/typography/Heading3";
+import TextSmall from "../atoms/typography/TextSmall";
 const ProjectList = ({ projects }) => {
   const data = [
     {
