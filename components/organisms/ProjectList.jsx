@@ -39,7 +39,7 @@ const ProjectList = ({ projects }) => {
         {item.icon && (
           <img
             src={item.icon}
-            className="absolute -bottom-8 -right-6 h-[160px] max-w-[200px]  opacity-10"
+            className="absolute -bottom-8 -right-6 h-[160px] max-w-[200px] opacity-10"
             alt="icon"
           />
         )}
@@ -64,13 +64,13 @@ const ProjectList = ({ projects }) => {
           return <></>;
         })}
       </div>
-      <div className="w-fit md:mt-[200px] mx-auto">
+      <div className="flex flex-wrap justify-center md:flex-col md:items-start w-full h-fit gap-10 md:mt-[200px]">
         {data.map((item, index) => {
           if (index % 2 !== 0) {
             return (
               <div
                 key={index}
-                className="flex flex-col justify-between float-left frosted-card w-[280px] h-[340px] py-7 px-5 md:mb-10  overflow-hidden"
+                className="flex flex-col justify-between float-left frosted-card w-[280px] h-[340px] py-7 px-5 md:mb-10 overflow-hidden "
               >
                 {renderCard(item)}
               </div>
