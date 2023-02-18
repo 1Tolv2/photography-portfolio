@@ -10,7 +10,7 @@ const Contact = () => {
     <Section id="contact" center className=" mt-16 pt-16 overflow-hidden">
       <div className="relative w-3/4 max-w-md text-center">
         <div className="absolute text-center -top-6 sm:-top-8 md:-top-20 left-1/2 -translate-x-1/2">
-          <RotatedHeading className="text-6xl sm:text-7xl md:text-9xl">
+          <RotatedHeading className="!text-6xl sm:!text-7xl md:!text-9xl">
             CONTACT
           </RotatedHeading>
         </div>
