@@ -10,15 +10,16 @@ const Projects = () => {
       id="projects"
       className="flex flex-col items-center mb-16 mt-24 pt-10 scroll-mt-24"
     >
-      <div className="relative w-full px-10 md:w-3/4 max-w-[1000px]">
+      <div className="relative grid grid-cols-1 gap-5 w-3/4 max-w-[1000px]">
         <SectionStartText
           title="Featured Projects"
           sectionName="PROJECTS"
-          className="-left-[22rem] md:-left-[26rem] top-70"
+          className="-left-[20.5rem] md:-left-[25rem] top-70"
           titleAlign="center"
         >
           <ProjectList />
         </SectionStartText>
+        <div className="hidden md:block"></div>
       </div>
       <div className="absolute top-0 left-0 -z-10 w-screen h-screen ">
         <div
