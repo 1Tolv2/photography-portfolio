@@ -1,6 +1,6 @@
 import React from "react";
-import Heading1 from "../atoms/Heading1";
-import Heading2 from "../atoms/Heading2";
+import Heading1 from "../atoms/typography/Heading1";
+import Heading2 from "../atoms/typography/Heading2";
 
 const HeroText = () => {
   return (

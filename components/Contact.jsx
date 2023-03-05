@@ -1,16 +1,18 @@
 import React from "react";
-import Heading2 from "./atoms/Heading2";
+import Heading2 from "./atoms/typography/Heading2";
 import RotatedHeading from "./atoms/RotatedHeading";
 import Section from "./atoms/Section";
 import BackgroundImage from "./molecules/BakgroundImage";
-import TextRegular from "./atoms/TextRegular";
+import TextRegular from "./atoms/typography/TextRegular";
 
 const Contact = () => {
   return (
     <Section id="contact" center className=" mt-16 pt-16 overflow-hidden">
       <div className="relative w-3/4 max-w-md text-center">
-        <div className="absolute text-center -top-16 left-1/2 -translate-x-1/2">
-          <RotatedHeading>CONTACT</RotatedHeading>
+        <div className="absolute text-center -top-6 sm:-top-8 md:-top-20 left-1/2 -translate-x-1/2">
+          <RotatedHeading className="!text-6xl sm:!text-7xl md:!text-9xl">
+            CONTACT
+          </RotatedHeading>
         </div>
         <Heading2>Reach Me</Heading2>
         <div className="mt-2 mb-8 text-white">
@@ -23,7 +25,7 @@ const Contact = () => {
           onClick={() => window.location.assign("mailto:sofiaq1@gmail.com")}
           className="px-6 py-3 bg-[#4599ca] transition hover:scale-110 text-white"
         >
-          <TextRegular>Say Hi</TextRegular>
+          <TextRegular>Say hi!</TextRegular>
         </button>
       </div>
       <div className="absolute top-0 left-0 -z-10 w-screen h-screen ">

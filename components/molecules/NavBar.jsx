@@ -1,5 +1,5 @@
 import React from "react";
-import TextRegular from "../atoms/TextRegular";
+import TextRegular from "../atoms/typography/TextRegular";
 
 const NavBar = () => {
   return (
