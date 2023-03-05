@@ -40,16 +40,14 @@ const ProjectList = ({ projects }) => {
             alt="external link"
             src="external-link.svg"
             className="w-6"
-            fill
+            width={24}
+            height={24}
           />
         </a>
         {item.icon && (
-          <Image
-            src={item.icon}
-            className="absolute -bottom-8 -right-6 h-[160px] max-w-[200px] opacity-10"
-            alt="icon"
-            fill
-          />
+          <div className="absolute -bottom-8 -right-6 h-[160px] w-full max-w-[200px] opacity-10">
+            <Image src={item.icon} alt="icon" fill />
+          </div>
         )}
       </>
     );
