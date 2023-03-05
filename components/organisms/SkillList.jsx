@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Heading3 from "../atoms/typography/Heading3";
 import TextSmall from "../atoms/typography/TextSmall";
 
@@ -27,7 +28,7 @@ const SkillList = () => {
           className="h-full frosted-card max-w-[350px] w-fit mx-auto py-6 md:py-10 px-5"
           key={index}
         >
-          <img src={item.icon} alt="icon" className="w-10 mx-auto" />
+          <Image src={item.icon} alt="icon" className="w-10 mx-auto" fill />
           <Heading3>{item.title}</Heading3>
           <TextSmall className="mt-3">{item.text}</TextSmall>
         </div>

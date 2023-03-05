@@ -1,6 +1,8 @@
 import React from "react";
+import Image from "next/image";
 import Heading3 from "../atoms/typography/Heading3";
 import TextSmall from "../atoms/typography/TextSmall";
+
 const ProjectList = ({ projects }) => {
   const data = [
     {
@@ -34,13 +36,19 @@ const ProjectList = ({ projects }) => {
           <TextSmall className="mt-3">{item.description}</TextSmall>
         </div>
         <a href={item.link}>
-          <img alt="external link" src="external-link.svg" className="w-6" />
+          <Image
+            alt="external link"
+            src="external-link.svg"
+            className="w-6"
+            fill
+          />
         </a>
         {item.icon && (
-          <img
+          <Image
             src={item.icon}
             className="absolute -bottom-8 -right-6 h-[160px] max-w-[200px] opacity-10"
             alt="icon"
+            fill
           />
         )}
       </>
@@ -54,7 +62,7 @@ const ProjectList = ({ projects }) => {
           if (index % 2 === 0) {
             return (
               <div
-                key={index}
+                key={"project" + index}
                 className="flex flex-col justify-between float-right frosted-card w-full sm:min-w-[280px] max-w-[300px] min-h-[340px] max-h-[380px] py-7 px-5 md:mb-10 overflow-hidden"
               >
                 {renderCard(item)}
