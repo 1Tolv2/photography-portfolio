@@ -25,7 +25,7 @@ const Contact = () => {
           onClick={() => window.location.assign("mailto:sofiaq1@gmail.com")}
           className="px-6 py-3 bg-[#4599ca] transition hover:scale-110 text-white"
         >
-          <TextRegular>Say hi!</TextRegular>
+          <p className="text-base text-black">Say hi!</p>
         </button>
       </div>
       <div className="absolute top-0 left-0 -z-10 w-screen h-screen ">
