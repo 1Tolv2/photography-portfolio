@@ -14,7 +14,7 @@ const Hero = () => {
           className="absolute top-0 left-0 w-full h-full mix-blend-hard-light z-10
           linear-gradient-blue-bottom"
         />
-        <BackgroundImage bgImage="url('IMG_8952.jpg')" />
+        <BackgroundImage bgImage="IMG_8952.jpg" />
       </div>
     </Section>
   );

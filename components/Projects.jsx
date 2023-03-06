@@ -41,9 +41,9 @@ const Projects = () => {
            linear-gradient-blue-left"
         />
         <BackgroundImage
-          bgImage="url('IMG_8830.jpg')"
+          bgImage="IMG_8830.jpg"
           opacity="40"
-          bgPosition="bg-right"
+          bgPosition="right"
           className="left-0"
         />
       </div>
