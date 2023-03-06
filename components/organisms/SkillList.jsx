@@ -30,7 +30,7 @@ const SkillList = () => {
         >
           <Image
             src={item.icon}
-            alt="icon"
+            alt={item.title + " icon"}
             className="w-10 mx-auto"
             width={40}
             height={40}

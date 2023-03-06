@@ -24,7 +24,7 @@ code {
 }
 
 ul{
-  list-style-image: url('/public/rectangle.svg');
+  list-style-image: url('/rectangle.svg');
 }
 
 h1 {
