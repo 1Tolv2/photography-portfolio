@@ -42,7 +42,7 @@ const Projects = () => {
         />
         <BackgroundImage
           bgImage="IMG_8830.jpg"
-          opacity="40"
+          opacity={0.4}
           bgPosition="right"
           className="left-0"
         />
