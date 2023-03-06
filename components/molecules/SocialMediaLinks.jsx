@@ -8,6 +8,7 @@ const SocialMediaLinks = () => {
         <Image
           className="w-10 md:w-12 mx-auto"
           src="/github.svg"
+          alt="github"
           width={40}
           height={40}
         />
@@ -16,6 +17,7 @@ const SocialMediaLinks = () => {
         <Image
           className="w-8 md:w-10 mx-auto"
           src="/linkedin.svg"
+          alt="linkedin"
           width={40}
           height={40}
         />

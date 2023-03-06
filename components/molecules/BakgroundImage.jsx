@@ -15,6 +15,7 @@ const BackgroundImage = ({
       />
       <Image
         src={"/" + bgImage}
+        alt=""
         fill
         sizes="100vw"
         style={{
