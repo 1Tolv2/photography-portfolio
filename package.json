@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "framer-motion": "^10.2.4",
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -13,7 +14,6 @@
     "start": "next start",
     "lint": "next lint"
   },
-
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
