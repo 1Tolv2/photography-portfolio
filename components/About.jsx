@@ -5,12 +5,18 @@ import BackgroundImage from "./molecules/BakgroundImage";
 import SectionStartText from "./molecules/SectionStartText";
 import TechList from "./molecules/TechList";
 import SkillList from "./organisms/SkillList";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
     <>
       <Section id="about" center>
-        <div className="relative grid grid-cols-1 md:grid-cols-2 w-3/4 max-w-[1000px] gap-5">
+        <motion.div
+          className="relative grid grid-cols-1 md:grid-cols-2 w-3/4 max-w-[1000px] gap-5"
+          initial={{ translateY: 100, opacity: 0 }}
+          transition={{ duration: 0.8, type: "tween" }}
+          whileInView={{ translateY: 0, opacity: 1 }}
+        >
           <SectionStartText
             title="I am"
             sectionName="ABOUT"
@@ -35,7 +41,7 @@ const About = () => {
             </div>
           </SectionStartText>
           <div className="hidden md:block"></div>
-        </div>
+        </motion.div>
         <div className="absolute top-0 left-0 -z-10 w-screen h-screen ">
           <div
             className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-20 rotate-180"
