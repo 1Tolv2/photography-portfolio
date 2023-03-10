@@ -4,6 +4,7 @@ import RotatedHeading from "./atoms/RotatedHeading";
 import Section from "./atoms/Section";
 import BackgroundImage from "./molecules/BakgroundImage";
 import TextRegular from "./atoms/typography/TextRegular";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
@@ -14,13 +15,25 @@ const Contact = () => {
             CONTACT
           </RotatedHeading>
         </div>
-        <Heading2>Reach Me</Heading2>
-        <div className="mt-2 mb-8 text-white">
+        <motion.div
+          initial={{ translateY: 100, opacity: 0 }}
+          transition={{ duration: 0.8, type: "tween" }}
+          whileInView={{ translateY: 0, opacity: 1 }}
+        >
+          <Heading2>Reach Me</Heading2>
+        </motion.div>
+
+        <motion.div
+          className="mt-2 mb-8 text-white"
+          initial={{ translateY: 100, opacity: 0 }}
+          transition={{ duration: 0.8, type: "tween" }}
+          whileInView={{ translateY: 0, opacity: 1 }}
+        >
           <TextRegular>
             I am currently open for a new adventure, so if you think I'll be a
             great fit for you team, don't hesitate to say hi!
           </TextRegular>
-        </div>
+        </motion.div>
         <button
           onClick={() => window.location.assign("mailto:sofiaq1@gmail.com")}
           className="px-6 py-3 bg-[#4599ca] transition hover:scale-110 text-white"
