@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Heading3 from "../atoms/typography/Heading3";
 import TextSmall from "../atoms/typography/TextSmall";
+import { motion } from "framer-motion";
 
 const SkillList = () => {
   const data = [
@@ -24,9 +25,15 @@ const SkillList = () => {
   return (
     <div className="relative -top-8 text-center flex flex-wrap lg:grid lg:grid-cols-3 justify-center ítems-center h-fit w-full md:max-w-[1200px] mx-auto px-4 md:px-10 gap-6 md:gap-8">
       {data.map((item, index) => (
-        <div
-          className="h-full frosted-card max-w-[350px] w-fit mx-auto py-6 md:py-10 px-5"
+        <motion.div
           key={index}
+          className="h-full frosted-card max-w-[350px] w-fit mx-auto py-6 md:py-10 px-5"
+          initial={{ translateY: 100, opacity: 0 }}
+          transition={{
+            duration: 0.8,
+            type: "tween",
+          }}
+          whileInView={{ translateY: 0, opacity: 1 }}
         >
           <Image
             src={item.icon}
@@ -37,7 +44,7 @@ const SkillList = () => {
           />
           <Heading3>{item.title}</Heading3>
           <TextSmall className="mt-3">{item.text}</TextSmall>
-        </div>
+        </motion.div>
       ))}
     </div>
   );

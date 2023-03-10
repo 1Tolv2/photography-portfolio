@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Heading3 from "../atoms/typography/Heading3";
 import TextSmall from "../atoms/typography/TextSmall";
+import { motion } from "framer-motion";
 
 const ProjectList = ({ projects }) => {
   const data = [
