@@ -11,18 +11,18 @@ const About = () => {
   return (
     <>
       <Section id="about" center>
-        <motion.div
-          className="relative grid grid-cols-1 md:grid-cols-2 w-3/4 max-w-[1000px] gap-5"
-          initial={{ translateY: 100, opacity: 0 }}
-          transition={{ duration: 0.8, type: "tween" }}
-          whileInView={{ translateY: 0, opacity: 1 }}
-        >
+        <div className="relative grid grid-cols-1 md:grid-cols-2 w-3/4 max-w-[1000px] gap-5">
           <SectionStartText
             title="I am"
             sectionName="ABOUT"
             className="-left-[15rem] md:-left-[19rem]"
           >
-            <div className="text-white">
+            <motion.div
+              className="text-white"
+              initial={{ translateY: 100, opacity: 0 }}
+              transition={{ duration: 0.8, type: "tween" }}
+              whileInView={{ translateY: 0, opacity: 1 }}
+            >
               <TextRegular>
                 a junior full stack developer with some work experice in front
                 end. I have a huge passion to learn and create great and
@@ -38,10 +38,10 @@ const About = () => {
                 These are the technologies I am currently working with:
               </TextRegular>
               <TechList />
-            </div>
+            </motion.div>
           </SectionStartText>
           <div className="hidden md:block"></div>
-        </motion.div>
+        </div>
         <div className="absolute top-0 left-0 -z-10 w-screen h-screen ">
           <div
             className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-20 rotate-180"

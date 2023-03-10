@@ -60,12 +60,15 @@ const ProjectList = ({ projects }) => {
         {data.map((item, index) => {
           if (index % 2 === 0) {
             return (
-              <div
+              <motion.div
                 key={"project" + index}
                 className="relative flex flex-col justify-between float-right frosted-card w-full sm:min-w-[280px] max-w-[300px] min-h-[340px] max-h-[380px] py-7 px-5 md:mb-10 overflow-hidden"
+                initial={{ translateY: 100, opacity: 0 }}
+                transition={{ duration: 0.8, type: "tween" }}
+                whileInView={{ translateY: 0, opacity: 1 }}
               >
                 {renderCard(item)}
-              </div>
+              </motion.div>
             );
           }
           return <></>;
@@ -75,12 +78,15 @@ const ProjectList = ({ projects }) => {
         {data.map((item, index) => {
           if (index % 2 !== 0) {
             return (
-              <div
+              <motion.div
                 key={index}
                 className="relative flex flex-col justify-between float-left frosted-card w-[280px] h-[340px] py-7 px-5 md:mb-10 overflow-hidden "
+                initial={{ translateY: 100, opacity: 0 }}
+                transition={{ duration: 0.8, type: "tween" }}
+                whileInView={{ translateY: 0, opacity: 1 }}
               >
                 {renderCard(item)}
-              </div>
+              </motion.div>
             );
           }
           return <></>;

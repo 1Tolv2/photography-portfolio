@@ -1,6 +1,7 @@
 import React from "react";
 import SectionHeading from "../atoms/RotatedHeading";
 import Heading2 from "../atoms/typography/Heading2";
+import { motion } from "framer-motion";
 
 const SectionStartText = ({
   children,
@@ -16,7 +17,13 @@ const SectionStartText = ({
       >
         <SectionHeading>{sectionName}</SectionHeading>
       </div>
-      <Heading2>{title}</Heading2>
+      <motion.div
+        initial={{ translateY: 100, opacity: 0 }}
+        transition={{ duration: 0.8, type: "tween" }}
+        whileInView={{ translateY: 0, opacity: 1 }}
+      >
+        <Heading2>{title}</Heading2>
+      </motion.div>
       {children}
     </div>
   );
