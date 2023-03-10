@@ -34,7 +34,15 @@ const Contact = () => {
          linear-gradient-blue-bottom rotate-180"
         />
         <div
-          className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-20"
+          className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-30"
+          style={{
+            transform: "rotate(180deg)",
+            backgroundImage:
+              "linear-gradient(179.01deg, rgba(70, 162, 214, 0) 7.82%, rgba(11, 32, 39, 0.69) 85.4%, rgba(3, 10, 12, 0.952) 93.24%, rgba(0, 0, 0) 98%)",
+          }}
+        />
+        <div
+          className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-30"
           style={{
             backgroundImage:
               "linear-gradient(179.01deg, rgba(70, 162, 214, 0) 7.82%, rgba(11, 32, 39, 0.69) 85.4%, rgba(3, 10, 12, 0.952) 93.24%, rgba(0, 0, 0) 98%)",
