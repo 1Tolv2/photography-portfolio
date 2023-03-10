@@ -5,6 +5,7 @@ import BackgroundImage from "./molecules/BakgroundImage";
 import SectionStartText from "./molecules/SectionStartText";
 import TechList from "./molecules/TechList";
 import SkillList from "./organisms/SkillList";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -16,7 +17,12 @@ const About = () => {
             sectionName="ABOUT"
             className="-left-[15rem] md:-left-[19rem]"
           >
-            <div className="text-white">
+            <motion.div
+              className="text-white"
+              initial={{ translateY: 100, opacity: 0 }}
+              transition={{ duration: 0.8, type: "tween" }}
+              whileInView={{ translateY: 0, opacity: 1 }}
+            >
               <TextRegular>
                 a junior full stack developer with some work experice in front
                 end. I have a huge passion to learn and create great and
@@ -32,7 +38,7 @@ const About = () => {
                 These are the technologies I am currently working with:
               </TextRegular>
               <TechList />
-            </div>
+            </motion.div>
           </SectionStartText>
           <div className="hidden md:block"></div>
         </div>

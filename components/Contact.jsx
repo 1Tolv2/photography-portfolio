@@ -4,6 +4,7 @@ import RotatedHeading from "./atoms/RotatedHeading";
 import Section from "./atoms/Section";
 import BackgroundImage from "./molecules/BakgroundImage";
 import TextRegular from "./atoms/typography/TextRegular";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
@@ -14,13 +15,25 @@ const Contact = () => {
             CONTACT
           </RotatedHeading>
         </div>
-        <Heading2>Reach Me</Heading2>
-        <div className="mt-2 mb-8 text-white">
+        <motion.div
+          initial={{ translateY: 100, opacity: 0 }}
+          transition={{ duration: 0.8, type: "tween" }}
+          whileInView={{ translateY: 0, opacity: 1 }}
+        >
+          <Heading2>Reach Me</Heading2>
+        </motion.div>
+
+        <motion.div
+          className="mt-2 mb-8 text-white"
+          initial={{ translateY: 100, opacity: 0 }}
+          transition={{ duration: 0.8, type: "tween" }}
+          whileInView={{ translateY: 0, opacity: 1 }}
+        >
           <TextRegular>
             I am currently open for a new adventure, so if you think I'll be a
             great fit for you team, don't hesitate to say hi!
           </TextRegular>
-        </div>
+        </motion.div>
         <button
           onClick={() => window.location.assign("mailto:sofiaq1@gmail.com")}
           className="px-6 py-3 bg-[#4599ca] transition hover:scale-110 text-white"
@@ -34,7 +47,15 @@ const Contact = () => {
          linear-gradient-blue-bottom rotate-180"
         />
         <div
-          className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-20"
+          className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-30"
+          style={{
+            transform: "rotate(180deg)",
+            backgroundImage:
+              "linear-gradient(179.01deg, rgba(70, 162, 214, 0) 7.82%, rgba(11, 32, 39, 0.69) 85.4%, rgba(3, 10, 12, 0.952) 93.24%, rgba(0, 0, 0) 98%)",
+          }}
+        />
+        <div
+          className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-30"
           style={{
             backgroundImage:
               "linear-gradient(179.01deg, rgba(70, 162, 214, 0) 7.82%, rgba(11, 32, 39, 0.69) 85.4%, rgba(3, 10, 12, 0.952) 93.24%, rgba(0, 0, 0) 98%)",

@@ -1,10 +1,17 @@
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const SocialMediaLinks = () => {
   return (
     <div className="fixed right-10 bottom-10 flex flex-col gap-10 w-fit z-50">
-      <a href="https://github.com/1Tolv2" aria-label="link to github account">
+      <motion.a
+        href="https://github.com/1Tolv2"
+        aria-label="link to github account"
+        initial={{ translateY: 80, opacity: 0 }}
+        animate={{ translateY: 0, opacity: 1 }}
+        transition={{ duration: 0.8, type: "tween" }}
+      >
         <Image
           className="w-10 md:w-12 mx-auto"
           src="/github.svg"
@@ -12,10 +19,13 @@ const SocialMediaLinks = () => {
           width={40}
           height={40}
         />
-      </a>
-      <a
+      </motion.a>
+      <motion.a
         href="https://www.linkedin.com/in/sofia-johnsson-s-856308188/"
         aria-label="link to linkedin account"
+        initial={{ translateY: 80, opacity: 0 }}
+        animate={{ translateY: 0, opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.3, type: "tween" }}
       >
         <Image
           className="w-8 md:w-10 mx-auto"
@@ -24,7 +34,7 @@ const SocialMediaLinks = () => {
           width={40}
           height={40}
         />
-      </a>
+      </motion.a>
     </div>
   );
 };
