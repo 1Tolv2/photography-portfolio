@@ -64,7 +64,7 @@ const About = () => {
           />
           <BackgroundImage
             bgImage="image-of-me.jpg"
-            opacity={1}
+            opacity="100"
             bgPosition="top"
             className="left-0"
           />
