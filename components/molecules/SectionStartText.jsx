@@ -21,6 +21,7 @@ const SectionStartText = ({
         initial={{ translateY: 100, opacity: 0 }}
         transition={{ duration: 0.8, type: "tween" }}
         whileInView={{ translateY: 0, opacity: 1 }}
+        viewport={{ once: true }}
       >
         <Heading2>{title}</Heading2>
       </motion.div>

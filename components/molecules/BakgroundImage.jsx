@@ -4,7 +4,7 @@ import Image from "next/image";
 const BackgroundImage = ({
   bgImage,
   className = "",
-  opacity = 0.6,
+  opacity = "60",
   imageBehaviour = "cover",
   bgPosition = "center",
 }) => {
@@ -18,11 +18,7 @@ const BackgroundImage = ({
         alt=""
         fill
         sizes="100vw"
-        style={{
-          objectFit: imageBehaviour,
-          objectPosition: bgPosition,
-          opacity,
-        }}
+        className={`object-${imageBehaviour} bg-${bgPosition} opacity-${opacity} ${className}`}
       />
     </>
   );

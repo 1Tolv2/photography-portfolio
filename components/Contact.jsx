@@ -17,8 +17,9 @@ const Contact = () => {
         </div>
         <motion.div
           initial={{ translateY: 100, opacity: 0 }}
-          transition={{ duration: 0.8, type: "tween" }}
           whileInView={{ translateY: 0, opacity: 1 }}
+          transition={{ duration: 0.8, type: "tween" }}
+          viewport={{ once: true }}
         >
           <Heading2>Reach Me</Heading2>
         </motion.div>
@@ -26,8 +27,9 @@ const Contact = () => {
         <motion.div
           className="mt-2 mb-8 text-white"
           initial={{ translateY: 100, opacity: 0 }}
-          transition={{ duration: 0.8, type: "tween" }}
           whileInView={{ translateY: 0, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, type: "tween" }}
         >
           <TextRegular>
             I am currently open for a new adventure, so if you think I'll be a
@@ -63,9 +65,9 @@ const Contact = () => {
         />
         <BackgroundImage
           bgImage="lake2.jpg"
-          opacity={0.4}
-          bgPosition="bg-center"
-          className="left-0"
+          opacity="40"
+          bgPosition="center"
+          className="left-0 opacity-40"
         />
       </div>
     </Section>

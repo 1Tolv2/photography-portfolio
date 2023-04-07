@@ -22,6 +22,7 @@ const About = () => {
               initial={{ translateY: 100, opacity: 0 }}
               transition={{ duration: 0.8, type: "tween" }}
               whileInView={{ translateY: 0, opacity: 1 }}
+              viewport={{ once: true }}
             >
               <TextRegular>
                 a junior full stack developer with some work experice in front
@@ -64,7 +65,7 @@ const About = () => {
           />
           <BackgroundImage
             bgImage="image-of-me.jpg"
-            opacity={1}
+            opacity="100"
             bgPosition="top"
             className="left-0"
           />

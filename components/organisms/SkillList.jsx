@@ -34,6 +34,7 @@ const SkillList = () => {
             type: "tween",
           }}
           whileInView={{ translateY: 0, opacity: 1 }}
+          viewport={{ once: true }}
         >
           <Image
             src={item.icon}
