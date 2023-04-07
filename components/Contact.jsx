@@ -64,7 +64,7 @@ const Contact = () => {
         <BackgroundImage
           bgImage="lake2.jpg"
           opacity={0.4}
-          bgPosition="bg-center"
+          bgPosition="center"
           className="left-0"
         />
       </div>

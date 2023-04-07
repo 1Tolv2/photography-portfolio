@@ -18,9 +18,10 @@ const BackgroundImage = ({
         alt=""
         fill
         sizes="100vw"
+        className={`object-${imageBehaviour} bg-${bgPosition}`}
         style={{
-          objectFit: imageBehaviour,
-          objectPosition: bgPosition,
+          // objectFit: imageBehaviour,
+          // objectPosition: bgPosition,
           opacity,
         }}
       />
