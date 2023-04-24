@@ -43,7 +43,7 @@ const About = () => {
           </SectionStartText>
           <div className="hidden md:block"></div>
         </div>
-        <div className="absolute top-0 left-0 -z-10 w-screen h-screen ">
+        <div className="absolute top-0 left-0 -z-10 w-screen h-screen bg-primary-900">
           <div
             className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-20 rotate-180"
             style={{
@@ -63,11 +63,12 @@ const About = () => {
             className="absolute top-0 left-0 w-screen h-screen mix-blend-hard-light z-10
            linear-gradient-blue-left"
           />
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 h-screen w-full max-w-[1500px] linear-x-gradient z-10" />
           <BackgroundImage
             bgImage="image-of-me.jpg"
             opacity="100"
             bgPosition="top"
-            className="left-0"
+            className="left-0 max-w-[1500px] mx-auto"
           />
         </div>
       </Section>
