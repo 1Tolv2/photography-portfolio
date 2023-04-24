@@ -15,32 +15,21 @@ const Contact = () => {
             CONTACT
           </RotatedHeading>
         </div>
-        <motion.div
-          initial={{ translateY: 100, opacity: 0 }}
-          whileInView={{ translateY: 0, opacity: 1 }}
-          transition={{ duration: 0.8, type: "tween" }}
-          viewport={{ once: true }}
-        >
+        <div>
           <Heading2>Reach Me</Heading2>
-        </motion.div>
+        </div>
 
-        <motion.div
-          className="mt-2 mb-8 text-white"
-          initial={{ translateY: 100, opacity: 0 }}
-          whileInView={{ translateY: 0, opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, type: "tween" }}
-        >
+        <div className="mt-2 mb-8 text-white">
           <TextRegular>
             I am currently open for a new adventure, so if you think I'll be a
             great fit for you team, don't hesitate to say hi!
           </TextRegular>
-        </motion.div>
+        </div>
         <button
           onClick={() => window.location.assign("mailto:sofiaq1@gmail.com")}
           className="px-6 py-3 bg-[#4599ca] transition hover:scale-110 text-white"
         >
-          <p className="text-base text-black">Say hi!</p>
+          <p className="text-base text-white">Say hi!</p>
         </button>
       </div>
       <div className="absolute top-0 left-0 -z-10 w-screen h-screen ">

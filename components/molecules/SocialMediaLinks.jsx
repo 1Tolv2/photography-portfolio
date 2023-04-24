@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const SocialMediaLinks = () => {
   return (
-    <div className="fixed right-10 bottom-10 flex flex-col gap-10 w-fit z-50">
+    <div className="fixed right-1/2 translate-x-1/2 md:translate-x-0 md:right-10 bottom-10 flex md:flex-col gap-10 w-fit z-50">
       <motion.a
         href="https://github.com/1Tolv2"
         aria-label="link to github account"

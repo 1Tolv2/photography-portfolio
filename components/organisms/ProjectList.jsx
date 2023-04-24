@@ -7,6 +7,13 @@ import { motion } from "framer-motion";
 const ProjectList = ({ projects }) => {
   const data = [
     {
+      title: "STHLM MC Parking - PWA",
+      description:
+        "A progressive web app, PWA, that helps motorcyclists find parking in Stockholm City. Written in TypeScript with Next.js utilising Googles Maps JavaScript API and Stockholms Stads LvWS 4 API as well as their Parking API.",
+      link: "https://github.com/1Tolv2/sthlm-mc-parking-pwa",
+      icon: "/directions.svg",
+    },
+    {
       title: "Full Stack Chat App (Discord Copy)",
       description:
         "A PERN-stack web application with channels and servers, running sockets for updating of the chat feeds. The application can be run using docker compose or locally. Contains unit tests and github workflow.",
