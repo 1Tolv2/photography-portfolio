@@ -3,7 +3,6 @@ import Section from "./atoms/Section";
 import BackgroundImage from "./molecules/BakgroundImage";
 import SectionStartText from "./molecules/SectionStartText";
 import ProjectList from "./organisms/ProjectList";
-import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
