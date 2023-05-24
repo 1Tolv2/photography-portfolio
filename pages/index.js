@@ -5,7 +5,6 @@ import Contact from "../components/Contact";
 import Hero from "../components/Hero";
 import SocialMediaLinks from "../components/molecules/SocialMediaLinks";
 import Projects from "../components/Projects";
-import LoadingScreen from "../components/LoadingScreen";
 
 export default function Page() {
   // const [isLoading, setIsLoading] = useState(true);
@@ -19,8 +18,7 @@ export default function Page() {
         ></meta>
         <title>Sofia Johnsson S.</title>
       </Head>
-      <main className="relative">
-        <LoadingScreen />
+      <main>
         <SocialMediaLinks />
         <Hero />
         <About />

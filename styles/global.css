@@ -66,4 +66,12 @@ h3 {
     box-shadow: 0 0 15px 7px #49a6db;
     
   }
+
+  .item {
+    overflow: visible;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
 }
