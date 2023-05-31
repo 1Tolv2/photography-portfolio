@@ -17,6 +17,18 @@ const HeroText = () => {
       fill: "rgba(255, 255, 255, 1)",
     },
   };
+
+  const text = {
+    hidden: {
+      opacity: 0,
+      width: 0,
+    },
+    visible: {
+      opacity: 1,
+      width: "fit-content",
+    },
+  };
+
   return (
     <div className="w-fit">
       <motion.div
@@ -28,7 +40,7 @@ const HeroText = () => {
         <Heading2>HELLO</Heading2>
         <span className="w-full h-0.5 bg-white ml-5" />
       </motion.div>
-      <div className="relative flex gap-2 justify-center z-[70]">
+      <div className="relative flex gap-2 justify-center items-center z-[70]">
         <svg
           width="80"
           height="93"
@@ -44,11 +56,25 @@ const HeroText = () => {
             initial="hidden"
             animate="visible"
             transition={{
-              default: { duration: 2, ease: "easeInOut" },
-              fill: { duration: 1, delay: 1.5, ease: [1, 0, 0.8, 1] },
+              default: { duration: 3, ease: "easeInOut" },
+              fill: { duration: 1, delay: 2, ease: [1, 0, 0.8, 1] },
             }}
           />
         </svg>
+        <motion.h1
+          className="font-extrabold text-white relative z-[70]"
+          initial="hidden"
+          animate="visible"
+          variants={text}
+          transition={{
+            duration: 2,
+            delay: 3,
+            ease: "easeInOut",
+            opacity: { delay: 5, duration: 1 },
+          }}
+        >
+          {"OFIA "}
+        </motion.h1>
         <svg
           width="77"
           height="92"
@@ -64,11 +90,25 @@ const HeroText = () => {
             initial="hidden"
             animate="visible"
             transition={{
-              default: { duration: 2, ease: "easeInOut" },
-              fill: { duration: 1, delay: 1.5, ease: [1, 0, 0.8, 1] },
+              default: { duration: 3, ease: "easeInOut" },
+              fill: { duration: 1, delay: 2, ease: [1, 0, 0.8, 1] },
             }}
           />
         </svg>
+        <motion.h1
+          className="font-extrabold text-white relative z-[70]"
+          initial="hidden"
+          animate="visible"
+          variants={text}
+          transition={{
+            duration: 2,
+            delay: 3,
+            ease: "easeInOut",
+            opacity: { delay: 5, duration: 1 },
+          }}
+        >
+          {"OHNSSON"}
+        </motion.h1>
       </div>
       {/* <svg
         className="relative z-[70] mx-auto"
