@@ -27,10 +27,10 @@ ul{
   list-style-image: url('/rectangle.svg');
 }
 
-h1 {
+/* h1 {
   font-size: 1.625rem;
   font-size: clamp(1.625rem, 0.6496815286624205rem + 4.45859872611465vw, 6rem);
-}
+} */
 
 h2 {
   font-size: 1.75rem;
