@@ -10,7 +10,7 @@ const SocialMediaLinks = () => {
         aria-label="link to github account"
         initial={{ translateY: 80, opacity: 0 }}
         animate={{ translateY: 0, opacity: 1 }}
-        transition={{ duration: 0.8, type: "tween" }}
+        transition={{ delay: 6.5, duration: 0.8, type: "tween" }}
       >
         <Image
           className="w-10 md:w-12 mx-auto"
@@ -25,7 +25,7 @@ const SocialMediaLinks = () => {
         aria-label="link to linkedin account"
         initial={{ translateY: 80, opacity: 0 }}
         animate={{ translateY: 0, opacity: 1 }}
-        transition={{ duration: 0.8, delay: 0.3, type: "tween" }}
+        transition={{ delay: 6.5, duration: 0.8, delay: 0.3, type: "tween" }}
       >
         <Image
           className="w-8 md:w-10 mx-auto"
