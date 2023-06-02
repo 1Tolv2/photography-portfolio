@@ -36,7 +36,7 @@ const About = () => {
               </TextRegular>
               <br />
               <TextRegular>
-                These are the technologies I am experience with:
+                These are the technologies I am experienced with:
               </TextRegular>
               <TechList />
             </motion.div>

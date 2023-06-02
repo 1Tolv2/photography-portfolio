@@ -4,7 +4,7 @@ import Heading3 from "../atoms/typography/Heading3";
 const TechList = () => {
   const columnData = [
     {
-      title: "Web technologies",
+      title: "Web",
       classes: "grid grid-cols-2",
       skills: [
         "JavaScript",
