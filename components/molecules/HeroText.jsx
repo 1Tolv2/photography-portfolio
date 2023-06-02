@@ -40,15 +40,15 @@ const HeroText = () => {
         <Heading2>HELLO</Heading2>
         <span className="w-full h-0.5 bg-white ml-5" />
       </motion.div>
-      <div className="relative flex gap-5 justify-center z-[70]">
-        <div className="flex items-center w-content">
+      <div className="relative sm:flex sm:gap-5 justify-center z-[70]">
+        <div className="relative top-2 sm:top-0 flex items-center w-fit ">
           <svg
-            width="80"
-            height="auto"
-            viewBox="0 -5 80 100"
+            width="auto"
+            height="100%"
+            viewBox="0 0 80 100"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="max-w-[4rem] scale-95"
+            className="w-[1.5rem] md:w-[2.3rem] lg:w-[3.1rem] xl:w-[3.8rem]"
           >
             <motion.path
               className="item"
@@ -64,7 +64,7 @@ const HeroText = () => {
             />
           </svg>
           <motion.h1
-            className="text-[6.1rem] pb-[10px] font-extrabold text-white relative z-[70]"
+            className="text-[2.3rem] md:text-[3.5rem] lg:text-[5rem] xl:text-[6.1rem] pb-[8px] md:pb-[9px] lg:pb-[16px]  xl:pb-[17px] font-extrabold text-white relative z-[70]"
             initial="hidden"
             animate="visible"
             variants={text}
@@ -78,14 +78,14 @@ const HeroText = () => {
             {"OFIA "}
           </motion.h1>
         </div>
-        <div className="flex items-center w-content">
+        <div className="relative bottom-2 sm:bottom-0 flex items-center w-content">
           <svg
-            width="77"
-            height="auto"
-            viewBox="0 -2 80 92"
+            width="auto"
+            height="100%"
+            viewBox="0 0 80 100"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="max-w-[4rem] scale-95"
+            className="w-[1.5rem] md:w-[2.3rem] lg:w-[3.1rem] xl:w-[3.8rem]"
           >
             <motion.path
               className="item"
@@ -101,7 +101,7 @@ const HeroText = () => {
             />
           </svg>
           <motion.h1
-            className="text-[6.1rem] pb-[10px] font-extrabold text-white relative z-[70]"
+            className="text-[2.3rem] md:text-[3.5rem] lg:text-[5rem] xl:text-[6.1rem] pb-[8px] md:pb-[9px] lg:pb-[16px] xl:pb-[18px] font-extrabold text-white relative z-[70]"
             initial="hidden"
             animate="visible"
             variants={text}
