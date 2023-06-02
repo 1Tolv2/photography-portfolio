@@ -27,14 +27,14 @@ ul{
   list-style-image: url('/rectangle.svg');
 }
 
-h1 {
+/* h1 {
   font-size: 1.625rem;
   font-size: clamp(1.625rem, 0.6496815286624205rem + 4.45859872611465vw, 6rem);
-}
+} */
 
 h2 {
-  font-size: 1.75rem;
-  font-size: clamp(1.75rem, 1.4952978056426331rem + 1.2539184952978057vw, 3rem);
+  font-size: 1.35rem;
+  font-size: clamp(1.35rem, 1.02rem + 1.6500000000000001vw, 3rem);
 }
 
 h3 {
@@ -65,5 +65,13 @@ h3 {
   .glow:hover {
     box-shadow: 0 0 15px 7px #49a6db;
     
+  }
+
+  .item {
+    overflow: visible;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-linejoin: round;
+    stroke-linecap: round;
   }
 }

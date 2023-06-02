@@ -56,7 +56,7 @@ const Contact = () => {
           bgImage="lake2.jpg"
           opacity="40"
           bgPosition="center"
-          className="left-0 opacity-40"
+          className="left-0 opacity-40 contrast-150 brightness-110"
         />
       </div>
     </Section>

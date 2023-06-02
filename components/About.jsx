@@ -68,7 +68,7 @@ const About = () => {
             bgImage="image-of-me.jpg"
             opacity="100"
             bgPosition="top"
-            className="left-0 max-w-[1500px] mx-auto"
+            className="left-0 max-w-[1500px] mx-auto brightness-[1.75]"
           />
         </div>
       </Section>

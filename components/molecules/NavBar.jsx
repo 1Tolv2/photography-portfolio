@@ -8,7 +8,7 @@ const NavBar = () => {
       <motion.div
         initial={{ translateY: -40, opacity: 0 }}
         animate={{ translateY: 0, opacity: 1 }}
-        transition={{ duration: 0.6, type: "tween" }}
+        transition={{ delay: 6.5, duration: 0.6, type: "tween" }}
       >
         <a href="#about">
           <TextRegular>ABOUT</TextRegular>
@@ -17,7 +17,7 @@ const NavBar = () => {
       <motion.div
         initial={{ translateY: -40, opacity: 0 }}
         animate={{ translateY: 0, opacity: 1 }}
-        transition={{ duration: 0.6, delay: 0.3, type: "tween" }}
+        transition={{ delay: 6.8, duration: 0.6, type: "tween" }}
       >
         <a href="#projects">
           <TextRegular>PROJECTS</TextRegular>
@@ -26,7 +26,7 @@ const NavBar = () => {
       <motion.div
         initial={{ translateY: -40, opacity: 0 }}
         animate={{ translateY: 0, opacity: 1 }}
-        transition={{ duration: 0.6, delay: 0.6, type: "tween" }}
+        transition={{ delay: 7.1, duration: 0.6, type: "tween" }}
       >
         <a href="#contact">
           <TextRegular>CONTACT</TextRegular>

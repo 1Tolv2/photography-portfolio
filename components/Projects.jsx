@@ -44,7 +44,7 @@ const Projects = () => {
           bgImage="IMG_8830.jpg"
           opacity="40"
           bgPosition="right"
-          className="left-0"
+          className="left-0 contrast-125 brightness-110 saturate-150"
         />
       </div>
     </Section>

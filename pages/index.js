@@ -1,3 +1,4 @@
+// import React, { useState } from "react";
 import Head from "next/head";
 import About from "../components/About";
 import Contact from "../components/Contact";
@@ -6,6 +7,7 @@ import SocialMediaLinks from "../components/molecules/SocialMediaLinks";
 import Projects from "../components/Projects";
 
 export default function Page() {
+  // const [isLoading, setIsLoading] = useState(true);
   return (
     <div>
       <Head>
