@@ -25,9 +25,9 @@ const About = () => {
               viewport={{ once: true }}
             >
               <TextRegular>
-                a junior full stack developer with some work experice in front
-                end. I have a huge passion to learn and create great and
-                intuitive applications.
+                a junior full stack developer with some work experice. I have a
+                huge passion to learn and create great and intuitive
+                applications.
               </TextRegular>
               <br />
               <TextRegular>
@@ -36,7 +36,7 @@ const About = () => {
               </TextRegular>
               <br />
               <TextRegular>
-                These are the technologies I am currently working with:
+                These are the technologies I am experience with:
               </TextRegular>
               <TechList />
             </motion.div>
