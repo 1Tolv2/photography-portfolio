@@ -32,7 +32,7 @@ const TechList = () => {
   return (
     <div className="flex w-full text-white font-light mt-3">
       {columnData.map((item) => (
-        <div>
+        <div key={`${item.title}-skills`}>
           <Heading3>{item.title}</Heading3>
           <ul className={item.classes}>
             {item.skills.map((skill, index) => (
