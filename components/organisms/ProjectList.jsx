@@ -68,7 +68,7 @@ const ProjectList = ({ projects }) => {
           if (index % 2 === 0) {
             return (
               <motion.div
-                key={"project" + index}
+                key={`project-${item.title}`}
                 className="relative flex flex-col justify-between float-right frosted-card w-full sm:min-w-[280px] max-w-[300px] min-h-[340px] max-h-[380px] py-7 px-5 md:mb-10 overflow-hidden"
                 initial={{ translateY: 100, opacity: 0 }}
                 transition={{ duration: 0.8, type: "tween" }}
@@ -79,7 +79,7 @@ const ProjectList = ({ projects }) => {
               </motion.div>
             );
           }
-          return <></>;
+          return null;
         })}
       </div>
       <div className="flex flex-wrap justify-center md:flex-col md:items-start w-full h-fit gap-10 md:mt-[200px]">
@@ -87,7 +87,7 @@ const ProjectList = ({ projects }) => {
           if (index % 2 !== 0) {
             return (
               <motion.div
-                key={index}
+                key={`project-${item.title}`}
                 className="relative flex flex-col justify-between float-left frosted-card w-[280px] h-[340px] py-7 px-5 md:mb-10 overflow-hidden "
                 initial={{ translateY: 100, opacity: 0 }}
                 transition={{ duration: 0.8, type: "tween" }}
@@ -98,7 +98,7 @@ const ProjectList = ({ projects }) => {
               </motion.div>
             );
           }
-          return <></>;
+          return null;
         })}
       </div>
     </div>
