@@ -28,6 +28,7 @@ const SocialMediaLinks = () => {
         transition={{ delay: 6.5, duration: 0.8, delay: 0.3, type: "tween" }}
       >
         <Image
+          priority
           className="w-8 md:w-10 mx-auto"
           src="/linkedin.svg"
           alt="linkedin"

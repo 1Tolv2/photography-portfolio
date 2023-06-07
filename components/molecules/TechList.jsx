@@ -32,26 +32,17 @@ const TechList = () => {
   return (
     <div className="flex w-full text-white font-light mt-3">
       {columnData.map((item) => (
-        <div>
+        <div key={`${item.title}-skills`}>
           <Heading3>{item.title}</Heading3>
           <ul className={item.classes}>
             {item.skills.map((skill, index) => (
-              <li key={`skill-${index}`} className="mt-3 ml-8">
+              <li key={`skill-${skill}`} className="mt-3 ml-8">
                 {skill}
               </li>
             ))}
           </ul>
         </div>
       ))}
-      {/* <ul className="grid grid-cols-3 text-white font-light mt-3">
-        <Heading3>Backend</Heading3>
-        <Heading3>Other</Heading3>
-        {data.map((item, index) => (
-          <li key={index} className="mt-3 ml-8">
-            {item}
-          </li>
-        ))}
-      </ul> */}
     </div>
   );
 };

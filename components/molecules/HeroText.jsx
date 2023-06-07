@@ -43,7 +43,7 @@ const HeroText = () => {
       <div className="relative sm:flex sm:gap-5 justify-center z-[70]">
         <div className="relative top-2 sm:top-0 flex items-center w-fit ">
           <svg
-            width="auto"
+            width="100%"
             height="100%"
             viewBox="0 0 80 100"
             fill="none"
@@ -80,7 +80,7 @@ const HeroText = () => {
         </div>
         <div className="relative bottom-2 sm:bottom-0 flex items-center w-content">
           <svg
-            width="auto"
+            width="100%"
             height="100%"
             viewBox="0 0 80 100"
             fill="none"
