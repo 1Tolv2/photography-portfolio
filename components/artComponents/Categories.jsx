@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 import Section from "../atoms/Section";
 import Heading2 from "../atoms/typography/Heading2";
@@ -73,16 +74,24 @@ const Categories = () => {
               >
                 {item.title}
               </Heading2>
-              <Image
-                className={`object-contain p-4 z-0 ${
-                  item.custom ? item.custom : ""
-                }
+              <motion.div
+                className="absolute w-full h-full"
+                initial={{ translateY: 100, opacity: 0 }}
+                transition={{ duration: 0.8, type: "tween" }}
+                whileInView={{ translateY: 0, opacity: 1 }}
+                viewport={{ once: true }}
+              >
+                <Image
+                  className={`object-contain p-4 z-0 ${
+                    item.custom ? item.custom : ""
+                  }
                 transition-all ease-in-out duration-500
-                ${isHovered ? "scale-125" : ""}`}
-                src={item.thumbnail}
-                alt={item.alt}
-                fill
-              />
+                ${isHovered ? "scale-125" : ""} pointer-events-none`}
+                  src={item.thumbnail}
+                  alt={item.alt}
+                  fill
+                />
+              </motion.div>
             </div>
           );
         })}
