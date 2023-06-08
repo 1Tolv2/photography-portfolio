@@ -10,7 +10,7 @@ export default function Page() {
         <meta name="description" content="Illustrator portfolio"></meta>
         <title>Sofia Johnsson S.</title>
       </Head>
-      <main className="bg-white">
+      <main className="bg-white overflow-hidden">
         <Hero />
         <Categories />
       </main>
