@@ -38,7 +38,7 @@ const Hero = () => {
             animate="visible"
             variants={text}
             transition={{
-              delay: 0.2,
+              delay: 1,
               duration: 0.6,
               type: "tween",
             }}
@@ -65,7 +65,7 @@ const Hero = () => {
                     animate="visible"
                     transition={{
                       default: { duration: 3, ease: "easeInOut" },
-                      fill: { duration: 0.6, delay: 0.5, ease: [1, 0, 0.8, 1] },
+                      fill: { duration: 0.6, delay: 1.5, ease: [1, 0, 0.8, 1] },
                     }}
                   />
                 </g>
@@ -92,7 +92,7 @@ const Hero = () => {
                   animate="visible"
                   transition={{
                     default: { duration: 3, ease: "easeInOut" },
-                    fill: { duration: 0.6, delay: 0.8, ease: [1, 0, 0.8, 1] },
+                    fill: { duration: 0.6, delay: 1.8, ease: [1, 0, 0.8, 1] },
                   }}
                 />
                 <path
@@ -108,14 +108,19 @@ const Hero = () => {
             </svg>
           </div>
         </div>
-        <div className="relative w-[35%] h-[800px]">
+        <motion.div
+          className="relative w-[35%] h-[800px]"
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.2, ease: "easeInOut" }}
+        >
           <Image
             priority
             fill
             src="/art/gazelle.png"
             className="object-contain"
           />
-        </div>
+        </motion.div>
       </div>
       <Image
         src="/down-arrow.svg"
