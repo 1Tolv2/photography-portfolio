@@ -8,7 +8,7 @@ import Heading2 from "../atoms/typography/Heading2";
 const data = [
   {
     title: "Inktober 2022",
-    // thumbnail: "/art/camera.png", // ful bild
+    thumbnail: "/art/camera.png",
     alt: "camera",
     bgColor: "#8B8599",
     span: 3,
@@ -24,9 +24,9 @@ const data = [
   // },
   {
     title: "Fauna",
-    // thumbnail: "/art/vaniljbulle.png",
+    thumbnail: "/art/bird.png",
     alt: "white bird",
-    bgColor: "#cacaca",
+    bgColor: "#E4E5E4",
     span: 1,
   },
   {
@@ -53,31 +53,35 @@ const data = [
   },
   {
     title: "Bread",
-    // thumbnail: "/art/crystal.png",
+    thumbnail: "/art/mushroom-sandwich.png",
     alt: "mushroom sandwich",
-    bgColor: "#E0C8AB",
+    bgColor: "#E5D6B5",
     span: 3,
+    custom: "!p-8",
   },
   {
     title: "Miscellaneous",
-    // thumbnail: "/art/crystal.png",
+    thumbnail: "/art/radio.png",
     alt: "radio",
-    bgColor: "#9b9b9b",
+    bgColor: "#E1BC78",
     span: 1,
+    custom: "!p-8",
   },
   {
     title: "Food",
-    // thumbnail: "/art/crystal.png",
+    thumbnail: "/art/frying-pan.png",
     alt: "frying pan",
-    bgColor: "#9b9b9b",
+    bgColor: "#B1AFB3",
     span: 2,
+    custom: "!p-8",
   },
   {
     title: "Baking",
-    // thumbnail: "/art/crystal.png",
+    thumbnail: "/art/caster-sugar.png",
     alt: "caster sugar",
-    bgColor: "#9b9b9b",
+    bgColor: "#D9EBBE",
     span: 1,
+    custom: "!p-8",
   },
   {
     title: "Motorcycles",
@@ -85,7 +89,7 @@ const data = [
     alt: "motorcycle",
     bgColor: "#F6A60E",
     span: 2,
-    // custom: "!p-10",
+    custom: "!p-8",
   },
 ];
 const Categories = () => {
