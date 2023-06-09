@@ -122,12 +122,18 @@ const Hero = () => {
           />
         </motion.div>
       </div>
-      <Image
-        src="/down-arrow.svg"
-        width="40"
-        height="40"
-        className="animate-bounce"
-      />
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 4, ease: "easeInOut" }}
+      >
+        <Image
+          src="/down-arrow.svg"
+          width="40"
+          height="40"
+          className="animate-bounce"
+        />
+      </motion.div>
     </Section>
   );
 };
