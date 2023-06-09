@@ -18,27 +18,16 @@ const Hero = () => {
     },
   };
 
-  const text = {
-    hidden: {
-      opacity: 0,
-      translateY: -20,
-    },
-    visible: {
-      opacity: 1,
-      translateY: 0,
-    },
-  };
   return (
     <Section center>
       <div className="w-full flex items-center justify-center">
         <div>
           <motion.h1
             className="text-4xl font-normal !text-black"
-            initial="hidden"
-            animate="visible"
-            variants={text}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
             transition={{
-              delay: 1,
+              delay: 2,
               duration: 0.6,
               type: "tween",
             }}
@@ -65,7 +54,7 @@ const Hero = () => {
                     animate="visible"
                     transition={{
                       default: { duration: 3, ease: "easeInOut" },
-                      fill: { duration: 0.6, delay: 1.5, ease: [1, 0, 0.8, 1] },
+                      fill: { duration: 0.6, delay: 2.5, ease: [1, 0, 0.8, 1] },
                     }}
                   />
                 </g>
@@ -92,7 +81,7 @@ const Hero = () => {
                   animate="visible"
                   transition={{
                     default: { duration: 3, ease: "easeInOut" },
-                    fill: { duration: 0.6, delay: 1.8, ease: [1, 0, 0.8, 1] },
+                    fill: { duration: 0.6, delay: 2.8, ease: [1, 0, 0.8, 1] },
                   }}
                 />
                 <path
@@ -110,9 +99,9 @@ const Hero = () => {
         </div>
         <motion.div
           className="relative w-[35%] h-[800px]"
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1.2, ease: "easeInOut" }}
+          initial={{ opacity: 0, x: -150 }}
+          animate={{ opacity: [0, 1, 1], x: [-150, -150, 0] }}
+          transition={{ duration: 2.6, ease: "easeInOut" }}
         >
           <Image
             priority
