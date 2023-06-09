@@ -35,7 +35,10 @@ const Hero = () => {
             SOFIA JOHNSSON
           </motion.h1>
           <div className="relative flex justify-center gap-4 mt-4">
-            <a href="https://www.instagram.com/sofiajohnsson_illustrations/">
+            <a
+              href="https://www.instagram.com/sofiajohnsson_illustrations/"
+              target="_blank"
+            >
               <svg
                 width="30"
                 height="30"
@@ -65,7 +68,10 @@ const Hero = () => {
                 </defs>
               </svg>
             </a>
-            <a href="https://www.etsy.com/se-en/shop/Sofiaillustrations?ref=profile_header">
+            <a
+              href="https://www.etsy.com/se-en/shop/Sofiaillustrations?ref=profile_header"
+              target="_blank"
+            >
               <svg
                 width="30"
                 height="30"
@@ -97,7 +103,7 @@ const Hero = () => {
                 </defs>
               </svg>
             </a>
-            <a href="https://www.deviantart.com/laiany">
+            <a href="https://www.deviantart.com/laiany" target="_blank">
               <svg
                 viewBox="0 0 100 166.61"
                 xmlns="http://www.w3.org/2000/svg"
