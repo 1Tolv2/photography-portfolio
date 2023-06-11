@@ -132,7 +132,7 @@ const Hero = () => {
           </div>
         </div>
         <motion.div
-          className="relative mt-4 sm:mt-0 w-[35%] min-w-[300px] h-[250px] sm:h-[800px]"
+          className="relative mt-4 sm:mt-0 w-[35%] min-w-[300px] h-[250px] md:h-[700px]"
           initial={{ opacity: 0, x: -150 }}
           animate={{ opacity: [0, 1, 1], x: [-150, -150, 0] }}
           transition={{ duration: 2.6, ease: "easeInOut" }}
@@ -147,6 +147,7 @@ const Hero = () => {
         </motion.div>
       </div>
       <motion.div
+        className="absolute bottom-4 left-1/2 -translate-x-1/2 w-[40px] h-[40px]"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 4, ease: "easeInOut" }}
