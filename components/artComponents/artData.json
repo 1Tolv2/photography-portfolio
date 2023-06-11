@@ -7,7 +7,7 @@
             "art": "/art/camera.png",
             "alt": "camera",
             "bgColor": "#8B8599",
-            "span": 3,
+            "span": "lg",
             "customClasses": "!p-8"
         },
         "illustrations":[
@@ -26,7 +26,7 @@
             "art":"/art/bird.png",
     "alt": "white bird",
     "bgColor": "#E4E5E4",
-    "span": 1
+    "span": "sm"
         },
         "illustrations":[
             {
@@ -44,7 +44,7 @@
             "art":"/art/vaniljbulle.png",
     "alt": "vanilla bun",
     "bgColor": "#FAF5BB", 
-    "span": 2
+    "span": "md"
         },
         "illustrations":[
             {
@@ -62,7 +62,7 @@
             "art":"/art/rafflad-nagelskivling.png",
     "alt": "mushroom",
     "bgColor": "#E8D9BB",
-    "span": 2
+    "span": "md"
         },
         "illustrations":[
             {
@@ -80,7 +80,7 @@
             "art":"/art/crystal.png",
     "alt": "crystal",
     "bgColor": "#F9E1EA",
-    "span": 1,
+    "span": "sm",
     "customClasses": "!p-8"
         },
         "illustrations":[
@@ -99,7 +99,7 @@
             "art":"/art/mushroom-sandwich.png",
     "alt": "mushroom sandwich",
     "bgColor": "#E5D6B5",
-    "span": 3,
+    "span": "lg",
     "customClasses": "!p-8"
         },
         "illustrations":[
@@ -118,7 +118,7 @@
             "art":"/art/radio.png",
             "alt": "radio",
             "bgColor": "#E1BC78",
-            "span": 1,
+            "span": "sm",
             "customClasses": "!p-8"
         },
         "illustrations":[
@@ -137,7 +137,7 @@
             "art":"/art/frying-pan.png",
             "alt": "frying pan",
             "bgColor": "#B1AFB3",
-            "span": 2,
+            "span": "md",
             "customClasses": "!p-8"
         },
         "illustrations":[
@@ -156,7 +156,7 @@
             "art":"/art/caster-sugar.png",
             "alt": "caster sugar",
             "bgColor": "#D9EBBE",
-            "span": 1,
+            "span": "sm",
             "customClasses": "!p-8"
         },
         "illustrations":[
@@ -175,7 +175,7 @@
             "art":"/art/honda-repsol.svg",
             "alt": "motorcycle",
             "bgColor": "#F6A60E",
-            "span": 2,
+            "span": "md",
             "customClasses": "!p-8"
         },
         "illustrations":[
