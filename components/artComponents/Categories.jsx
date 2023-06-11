@@ -23,7 +23,7 @@ const Categories = () => {
             >
               <div
                 id={`category-${thumbnail.alt}`}
-                className={`relative flex justify-center items-center h-[200px] sm:h-[300px] md:h-[400px] cursor-pointer`}
+                className={`relative flex justify-center items-center h-[200px] sm:h-[300px] lg:h-[400px] cursor-pointer`}
                 style={{ backgroundColor: thumbnail.bgColor }}
                 onMouseOver={() => setIsHovered(true)}
                 onMouseOut={() => setIsHovered(false)}
