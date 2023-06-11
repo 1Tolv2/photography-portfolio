@@ -43,6 +43,7 @@ h3 {
 }
 
 @layer utilities {
+
   .linear-gradient-blue-bottom {
     background-image: linear-gradient(180deg, rgba(70, 162, 214, 0) 0%, rgba(37, 112, 136, 0.78) 47.45%, #0B2027 73.65%, #000000 90.49%);
   }
@@ -74,4 +75,16 @@ h3 {
     stroke-linejoin: round;
     stroke-linecap: round;
   }
+
+  /* art css */
+  .col-span-sm {
+    @apply col-span-1
+  }
+  .col-span-md {
+    @apply col-span-1 sm:col-span-2
+  }
+  .col-span-lg {
+    @apply col-span-1 sm:col-span-3
+  }
 }
+

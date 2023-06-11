@@ -19,6 +19,6 @@ module.exports = {
     { pattern: /opacity-\d+/ },
     { pattern: /(bg|object)-\w+/ },
     { pattern: /(w|h)-\w+/ },
-    { pattern: /(col-span)-\d+/ },
+    { pattern: /(col-span)-\w+/ },
   ],
 };
