@@ -107,7 +107,7 @@ const Categories = () => {
               onMouseOut={() => setIsHovered(false)}
             >
               <Heading2
-                className={`relative !text-4xl !text-black z-10 transition-opacity ease-in ${
+                className={`relative !text-4xl !text-black z-40 transition-opacity ease-in ${
                   isHovered ? "opacity-1" : "opacity-0"
                 } lowercase text-center drop-shadow-xl bg-white p-4`}
               >
@@ -126,7 +126,7 @@ const Categories = () => {
                       item.custom ? item.custom : ""
                     }
                 transition-all ease-in-out duration-500
-                ${isHovered ? "scale-125 z-50" : ""} pointer-events-none`}
+                ${isHovered ? "scale-125 z-30" : ""} pointer-events-none`}
                     src={item.thumbnail}
                     alt={item.alt}
                     fill
