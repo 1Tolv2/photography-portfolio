@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
   return (
     <div className="min-h-screen bg-white">
       <main className="overflow-hidden min-h-screen">{children}</main>
-      <footer className="relative pt-8 pb-4">
+      <footer className="relative pt-8 pb-4 bg-white">
         <div className="flex gap-6 w-fit mx-auto mb-3">
           <a
             href="https://www.instagram.com/sofiajohnsson_illustrations/"

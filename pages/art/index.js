@@ -14,8 +14,10 @@ export default function Page() {
         <title>Sofia Johnsson S.</title>
       </Head>
       <Layout>
-        <Hero />
-        <Categories />
+        <div className="mt-[100vh]">
+          <Hero />
+          <Categories />
+        </div>
       </Layout>
     </div>
   );

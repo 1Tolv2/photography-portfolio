@@ -94,7 +94,7 @@ const data = [
 ];
 const Categories = () => {
   return (
-    <Section>
+    <Section className="bg-white">
       <div className="grid gap-2 grid-cols-6 w-screen">
         {data.map((item) => {
           const [isHovered, setIsHovered] = React.useState(false);
