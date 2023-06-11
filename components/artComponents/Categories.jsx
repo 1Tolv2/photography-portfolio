@@ -14,11 +14,12 @@ const Categories = () => {
         {artData.categories.map((item) => {
           const [isHovered, setIsHovered] = React.useState(false);
           const { thumbnail } = item;
-          console.log("item", item.thumbnail);
+
           return (
             <Link
               href={`/art/${item.slug}`}
               className={`col-span-${thumbnail.span}`}
+              key={`category-${thumbnail.alt}`}
             >
               <div
                 id={`category-${thumbnail.alt}`}
