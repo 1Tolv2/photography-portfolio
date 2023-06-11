@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
   return (
     <div className="min-h-screen bg-white">
       <main className="overflow-hidden min-h-screen">{children}</main>
-      <footer className="relative flex gap-6 w-fit mx-auto my-8">
+      <footer className="relative flex gap-6 w-fit mx-auto py-8">
         <a
           href="https://www.instagram.com/sofiajohnsson_illustrations/"
           target="_blank"
