@@ -101,9 +101,7 @@ const Categories = () => {
           return (
             <div
               id={`category-${item.alt}`}
-              className={`relative flex justify-center items-center col-span-${
-                item.span
-              } h-[400px] cursor-pointer ${isHovered ? "z-50" : ""}`}
+              className={`relative flex justify-center items-center col-span-${item.span} h-[400px] cursor-pointer`}
               style={{ backgroundColor: item.bgColor }}
               onMouseOver={() => setIsHovered(true)}
               onMouseOut={() => setIsHovered(false)}
@@ -124,11 +122,11 @@ const Categories = () => {
               >
                 {item.thumbnail ? (
                   <Image
-                    className={`object-contain p-4 z-0 ${
+                    className={`relative object-contain p-4 z-0 ${
                       item.custom ? item.custom : ""
                     }
                 transition-all ease-in-out duration-500
-                ${isHovered ? "scale-125" : ""} pointer-events-none`}
+                ${isHovered ? "scale-125 z-50" : ""} pointer-events-none`}
                     src={item.thumbnail}
                     alt={item.alt}
                     fill
