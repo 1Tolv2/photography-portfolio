@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Layout from "../../components/artComponents/Layout";
 
+import Layout from "../../components/artComponents/Layout";
 import artData from "../../components/artComponents/artData.json";
 
 export default function CategoryPage({ category }) {
