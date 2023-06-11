@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 import Section from "../atoms/Section";
@@ -21,9 +22,9 @@ const Hero = () => {
   return (
     <Section center className="!fixed top-0 left-0">
       <div className="w-screen px-10">
-        <a href="/" className="text-sm">
+        <Link href="/" className="text-sm">
           {"<--- Dev portfolio"}
-        </a>
+        </Link>
       </div>
       <div className="w-full flex items-center justify-center">
         <div>
