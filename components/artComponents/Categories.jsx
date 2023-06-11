@@ -29,12 +29,18 @@ const Categories = () => {
                 onMouseOut={() => setIsHovered(false)}
               >
                 <Heading2
-                  className={`relative !text-4xl !text-black z-40 transition-opacity ease-in ${
+                  className={`hidden md:block relative !text-4xl !text-black z-40 transition-opacity ease-in ${
                     isHovered ? "opacity-1" : "opacity-0"
                   } lowercase text-center drop-shadow-xl bg-white p-4`}
                 >
                   {item.title}
                 </Heading2>
+                <Heading2
+                  className={`md:hidden absolute bottom-0 !text-2xl !text-black z-40 lowercase text-center bg-white px-5 py-3`}
+                >
+                  {item.title}
+                </Heading2>
+
                 <motion.div
                   className="absolute w-full h-full"
                   initial={{ translateY: 50, opacity: 0 }}
@@ -48,7 +54,7 @@ const Categories = () => {
                         thumbnail.customClasses ? thumbnail.customClasses : ""
                       }
                 transition-all ease-in-out duration-500
-                ${isHovered ? "scale-125 z-30" : ""} pointer-events-none`}
+                ${isHovered ? "sm:scale-125 z-30" : ""} pointer-events-none`}
                       src={thumbnail.art}
                       alt={thumbnail.alt}
                       fill
