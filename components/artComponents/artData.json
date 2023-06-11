@@ -3,6 +3,13 @@
         "id":"1",
         "title":"Inktober 2022",
         "slug":"inktober-2022",
+        "thumbnail": {
+            "art": "/art/camera.png",
+            "alt": "camera",
+            "bgColor": "#8B8599",
+            "span": 3,
+            "customClasses": "!p-8"
+        },
         "illustrations":[
             {
                 "id":"1-illo-1",
@@ -15,6 +22,12 @@
         "id":"2",
         "title":"Fauna",
         "slug":"fauna",
+        "thumbnail": {
+            "art":"/art/bird.png",
+    "alt": "white bird",
+    "bgColor": "#E4E5E4",
+    "span": 1
+        },
         "illustrations":[
             {
                 "id":"2-illo-1",
@@ -27,6 +40,12 @@
         "id":"3",
         "title":"Fika",
         "slug":"fika",
+        "thumbnail": {
+            "art":"/art/vaniljbulle.png",
+    "alt": "vanilla bun",
+    "bgColor": "#FAF5BB", 
+    "span": 2
+        },
         "illustrations":[
             {
                 "id":"3-illo-1",
@@ -39,6 +58,12 @@
         "id":"4",
         "title":"Mushroomtober",
         "slug":"mushroomtober",
+        "thumbnail": {
+            "art":"/art/rafflad-nagelskivling.png",
+    "alt": "mushroom",
+    "bgColor": "#E8D9BB",
+    "span": 2
+        },
         "illustrations":[
             {
                 "id":"4-illo-1",
@@ -51,6 +76,13 @@
         "id":"5",
         "title":"Inktober 2021",
         "slug":"inktober-2021",
+        "thumbnail": {
+            "art":"/art/crystal.png",
+    "alt": "crystal",
+    "bgColor": "#F9E1EA",
+    "span": 1,
+    "customClasses": "!p-8"
+        },
         "illustrations":[
             {
                 "id":"5-illo-1",
@@ -63,6 +95,13 @@
         "id":"6",
         "title":"Bread",
         "slug":"bread",
+        "thumbnail": {
+            "art":"/art/mushroom-sandwich.png",
+    "alt": "mushroom sandwich",
+    "bgColor": "#E5D6B5",
+    "span": 3,
+    "customClasses": "!p-8"
+        },
         "illustrations":[
             {
                 "id":"6-illo-1",
@@ -75,6 +114,13 @@
         "id":"7",
         "title":"Miscellaneous",
         "slug":"miscellaneous",
+        "thumbnail": {
+            "art":"/art/radio.png",
+            "alt": "radio",
+            "bgColor": "#E1BC78",
+            "span": 1,
+            "customClasses": "!p-8"
+        },
         "illustrations":[
             {
                 "id":"7-illo-1",
@@ -87,6 +133,13 @@
         "id":"8",
         "title":"Food",
         "slug":"food",
+        "thumbnail": {
+            "art":"/art/frying-pan.png",
+            "alt": "frying pan",
+            "bgColor": "#B1AFB3",
+            "span": 2,
+            "customClasses": "!p-8"
+        },
         "illustrations":[
             {
                 "id":"8-illo-1",
@@ -99,6 +152,13 @@
         "id":"9",
         "title":"Baking",
         "slug":"baking",
+        "thumbnail": {
+            "art":"/art/caster-sugar.png",
+            "alt": "caster sugar",
+            "bgColor": "#D9EBBE",
+            "span": 1,
+            "customClasses": "!p-8"
+        },
         "illustrations":[
             {
                 "id":"9-illo-1",
@@ -111,6 +171,13 @@
         "id":"10",
         "title":"Motorcycles",
         "slug":"motorcycles",
+        "thumbnail": {
+            "art":"/art/honda-repsol.svg",
+            "alt": "motorcycle",
+            "bgColor": "#F6A60E",
+            "span": 2,
+            "customClasses": "!p-8"
+        },
         "illustrations":[
             {
                 "id":"10-illo-1",
