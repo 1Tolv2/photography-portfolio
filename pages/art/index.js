@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 
-import Hero from "../components/artComponents/Hero";
-import Categories from "../components/artComponents/Categories";
+import Hero from "../../components/artComponents/Hero";
+import Categories from "../../components/artComponents/Categories";
 
 export default function Page() {
   return (
@@ -24,7 +24,7 @@ export default function Page() {
               src="/art/instagram.svg"
               height="30"
               width="30"
-              alt="instgram"
+              alt="instagram"
             />
           </a>
           <a href="https://www.deviantart.com/laiany" target="_blank">
