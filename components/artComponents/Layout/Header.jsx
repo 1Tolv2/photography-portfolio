@@ -6,7 +6,7 @@ import CollapsedNavbar from "./Navbar/CollapsedNavbar";
 const Header = () => {
   const links = [
     { title: "Home", slug: "/art" },
-    { title: "Category", sublinks: artData.categories },
+    { title: "Categories", sublinks: artData.categories },
   ];
 
   return (
