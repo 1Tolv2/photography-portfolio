@@ -4,19 +4,24 @@ import Link from "next/link";
 
 const CollapsedNavbar = ({ links }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <nav
-      className={`flex justify-between sm:hidden relative w-full z-10 p-4 pr-8 ${
-        isMenuOpen ? "text-white" : ""
+      className={`flex justify-between sm:hidden w-full h-14 z-10 p-4 pr-8 ${
+        isMenuOpen ? " text-white pr-4" : ""
       }`}
     >
-      <div className="relative z-50 w-fit font-mono">
+      <div
+        className={`z-50 w-fit font-mono ${isMenuOpen ? "fixed top-4" : ""}`}
+      >
         <Link href="/" className="text-xs sm:text-sm">
           {"< dev portfolio"}
         </Link>
       </div>
       <div
-        className="relative z-50 flex items-center cursor-pointer"
+        className={`z-50 flex items-center cursor-pointer ${
+          isMenuOpen ? "fixed top-[27px] right-4" : ""
+        }`}
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         <div
@@ -30,31 +35,47 @@ const CollapsedNavbar = ({ links }) => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3 }}
         >
-          hej
+          <ul className="w-max text-left">
+            {links.map((link) => {
+              return (
+                <li
+                  key={`link-${link.slug}`}
+                  index={`link-${link.slug}`}
+                  className="relative"
+                >
+                  <span
+                    className={`block text-lg uppercase font-semibold p-2 ${
+                      link.slug ? "cursor-pointer" : "cursor-default"
+                    }`}
+                  >
+                    {link.title}
+                    {link.sublinks && (
+                      <ul>
+                        {link.sublinks.map((sublink, index) => {
+                          return (
+                            <li key={`sublink-${index}`}>
+                              <Link
+                                href={sublink.slug}
+                                onClick={() =>
+                                  setTimeout(() => setIsMenuOpen(false), 1000)
+                                }
+                              >
+                                <span className="text-sm lowercase pl-4">
+                                  {sublink.title}
+                                </span>
+                              </Link>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    )}
+                  </span>
+                </li>
+              );
+            })}
+          </ul>
         </motion.div>
       )}
-      {/* <ul className="w-fit">
-        {links.map((link) => {
-          return (
-            <li
-              key={`link-${link.slug}`}
-              index={`link-${link.slug}`}
-              className="relative"
-            >
-              {/* <CustomLink slug={link.slug}> 
-              <span
-                className={`text-sm md:text-lg uppercase font-semibold p-2 ${
-                  link.slug ? "cursor-pointer" : "cursor-default"
-                }`}
-              >
-                {link.title}
-              </span>
-              {/* </CustomLink> 
-              {/* {link.sublinks && renderSubLinks(link.sublinks, isHovered)} 
-            </li>
-          );
-        })}
-      </ul> */}
     </nav>
   );
 };
