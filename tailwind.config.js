@@ -11,6 +11,7 @@ module.exports = {
         primary: {
           900: "#060B13",
         },
+        purpleGrey: "#777086",
       },
     },
   },
