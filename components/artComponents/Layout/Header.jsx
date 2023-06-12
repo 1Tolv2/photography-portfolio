@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import artData from "../artData.json";
 import StandardNavbar from "./Navbar/StandardNavbar";
 import CollapsedNavbar from "./Navbar/CollapsedNavbar";
