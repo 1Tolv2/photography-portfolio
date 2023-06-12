@@ -8,12 +8,16 @@ const Gallery = ({ data, bgColor }) => {
   return (
     <Section className="bg-white">
       <div className="grid gap-2 grid-cols-1 sm:grid-cols-3 lg:grid-cols-6 w-screen">
-        {data.map((item) => {
+        {data.map((item, index) => {
           if (item.type === "category") {
-            return <ImageWColorBg data={item} />;
+            return <ImageWColorBg key={`category-${index}`} data={item} />;
           } else if (item.type === "illustration") {
             return (
-              <ImageWDescription data={item} bgColor={bgColor || "#FFF"} />
+              <ImageWDescription
+                key={`category-${index}`}
+                data={item}
+                bgColor={bgColor || "#FFF"}
+              />
             );
           }
         })}
