@@ -1,9 +1,12 @@
 import Head from "next/head";
+import Image from "next/image";
 
 import Layout from "../../components/artComponents/Layout";
 import artData from "../../components/artComponents/artData.json";
+import Gallery from "../../components/artComponents/Gallery";
 
 export default function CategoryPage({ category }) {
+  console.log("CAT", category.thumbnail.bgColor);
   return (
     <div>
       <Head>
@@ -12,7 +15,20 @@ export default function CategoryPage({ category }) {
         <title>Sofia Johnsson S.</title>
       </Head>
       <Layout>
-        <h1 className="text-black">{category.title}</h1>
+        <div
+          className={`h-[50vh] w-screen !fixed top-0`}
+          style={{ backgroundColor: category.thumbnail.bgColor }}
+        >
+          <div className="w-10/12 h-full flex flex-col justify-center items-center sm:w-1/2 sm:min-w-[400px] max-w-[800px] mx-auto">
+            <h1 className="text-4xl mb-4 sm:mb-6 text-black text-center">
+              {category.title}
+            </h1>
+            <p>{category.description}</p>
+          </div>
+        </div>
+        <div className="mt-[50vh]">
+          <Gallery data={category.illustrations} bgColor={category.bgColor} />
+        </div>
       </Layout>
     </div>
   );
