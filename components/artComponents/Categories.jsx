@@ -42,7 +42,7 @@ const Categories = () => {
                 </Heading2>
 
                 <motion.div
-                  className="absolute w-full h-full"
+                  className="absolute w-full h-full overflow-hidden md:overflow-visible"
                   initial={{ translateY: 50, opacity: 0 }}
                   transition={{ duration: 0.8, type: "tween" }}
                   whileInView={{ translateY: 0, opacity: 1 }}
