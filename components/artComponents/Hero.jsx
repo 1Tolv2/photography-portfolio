@@ -127,7 +127,21 @@ const Hero = () => {
           </div>
         </div>
         <motion.div
-          className="relative mt-4 sm:mt-0 w-[35%] min-w-[300px] h-[300px] md:h-[700px]"
+          className="sm:hidden relative mt-4 sm:mt-0 w-[35%] min-w-[300px] h-[300px] md:h-[700px]"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 2.6, ease: "easeInOut" }}
+        >
+          <Image
+            priority
+            fill
+            src="/art/gazelle.png"
+            className="object-contain"
+            alt="gazelle"
+          />
+        </motion.div>
+        <motion.div
+          className="hidden sm:block relative mt-4 sm:mt-0 w-[35%] min-w-[300px] h-[300px] md:h-[700px]"
           initial={{ opacity: 0, x: -150 }}
           animate={{ opacity: [0, 1, 1], x: [-150, -150, 0] }}
           transition={{ duration: 2.6, ease: "easeInOut" }}
