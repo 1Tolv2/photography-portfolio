@@ -52,7 +52,6 @@ const StandardNavbar = ({ links }) => {
                   {link.title}
                 </span>
               </CustomLink>
-
               {link.sublinks && renderSubLinks(link.sublinks, isHovered)}
             </li>
           );
