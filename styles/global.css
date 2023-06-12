@@ -88,5 +88,38 @@ h3 {
   .col-span-lg {
     @apply col-span-1 sm:col-span-3
   }
+
+  .collapsedMenu {
+    @apply w-5 h-0.5 bg-black my-auto transition-all;
+  }
+  .collapsedMenu::before {
+    @apply block w-5 h-0.5 bg-black my-auto;
+    content: "";
+    position: relative;
+    top: 0.4rem;
+    transition: all 0.3s ease-in-out;
+
+  }
+  .collapsedMenu::after {
+    @apply block w-5 h-0.5 bg-black my-auto;
+    content: "";
+    position: relative;
+    bottom: 0.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .collapsedMenuOpen {
+    @apply w-0 h-0.5 mr-5 bg-white;
+  }
+  .collapsedMenuOpen::before {
+    @apply rotate-45 top-px left-px bg-white;
+    content: "";
+    position: relative;
+  }
+  .collapsedMenuOpen::after {
+    @apply -rotate-45 bottom-px left-px bg-white;
+    content: "";
+    position: relative;
+  }
 }
 
