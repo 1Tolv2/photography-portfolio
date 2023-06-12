@@ -1,6 +1,7 @@
 {"categories": [
     {
         "id":"1",
+        "type":"category",
         "title":"Inktober 2022",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"inktober-2022",
@@ -14,13 +15,32 @@
         "illustrations":[
             {
                 "id":"1-illo-1",
+                "type":"illustration",
                 "title":"",
                 "description":"",
-                "image":"/art/bird.png"
+                "image":"/art/bird.png",
+                "span":"sm"
+            },
+            {
+                "id":"1-illo-2",
+                "type":"illustration",
+                "title":"",
+                "description":"",
+                "image":"/art/bird.png",
+                "span":"sm"
+            },
+            {
+                "id":"1-illo-3",
+                "type":"illustration",
+                "title":"",
+                "description":"",
+                "image":"/art/bird.png",
+                "span":"sm"
             }
         ]},
     {
         "id":"2",
+        "type":"category",
         "title":"Fauna",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"fauna",
@@ -33,6 +53,7 @@
         "illustrations":[
             {
                 "id":"2-illo-1",
+                "type":"illustration",
                 "title":"",
                 "description":"",
                 "image":"/art/bird.png"
@@ -40,6 +61,7 @@
         ]},
     {
         "id":"3",
+        "type":"category",
         "title":"Fika",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"fika",
@@ -52,6 +74,7 @@
         "illustrations":[
             {
                 "id":"3-illo-1",
+                "type":"illustration",
                 "title":"",
                 "description":"",
                 "image":"/art/bird.png"
@@ -59,6 +82,7 @@
         ]},
     {
         "id":"4",
+        "type":"category",
         "title":"Mushroomtober",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"mushroomtober",
@@ -71,6 +95,7 @@
         "illustrations":[
             {
                 "id":"4-illo-1",
+                "type":"illustration",
                 "title":"",
                 "description":"",
                 "image":"/art/bird.png"
@@ -78,6 +103,7 @@
         ]},
     {
         "id":"5",
+        "type":"category",
         "title":"Inktober 2021",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"inktober-2021",
@@ -91,6 +117,7 @@
         "illustrations":[
             {
                 "id":"5-illo-1",
+                "type":"illustration",
                 "title":"",
                 "description":"",
                 "image":"/art/bird.png"
@@ -98,6 +125,7 @@
         ]},
     {
         "id":"6",
+        "type":"category",
         "title":"Bread",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"bread",
@@ -111,6 +139,7 @@
         "illustrations":[
             {
                 "id":"6-illo-1",
+                "type":"illustration",
                 "title":"",
                 "description":"",
                 "image":"/art/bird.png"
@@ -118,6 +147,7 @@
         ]},
     {
         "id":"7",
+        "type":"category",
         "title":"Miscellaneous",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"miscellaneous",
@@ -131,6 +161,7 @@
         "illustrations":[
             {
                 "id":"7-illo-1",
+                "type":"illustration",
                 "title":"",
                 "description":"",
                 "image":"/art/bird.png"
@@ -138,6 +169,7 @@
         ]},
     {
         "id":"8",
+        "type":"category",
         "title":"Food",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"food",
@@ -151,6 +183,7 @@
         "illustrations":[
             {
                 "id":"8-illo-1",
+                "type":"illustration",
                 "title":"",
                 "description":"",
                 "image":"/art/bird.png"
@@ -158,6 +191,7 @@
         ]},
     {
         "id":"9",
+        "type":"category",
         "title":"Baking",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"baking",
@@ -171,6 +205,7 @@
         "illustrations":[
             {
                 "id":"9-illo-1",
+                "type":"illustration",
                 "title":"",
                 "description":"",
                 "image":"/art/bird.png"
@@ -178,6 +213,7 @@
         ]},
     {
         "id":"10",
+        "type":"category",
         "title":"Motorcycles",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"motorcycles",
@@ -191,6 +227,7 @@
         "illustrations":[
             {
                 "id":"10-illo-1",
+                "type":"illustration",
                 "title":"",
                 "description":"",
                 "image":"/art/bird.png"
