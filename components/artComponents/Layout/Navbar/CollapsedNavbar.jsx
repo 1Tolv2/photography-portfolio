@@ -16,7 +16,7 @@ const CollapsedNavbar = ({ links }) => {
         </Link>
       </div>
       <div
-        className="relative z-50 flex items-center"
+        className="relative z-50 flex items-center cursor-pointer"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         <div
