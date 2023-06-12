@@ -2,6 +2,7 @@
     {
         "id":"1",
         "title":"Inktober 2022",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"inktober-2022",
         "thumbnail": {
             "art": "/art/camera.png",
@@ -21,6 +22,7 @@
     {
         "id":"2",
         "title":"Fauna",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"fauna",
         "thumbnail": {
             "art":"/art/bird.png",
@@ -39,6 +41,7 @@
     {
         "id":"3",
         "title":"Fika",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"fika",
         "thumbnail": {
             "art":"/art/vaniljbulle.png",
@@ -57,6 +60,7 @@
     {
         "id":"4",
         "title":"Mushroomtober",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"mushroomtober",
         "thumbnail": {
             "art":"/art/rafflad-nagelskivling.png",
@@ -75,6 +79,7 @@
     {
         "id":"5",
         "title":"Inktober 2021",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"inktober-2021",
         "thumbnail": {
             "art":"/art/crystal.png",
@@ -94,6 +99,7 @@
     {
         "id":"6",
         "title":"Bread",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"bread",
         "thumbnail": {
             "art":"/art/mushroom-sandwich.png",
@@ -113,6 +119,7 @@
     {
         "id":"7",
         "title":"Miscellaneous",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"miscellaneous",
         "thumbnail": {
             "art":"/art/radio.png",
@@ -132,6 +139,7 @@
     {
         "id":"8",
         "title":"Food",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"food",
         "thumbnail": {
             "art":"/art/frying-pan.png",
@@ -151,6 +159,7 @@
     {
         "id":"9",
         "title":"Baking",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"baking",
         "thumbnail": {
             "art":"/art/caster-sugar.png",
@@ -170,6 +179,7 @@
     {
         "id":"10",
         "title":"Motorcycles",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
         "slug":"motorcycles",
         "thumbnail": {
             "art":"/art/honda-repsol.svg",
