@@ -19,14 +19,14 @@ export default function CategoryPage({ category }) {
           className={`h-[50vh] w-screen !fixed top-0`}
           style={{ backgroundColor: category.thumbnail.bgColor }}
         >
-          <div className="w-10/12 h-full flex flex-col justify-center items-center sm:w-1/2 sm:min-w-[400px] max-w-[800px] mx-auto">
+          <div className="w-10/12 h-[50vh] flex flex-col justify-center items-center sm:w-1/2 sm:min-w-[400px] max-w-[800px] mx-auto">
             <h1 className="text-4xl mb-4 sm:mb-6 text-black text-center">
               {category.title}
             </h1>
             <p>{category.description}</p>
           </div>
         </div>
-        <div className="mt-[50vh]">
+        <div className="mt-[calc(50vh-56px)]">
           <Gallery data={category.illustrations} bgColor={category.bgColor} />
         </div>
       </Layout>
