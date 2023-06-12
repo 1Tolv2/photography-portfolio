@@ -12,7 +12,7 @@ export default function CategoryPage({ category }) {
         <title>Sofia Johnsson S.</title>
       </Head>
       <Layout>
-        <h1 class="text-black">{category.title}</h1>
+        <h1 className="text-black">{category.title}</h1>
       </Layout>
     </div>
   );
