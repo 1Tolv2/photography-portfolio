@@ -14,7 +14,7 @@ const StandardNavbar = ({ links }) => {
             index={`sublink-${sublink.slug}`}
             className=""
           >
-            <CustomLink slug={sublink.slug}>
+            <CustomLink slug={`/art/${sublink.slug}`}>
               <span className="block text-sm sm:text-md lowercase font-semibold px-6 py-0.5 cursor-pointer">
                 {sublink.title}
               </span>
