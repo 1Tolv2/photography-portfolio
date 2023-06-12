@@ -21,11 +21,6 @@ const Hero = () => {
 
   return (
     <Section center className="!fixed top-0 left-0">
-      <div className="w-screen px-10">
-        <Link href="/" className="text-sm">
-          {"<--- Dev portfolio"}
-        </Link>
-      </div>
       <div className="w-full flex flex-col sm:flex-row items-center justify-center h-fit grow">
         <div>
           <motion.h1
