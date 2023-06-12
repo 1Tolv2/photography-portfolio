@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="w-full flex flex-col sm:flex-row items-center justify-center h-fit grow">
         <div>
           <motion.h1
-            className="text-3xl sm:text-4xl text-center font-normal !text-black"
+            className="text-3xl md:text-4xl text-center font-normal !text-black"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{
@@ -127,7 +127,7 @@ const Hero = () => {
           </div>
         </div>
         <motion.div
-          className="relative mt-4 sm:mt-0 w-[35%] min-w-[300px] h-[250px] md:h-[700px]"
+          className="relative mt-4 sm:mt-0 w-[35%] min-w-[300px] h-[300px] md:h-[700px]"
           initial={{ opacity: 0, x: -150 }}
           animate={{ opacity: [0, 1, 1], x: [-150, -150, 0] }}
           transition={{ duration: 2.6, ease: "easeInOut" }}
