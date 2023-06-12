@@ -55,7 +55,7 @@ const CollapsedNavbar = ({ links }) => {
                           return (
                             <li key={`sublink-${index}`}>
                               <Link
-                                href={sublink.slug}
+                                href={`/art/${sublink.slug}`}
                                 onClick={() =>
                                   setTimeout(() => setIsMenuOpen(false), 1000)
                                 }
