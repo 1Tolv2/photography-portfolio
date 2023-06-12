@@ -5,14 +5,14 @@ import { motion } from "framer-motion";
 
 import Heading2 from "../../atoms/typography/Heading2";
 
-const ImageWColorBg = ({ item }) => {
+const ImageWColorBg = ({ data }) => {
   const [isHovered, setIsHovered] = React.useState(false);
-  const { thumbnail } = item;
+  const { thumbnail } = data;
 
   return (
     <Link
       key={`category-${thumbnail.alt}`}
-      href={`/art/${item.slug}`}
+      href={`/art/${data.slug}`}
       className={`col-span-${thumbnail.span}`}
     >
       <div
@@ -27,12 +27,12 @@ const ImageWColorBg = ({ item }) => {
             isHovered ? "opacity-1" : "opacity-0"
           } lowercase text-center drop-shadow-xl bg-white p-4`}
         >
-          {item.title}
+          {data.title}
         </Heading2>
         <Heading2
           className={`md:hidden absolute bottom-0 !text-2xl !text-black z-40 lowercase text-center bg-white px-5 py-3`}
         >
-          {item.title}
+          {data.title}
         </Heading2>
         <motion.div
           className="absolute w-full h-full overflow-hidden md:overflow-visible"
