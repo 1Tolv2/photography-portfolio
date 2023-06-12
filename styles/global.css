@@ -23,9 +23,7 @@ code {
     monospace;
 }
 
-ul{
-  list-style-image: url('/rectangle.svg');
-}
+
 
 /* h1 {
   font-size: 1.625rem;
@@ -74,6 +72,10 @@ h3 {
     stroke-width: 2;
     stroke-linejoin: round;
     stroke-linecap: round;
+  }
+
+  .list-square {
+    list-style-image: url('/rectangle.svg');
   }
 
   /* art css */

@@ -54,7 +54,7 @@ const ProjectList = ({ projects }) => {
         </a>
         {item.icon && (
           <div className="absolute -bottom-8 -right-6 h-[160px] w-full max-w-[200px] opacity-10">
-            <Image width="auto" heigth="auto" src={item.icon} alt="" fill />
+            <Image src={item.icon} alt="" fill />
           </div>
         )}
       </>

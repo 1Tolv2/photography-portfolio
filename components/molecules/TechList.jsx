@@ -34,7 +34,7 @@ const TechList = () => {
       {columnData.map((item) => (
         <div key={`${item.title}-skills`}>
           <Heading3>{item.title}</Heading3>
-          <ul className={item.classes}>
+          <ul className={`list-square ${item.classes}`}>
             {item.skills.map((skill, index) => (
               <li key={`skill-${skill}`} className="mt-3 ml-8">
                 {skill}
