@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
 
+import artData from "../../components/artComponents/artData.json";
 import Hero from "../../components/artComponents/Hero";
-import Categories from "../../components/artComponents/Categories";
 import Layout from "../../components/artComponents/Layout";
+import Gallery from "../../components/artComponents/Gallery";
 
 export default function Page() {
   return (
@@ -16,7 +16,7 @@ export default function Page() {
       <Layout>
         <div className="mt-[100vh]">
           <Hero />
-          <Categories />
+          <Gallery data={artData.categories} />
         </div>
       </Layout>
     </div>
