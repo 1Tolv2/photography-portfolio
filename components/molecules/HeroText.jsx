@@ -40,15 +40,15 @@ const HeroText = () => {
         <Heading2>HELLO</Heading2>
         <span className="w-full h-0.5 bg-white ml-5" />
       </motion.div>
-      <div className="relative sm:flex sm:gap-5 justify-center z-[70]">
-        <div className="relative top-2 sm:top-0 flex items-center w-fit ">
+      <div className="relative flex gap-5 justify-center z-[70] ">
+        <div className="relative top-2 sm:top-0 flex items-center w-fit">
           <svg
             width="100%"
             height="100%"
             viewBox="0 0 80 100"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="w-[1.5rem] md:w-[2.3rem] lg:w-[3.1rem] xl:w-[3.8rem]"
+            className="w-[1.5rem] md:w-[2.3rem] lg:w-[3.1rem] xl:w-[3.8rem] mb-0.5 md:mb-0 mr-0.5"
           >
             <motion.path
               className="item"
@@ -85,7 +85,7 @@ const HeroText = () => {
             viewBox="0 0 80 100"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="w-[1.5rem] md:w-[2.3rem] lg:w-[3.1rem] xl:w-[3.8rem]"
+            className="w-[1.5rem] md:w-[2.3rem] lg:w-[3.1rem] xl:w-[3.8rem] mr-0.5 lg:mr-1"
           >
             <motion.path
               className="item"
