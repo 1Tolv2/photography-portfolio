@@ -25,8 +25,8 @@ const About = () => {
               viewport={{ once: true }}
             >
               <TextRegular>
-                a junior full stack developer with some work experice. I have a
-                huge passion to learn and create great and intuitive
+                a junior full stack developer with some work experience. I have
+                a huge passion to learn and create great and intuitive
                 applications.
               </TextRegular>
               <br />

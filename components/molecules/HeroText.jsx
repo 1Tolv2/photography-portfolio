@@ -40,15 +40,15 @@ const HeroText = () => {
         <Heading2>HELLO</Heading2>
         <span className="w-full h-0.5 bg-white ml-5" />
       </motion.div>
-      <div className="relative sm:flex sm:gap-5 justify-center z-[70]">
-        <div className="relative top-2 sm:top-0 flex items-center w-fit ">
+      <div className="relative flex gap-2 sm:gap-5 justify-center items-center z-[70] h-fit">
+        <div className="relative flex items-center w-fit">
           <svg
             width="100%"
             height="100%"
             viewBox="0 0 80 100"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="w-[1.5rem] md:w-[2.3rem] lg:w-[3.1rem] xl:w-[3.8rem]"
+            className="w-[1.5rem] md:w-[2.3rem] lg:w-[3.1rem] xl:w-[3.8rem] mb-0.5 md:mb-0 mr-0.5"
           >
             <motion.path
               className="item"
@@ -65,9 +65,8 @@ const HeroText = () => {
           </svg>
           <motion.h1
             className="text-[2.3rem] md:text-[3.5rem] lg:text-[5rem] xl:text-[6.1rem] pb-[8px] md:pb-[9px] lg:pb-[16px]  xl:pb-[17px] font-extrabold text-white relative z-[70]"
-            initial="hidden"
-            animate="visible"
-            variants={text}
+            initial={{ opacity: 0, width: 0 }}
+            animate={{ opacity: 1, width: "fit-content" }}
             transition={{
               duration: 2,
               delay: 3,
@@ -78,14 +77,14 @@ const HeroText = () => {
             {"OFIA "}
           </motion.h1>
         </div>
-        <div className="relative bottom-2 sm:bottom-0 flex items-center w-content">
+        <div className="relative flex items-center w-content">
           <svg
             width="100%"
             height="100%"
             viewBox="0 0 80 100"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="w-[1.5rem] md:w-[2.3rem] lg:w-[3.1rem] xl:w-[3.8rem]"
+            className="w-[1.5rem] md:w-[2.3rem] lg:w-[3.1rem] xl:w-[3.8rem] mr-[1px] sm:mr-0.5 lg:mr-1"
           >
             <motion.path
               className="item"
@@ -101,7 +100,20 @@ const HeroText = () => {
             />
           </svg>
           <motion.h1
-            className="text-[2.3rem] md:text-[3.5rem] lg:text-[5rem] xl:text-[6.1rem] pb-[8px] md:pb-[9px] lg:pb-[16px] xl:pb-[18px] font-extrabold text-white relative z-[70]"
+            className="!hidden sm:!block text-[2.3rem] md:text-[3.5rem] lg:text-[5rem] xl:text-[6.1rem] pb-[8px] md:pb-[9px] lg:pb-[16px] xl:pb-[18px] font-extrabold text-white relative z-[70]"
+            initial={{ opacity: 0, width: 0 }}
+            animate={{ opacity: 1, width: "fit-content" }}
+            transition={{
+              duration: 2,
+              delay: 3,
+              ease: "easeInOut",
+              opacity: { delay: 5, duration: 1 },
+            }}
+          >
+            {"OHNSSON"}
+          </motion.h1>
+          <motion.h1
+            className="sm:!hidden text-[2rem] md:text-[3.5rem] lg:text-[5rem] xl:text-[6.1rem] pb-[8px] md:pb-[9px] lg:pb-[16px] xl:pb-[18px] font-extrabold text-white relative z-[70]"
             initial="hidden"
             animate="visible"
             variants={text}
@@ -112,7 +124,7 @@ const HeroText = () => {
               opacity: { delay: 5, duration: 1 },
             }}
           >
-            {"OHNSSON"}
+            {"."}
           </motion.h1>
         </div>
       </div>
