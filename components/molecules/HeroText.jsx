@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import Heading1 from "../atoms/typography/Heading1";
 import Heading2 from "../atoms/typography/Heading2";
 
 const HeroText = () => {
