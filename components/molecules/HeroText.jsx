@@ -39,7 +39,7 @@ const HeroText = () => {
         <Heading2>HELLO</Heading2>
         <span className="w-full h-0.5 bg-white ml-5" />
       </motion.div>
-      <div className="relative flex gap-2 sm:gap-5 justify-center items-center z-[70] h-fit sm:my-6 lg:my-10">
+      <div className="relative flex gap-2 sm:gap-5 justify-center items-center z-[70] h-fit my-6 lg:my-10">
         <div className="relative flex items-baseline w-fit">
           <svg
             width="100%"
