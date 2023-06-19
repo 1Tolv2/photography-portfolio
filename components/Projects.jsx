@@ -14,7 +14,7 @@ const Projects = () => {
         <SectionStartText
           title="Featured Projects"
           sectionName="PROJECTS"
-          className="-left-[20.5rem] md:-left-[25rem] top-70"
+          className="-left-[20.5rem] md:-left-[25rem]"
           titleAlign="center"
         >
           <ProjectList />
