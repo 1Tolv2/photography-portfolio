@@ -129,7 +129,7 @@ const HeroText = () => {
               viewBox="0 0 653 94"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-[11.3rem] md:w-[17.8rem] lg:w-[25rem] xl:w-[30.4rem]"
+              className="!hidden sm:!block w-[11.3rem] md:w-[17.8rem] lg:w-[25rem] xl:w-[30.4rem]"
             >
               <path
                 className="item"
@@ -138,19 +138,6 @@ const HeroText = () => {
               />
             </svg>
           </motion.div>
-          {/* <motion.h1
-            className="!hidden sm:!block text-[2.3rem] md:text-[3.5rem] lg:text-[5rem] xl:text-[6.1rem] pb-[8px] md:pb-[9px] lg:pb-[16px] xl:pb-[18px] font-extrabold text-white relative z-[70]"
-            initial={{ opacity: 0, width: 0 }}
-            animate={{ opacity: 1, width: "fit-content" }}
-            transition={{
-              duration: 2,
-              delay: 3,
-              ease: "easeInOut",
-              opacity: { delay: 5, duration: 1 },
-            }}
-          >
-            {"OHNSSON"}
-          </motion.h1> */}
           <motion.h1
             className="sm:!hidden text-[2rem] md:text-[3.5rem] lg:text-[5rem] xl:text-[6.1rem] pb-[8px] md:pb-[9px] lg:pb-[16px] xl:pb-[18px] font-extrabold text-white relative z-[70]"
             initial="hidden"
