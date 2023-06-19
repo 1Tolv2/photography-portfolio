@@ -89,7 +89,7 @@ const HeroText = () => {
             </svg>
           </motion.div>
         </div>
-        <div className="relative flex items-center w-content">
+        <div className="relative flex sm:items-center w-content">
           <svg
             width="100%"
             height="100%"
@@ -151,10 +151,10 @@ const HeroText = () => {
             <svg
               width="100%"
               height="100%"
-              viewBox="0 0 24 23"
+              viewBox="0 0 24 25"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="sm:!hidden w-[1.4rem] md:w-[2.2rem] lg:w-[3.1rem] xl:w-[3.8rem]"
+              className="relative top-[8px] sm:!hidden w-[0.5rem]"
             >
               <path
                 d="M12 24.408C8.75733 24.408 5.94133 23.256 3.552 20.952C1.248 18.5627 0.0960002 15.7467 0.0960002 12.504C0.0960002 9.26133 1.248 6.488 3.552 4.184C5.94133 1.79467 8.75733 0.599998 12 0.599998C15.2427 0.599998 18.016 1.79467 20.32 4.184C22.7093 6.488 23.904 9.26133 23.904 12.504C23.904 15.7467 22.7093 18.5627 20.32 20.952C18.016 23.256 15.2427 24.408 12 24.408Z"
