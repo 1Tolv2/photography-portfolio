@@ -137,8 +137,7 @@ const HeroText = () => {
               />
             </svg>
           </motion.div>
-          <motion.h1
-            className="sm:!hidden text-[2rem] md:text-[3.5rem] lg:text-[5rem] xl:text-[6.1rem] pb-[8px] md:pb-[9px] lg:pb-[16px] xl:pb-[18px] font-extrabold text-white relative z-[70]"
+          <motion.div
             initial="hidden"
             animate="visible"
             variants={text}
@@ -149,8 +148,20 @@ const HeroText = () => {
               opacity: { delay: 5, duration: 1 },
             }}
           >
-            {"."}
-          </motion.h1>
+            <svg
+              width="100%"
+              height="100%"
+              viewBox="0 0 24 23"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="sm:!hidden w-[1.4rem] md:w-[2.2rem] lg:w-[3.1rem] xl:w-[3.8rem]"
+            >
+              <path
+                d="M12 24.408C8.75733 24.408 5.94133 23.256 3.552 20.952C1.248 18.5627 0.0960002 15.7467 0.0960002 12.504C0.0960002 9.26133 1.248 6.488 3.552 4.184C5.94133 1.79467 8.75733 0.599998 12 0.599998C15.2427 0.599998 18.016 1.79467 20.32 4.184C22.7093 6.488 23.904 9.26133 23.904 12.504C23.904 15.7467 22.7093 18.5627 20.32 20.952C18.016 23.256 15.2427 24.408 12 24.408Z"
+                fill="white"
+              />
+            </svg>
+          </motion.div>
         </div>
       </div>
       <motion.div
