@@ -30,7 +30,7 @@ const TechList = () => {
     },
   ];
   return (
-    <div className="flex w-full text-white font-light mt-3">
+    <div className="flex flex-col sm:flex-row gap-4 w-full text-white font-light mt-3">
       {columnData.map((item) => (
         <div key={`${item.title}-skills`}>
           <Heading3>{item.title}</Heading3>

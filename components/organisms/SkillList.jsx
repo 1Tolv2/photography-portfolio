@@ -23,11 +23,11 @@ const SkillList = () => {
     },
   ];
   return (
-    <div className="relative -top-8 text-center flex flex-wrap lg:grid lg:grid-cols-3 justify-center ítems-center h-fit w-full md:max-w-[1200px] mx-auto px-4 md:px-10 gap-6 md:gap-8">
+    <div className="relative -top-8 text-center flex flex-wrap lg:grid lg:grid-cols-3 justify-center ítems-center h-fit w-full md:max-w-[1200px] mx-auto pl-4 pr-8 md:px-10 gap-6 md:gap-8">
       {data.map((item, index) => (
         <motion.div
           key={index}
-          className="h-full frosted-card max-w-[350px] w-fit mx-auto py-6 md:py-10 px-5"
+          className="h-full frosted-card max-w-[350px] w-fit mx-auto py-6 md:py-10 px-4 sm:px-5"
           initial={{ translateY: 100, opacity: 0 }}
           transition={{
             duration: 0.8,
