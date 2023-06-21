@@ -8,19 +8,22 @@ const StandardNavbar = ({ links }) => {
   const renderSubLinks = (sublinks, isHovered) => {
     return (
       <ul className={`absolute bg-white ${isHovered ? "" : "hidden"}`}>
-        {sublinks.map((sublink) => (
-          <li
-            key={`sublink-${sublink.slug}`}
-            index={`sublink-${sublink.slug}`}
-            className=""
-          >
-            <CustomLink slug={`/art/${sublink.slug}`}>
-              <span className="block text-sm sm:text-md lowercase font-semibold px-6 py-0.5 cursor-pointer">
-                {sublink.title}
-              </span>
-            </CustomLink>
-          </li>
-        ))}
+        {sublinks.map(
+          (sublink) =>
+            sublink.type === "category" && (
+              <li
+                key={`sublink-std-${sublink.slug}`}
+                index={`sublink-std-${sublink.slug}`}
+                className=""
+              >
+                <CustomLink slug={`/art/${sublink.slug}`}>
+                  <span className="block text-sm sm:text-md lowercase font-semibold px-6 py-0.5 cursor-pointer">
+                    {sublink.title}
+                  </span>
+                </CustomLink>
+              </li>
+            )
+        )}
       </ul>
     );
   };
