@@ -16,26 +16,26 @@
             {
                 "id":"1-illo-1",
                 "type":"illustration",
-                "title":"",
-                "description":"",
+                "title":"Lorem ipsum",
+                "description":"This is my description for this artwork.",
                 "image":"/art/bird.png",
                 "span":"sm"
             },
             {
                 "id":"1-illo-2",
                 "type":"illustration",
-                "title":"",
-                "description":"",
-                "image":"/art/bird.png",
-                "span":"sm"
+                "title":"Lorem ipsum",
+                "description":"This is my description for this artwork.",
+                "image":"/art/camera.png",
+                "span":"lg"
             },
             {
                 "id":"1-illo-3",
                 "type":"illustration",
-                "title":"",
-                "description":"",
+                "title":"Lorem ipsum",
+                "description":"This is my description for this artwork.",
                 "image":"/art/bird.png",
-                "span":"sm"
+                "span":"md"
             }
         ]},
     {
