@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const StandardNavbar = ({ links }) => {
+  const router = useRouter();
+
   const CustomLink = ({ slug, children }) =>
     slug ? <Link href={slug}>{children}</Link> : children;
 
@@ -30,11 +33,13 @@ const StandardNavbar = ({ links }) => {
 
   return (
     <nav className="hidden sm:block relative w-full z-10">
-      <div className="absolute top-4 w-fit left-10 font-mono">
-        <Link href="/" className="text-xs sm:text-sm">
-          {"<--- dev portfolio"}
-        </Link>
-      </div>
+      {router.pathname === "/art" && (
+        <div className="absolute top-4 w-fit left-10 font-mono">
+          <Link href="/" className="text-xs sm:text-sm">
+            {"<--- dev portfolio"}
+          </Link>
+        </div>
+      )}
       <ul className="flex items-center w-fit mx-auto py-4 px-8">
         {links.map((link) => {
           const [isHovered, setIsHovered] = useState(false);
