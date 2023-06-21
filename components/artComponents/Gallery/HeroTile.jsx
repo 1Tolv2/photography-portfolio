@@ -16,10 +16,10 @@ const HeroTile = ({ data }) => {
         <h2 className="text-5xl font-semibold mb-2">{data.title}</h2>
         {data.description &&
           data.description.map((sentence) => (
-            <p className="!text-black mb-2">{sentence}</p>
+            <p className="!text-black mb-2 text-sm md:text-base">{sentence}</p>
           ))}
       </div>
-      <div className="absolute bottom-4 right-4 w-40 h-20 opacity-50">
+      <div className="absolute bottom-4 right-4 w-32 h-16 md:w-64 md:h-24 opacity-50">
         <Image fill src={data.bgImage} alt="" />
       </div>
     </div>
