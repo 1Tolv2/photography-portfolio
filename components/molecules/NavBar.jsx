@@ -6,7 +6,7 @@ import TextRegular from "../atoms/typography/TextRegular";
 const NavBar = () => {
   return (
     <nav className="absolute top-8 w-full px-4">
-      <div className=" flex flex-wrap justify-center gap-5 lg:gap-10 selection:mx-auto">
+      <div className=" flex flex-wrap justify-center gap-4 lg:gap-10 selection:mx-auto">
         <motion.div
           initial={{ translateY: -40, opacity: 0 }}
           animate={{ translateY: 0, opacity: 1 }}
@@ -36,7 +36,7 @@ const NavBar = () => {
         </motion.div>
       </div>
       <motion.div
-        className="absolute -top-6 md:top-0 right-4 md:right-8"
+        className="absolute -top-5 md:top-0 right-4 md:right-8"
         initial={{ translateY: -40, opacity: 0 }}
         animate={{ translateY: 0, opacity: 1 }}
         transition={{ delay: 7.1, duration: 0.6, type: "tween" }}
