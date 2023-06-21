@@ -36,7 +36,7 @@ const NavBar = () => {
         </motion.div>
       </div>
       <motion.div
-        className="absolute -top-5 md:top-0 right-4 md:right-8"
+        className="absolute -top-5 sm:top-0 right-8"
         initial={{ translateY: -40, opacity: 0 }}
         animate={{ translateY: 0, opacity: 1 }}
         transition={{ delay: 7.1, duration: 0.6, type: "tween" }}
@@ -44,15 +44,15 @@ const NavBar = () => {
         <a href="/art">
           <Image
             className="hidden md:block"
-            height={32}
-            width={160}
+            height={40}
+            width={170}
             src="/art-portfolio-handwritten.svg"
             alt="handwritten linkname"
           />
           <Image
             className="md:hidden"
-            height={10}
-            width={70}
+            height={8}
+            width={60}
             src="/art-short-handwritten.svg"
             alt="handwritten linkname"
           />
