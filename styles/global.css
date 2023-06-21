@@ -89,6 +89,17 @@ h3 {
     @apply col-span-1 sm:col-span-3
   }
 
+  .col-span-cat-sm {
+    @apply col-span-1 sm:col-span-3 lg:col-span-1
+  }
+  .col-span-cat-md {
+    @apply col-span-1 sm:col-span-3 lg:col-span-2
+  }
+  .col-span-cat-lg {
+    @apply col-span-1 sm:col-span-3
+  }
+
+
   .collapsedMenu {
     @apply w-5 h-0.5 bg-black my-auto transition-all;
   }
