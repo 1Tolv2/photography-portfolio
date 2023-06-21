@@ -18,6 +18,7 @@ export default function Page() {
           "an illustrator based in Stockholm, Sweden. I have a passion for traditional media and my all time favourite is aquarelle. As of late I've started to explore more digital illustration through my web development work.",
           "Checkout my work by clicking on the images :D",
         ],
+        bgImage: "/signature.svg",
         span: "md",
       })
     );
