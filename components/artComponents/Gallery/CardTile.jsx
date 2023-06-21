@@ -3,7 +3,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import Heading2 from "../../atoms/typography/Heading2";
 
-const ImageWDescription = ({ data }) => {
+const CardTile = ({ data }) => {
   console.log(data);
   return (
     <motion.div
@@ -36,4 +36,4 @@ const ImageWDescription = ({ data }) => {
   );
 };
 
-export default ImageWDescription;
+export default CardTile;

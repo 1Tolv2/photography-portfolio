@@ -1,6 +1,6 @@
 import React from "react";
 
-const TitleWDescription = ({ data }) => {
+const HeroTile = ({ data }) => {
   return (
     <div
       key={`text-${data.title}`}
@@ -22,4 +22,4 @@ const TitleWDescription = ({ data }) => {
   );
 };
 
-export default TitleWDescription;
+export default HeroTile;

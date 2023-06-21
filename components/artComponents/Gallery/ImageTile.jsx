@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 import Heading2 from "../../atoms/typography/Heading2";
 
-const ImageWColorBg = ({ data }) => {
+const ImageTile = ({ data }) => {
   const [isHovered, setIsHovered] = React.useState(false);
   const { thumbnail } = data;
 
@@ -61,4 +61,4 @@ const ImageWColorBg = ({ data }) => {
   );
 };
 
-export default ImageWColorBg;
+export default ImageTile;
