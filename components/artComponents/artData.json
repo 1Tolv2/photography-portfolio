@@ -81,21 +81,21 @@
             }
         ]},
         {
-            "id":"9",
+            "id":"7",
             "type":"category",
-            "title":"Baking",
+            "title":"Miscellaneous",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
-            "slug":"baking",
+            "slug":"miscellaneous",
             "thumbnail": {
-                "art":"/art/caster-sugar.png",
-                "alt": "caster sugar",
-                "bgColor": "#D9EBBE",
+                "art":"/art/radio.png",
+                "alt": "radio",
+                "bgColor": "#E1BC78",
                 "span": "sm",
                 "customClasses": "!p-8"
             },
             "illustrations":[
                 {
-                    "id":"9-illo-1",
+                    "id":"7-illo-1",
                     "type":"illustration",
                     "title":"",
                     "description":"",
@@ -167,28 +167,29 @@
                 "image":"/art/bird.png"
             }
         ]},
-    {
-        "id":"7",
-        "type":"category",
-        "title":"Miscellaneous",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
-        "slug":"miscellaneous",
-        "thumbnail": {
-            "art":"/art/radio.png",
-            "alt": "radio",
-            "bgColor": "#E1BC78",
-            "span": "sm",
-            "customClasses": "!p-8"
-        },
-        "illustrations":[
-            {
-                "id":"7-illo-1",
-                "type":"illustration",
-                "title":"",
-                "description":"",
-                "image":"/art/bird.png"
-            }
-        ]},
+        {
+            "id":"9",
+            "type":"category",
+            "title":"Baking",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
+            "slug":"baking",
+            "thumbnail": {
+                "art":"/art/caster-sugar.png",
+                "alt": "caster sugar",
+                "bgColor": "#D9EBBE",
+                "span": "sm",
+                "customClasses": "!p-8"
+            },
+            "illustrations":[
+                {
+                    "id":"9-illo-1",
+                    "type":"illustration",
+                    "title":"",
+                    "description":"",
+                    "image":"/art/bird.png"
+                }
+            ]},
+    
     {
         "id":"8",
         "type":"category",
