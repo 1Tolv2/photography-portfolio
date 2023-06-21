@@ -80,6 +80,28 @@
                 "image":"/art/bird.png"
             }
         ]},
+        {
+            "id":"9",
+            "type":"category",
+            "title":"Baking",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
+            "slug":"baking",
+            "thumbnail": {
+                "art":"/art/caster-sugar.png",
+                "alt": "caster sugar",
+                "bgColor": "#D9EBBE",
+                "span": "sm",
+                "customClasses": "!p-8"
+            },
+            "illustrations":[
+                {
+                    "id":"9-illo-1",
+                    "type":"illustration",
+                    "title":"",
+                    "description":"",
+                    "image":"/art/bird.png"
+                }
+            ]},
     {
         "id":"4",
         "type":"category",
@@ -111,7 +133,7 @@
             "art":"/art/crystal.png",
     "alt": "crystal",
     "bgColor": "#F9E1EA",
-    "span": "md",
+    "span": "sm",
     "customClasses": "!p-8"
         },
         "illustrations":[
@@ -183,28 +205,6 @@
         "illustrations":[
             {
                 "id":"8-illo-1",
-                "type":"illustration",
-                "title":"",
-                "description":"",
-                "image":"/art/bird.png"
-            }
-        ]},
-    {
-        "id":"9",
-        "type":"category",
-        "title":"Baking",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
-        "slug":"baking",
-        "thumbnail": {
-            "art":"/art/caster-sugar.png",
-            "alt": "caster sugar",
-            "bgColor": "#D9EBBE",
-            "span": "sm",
-            "customClasses": "!p-8"
-        },
-        "illustrations":[
-            {
-                "id":"9-illo-1",
                 "type":"illustration",
                 "title":"",
                 "description":"",
