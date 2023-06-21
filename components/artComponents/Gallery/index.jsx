@@ -3,6 +3,7 @@ import React from "react";
 import Section from "../../atoms/Section";
 import ImageWColorBg from "./ImageWColorBg";
 import ImageWDescription from "./ImageWDescription";
+import TitleWDescription from "./TitleWDescription";
 
 const Gallery = ({ data, bgColor }) => {
   return (
@@ -19,6 +20,8 @@ const Gallery = ({ data, bgColor }) => {
                 bgColor={bgColor || "#FFF"}
               />
             );
+          } else if (item.type === "text") {
+            return <TitleWDescription key={`text-${index}`} data={item} />;
           }
         })}
       </div>
