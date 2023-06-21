@@ -111,7 +111,7 @@
             "art":"/art/crystal.png",
     "alt": "crystal",
     "bgColor": "#F9E1EA",
-    "span": "sm",
+    "span": "md",
     "customClasses": "!p-8"
         },
         "illustrations":[
