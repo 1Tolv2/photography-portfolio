@@ -25,7 +25,9 @@ const CollapsedNavbar = ({ links }) => {
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         <div
-          className={`collapsedMenu ${isMenuOpen ? "collapsedMenuOpen" : ""}`}
+          className={`collapsedMenu ${
+            isMenuOpen ? "collapsedMenuOpen" : ""
+          } bg-black before:bg-black after:bg-black`}
         />
       </div>
       {isMenuOpen && (
