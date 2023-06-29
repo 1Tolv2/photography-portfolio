@@ -10,7 +10,7 @@ const FullMenu = ({ links }) => {
   };
 
   return (
-    <div className=" flex flex-wrap justify-center gap-4 lg:gap-10 selection:mx-auto">
+    <div className="hidden sm:flex flex-wrap justify-center gap-4 lg:gap-10 selection:mx-auto">
       {links.map((link, index) => {
         return (
           <motion.div
