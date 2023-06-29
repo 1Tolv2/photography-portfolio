@@ -1,9 +1,24 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const CollapsedNavbar = ({ links }) => {
+  const router = useRouter();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const CustomLink = ({ link }) => {
+    return link.slug ? (
+      <Link
+        href={link.slug}
+        onClick={() => setTimeout(() => setIsMenuOpen(false), 1000)}
+      >
+        <span className="text-sm uppercase pl-4">{link.title}</span>
+      </Link>
+    ) : (
+      <span className="text-sm uppercase pl-4">{link.title}</span>
+    );
+  };
 
   return (
     <nav
@@ -14,10 +29,13 @@ const CollapsedNavbar = ({ links }) => {
       <div
         className={`z-50 w-fit font-mono ${isMenuOpen ? "fixed top-4" : ""}`}
       >
-        <Link href="/" className="text-xs sm:text-sm">
-          {"< dev portfolio"}
-        </Link>
+        {router.pathname === "/art" && (
+          <Link href="/" className="text-xs sm:text-sm">
+            {"< dev portfolio"}
+          </Link>
+        )}
       </div>
+
       <div
         className={`z-50 flex items-center cursor-pointer ${
           isMenuOpen ? "fixed top-[27px] right-4" : ""
@@ -50,7 +68,7 @@ const CollapsedNavbar = ({ links }) => {
                       link.slug ? "cursor-pointer" : "cursor-default"
                     }`}
                   >
-                    {link.title}
+                    <CustomLink link={link} />
                     {link.sublinks && (
                       <ul>
                         {link.sublinks.map((sublink, index) => {
