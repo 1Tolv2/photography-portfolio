@@ -1,42 +1,20 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import TextRegular from "../atoms/typography/TextRegular";
+import FullMenu from "./Menu/FullMenu";
 
 const NavBar = () => {
+  const links = [
+    { title: "about", slug: "#about" },
+    { title: "projects", slug: "#projects" },
+    { title: "contact", slug: "#contact" },
+  ];
+
   return (
     <nav className="absolute top-8 w-full px-4">
-      <div className=" flex flex-wrap justify-center gap-4 lg:gap-10 selection:mx-auto">
-        <motion.div
-          initial={{ translateY: -40, opacity: 0 }}
-          animate={{ translateY: 0, opacity: 1 }}
-          transition={{ delay: 6.5, duration: 0.6, type: "tween" }}
-        >
-          <a href="#about">
-            <TextRegular>ABOUT</TextRegular>
-          </a>
-        </motion.div>
-        <motion.div
-          initial={{ translateY: -40, opacity: 0 }}
-          animate={{ translateY: 0, opacity: 1 }}
-          transition={{ delay: 6.8, duration: 0.6, type: "tween" }}
-        >
-          <a href="#projects">
-            <TextRegular>PROJECTS</TextRegular>
-          </a>
-        </motion.div>
-        <motion.div
-          initial={{ translateY: -40, opacity: 0 }}
-          animate={{ translateY: 0, opacity: 1 }}
-          transition={{ delay: 7.1, duration: 0.6, type: "tween" }}
-        >
-          <a href="#contact">
-            <TextRegular>CONTACT</TextRegular>
-          </a>
-        </motion.div>
-      </div>
+      <FullMenu links={links} />
       <motion.div
-        className="absolute -top-5 sm:top-0 right-8"
+        className="absolute top-0 right-8"
         initial={{ translateY: -40, opacity: 0 }}
         animate={{ translateY: 0, opacity: 1 }}
         transition={{ delay: 7.1, duration: 0.6, type: "tween" }}
