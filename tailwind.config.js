@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         primary: {
           900: "#060B13",
+          DEFAULT: "#060B13",
         },
         purpleGrey: "#777086",
       },
