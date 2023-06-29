@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import FullMenu from "./Menu/FullMenu";
+import CollapsedMenu from "./Menu/CollapsedMenu";
 
 const NavBar = () => {
   const links = [
@@ -11,8 +12,9 @@ const NavBar = () => {
   ];
 
   return (
-    <nav className="absolute top-8 w-full px-4">
+    <nav className="absolute top-8 w-full h-fit px-8">
       <FullMenu links={links} />
+      <CollapsedMenu links={links} />
       <motion.div
         className="absolute top-0 right-8"
         initial={{ translateY: -40, opacity: 0 }}
