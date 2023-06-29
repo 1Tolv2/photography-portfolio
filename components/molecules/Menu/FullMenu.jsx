@@ -14,6 +14,7 @@ const FullMenu = ({ links }) => {
       {links.map((link, index) => {
         return (
           <motion.div
+            key={`nav-link-${link.slug}`}
             initial={{ translateY: -40, opacity: 0 }}
             animate={{ translateY: 0, opacity: 1 }}
             transition={{
