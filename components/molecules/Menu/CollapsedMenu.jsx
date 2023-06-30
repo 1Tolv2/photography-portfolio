@@ -39,29 +39,39 @@ const CollapsedMenu = ({ links }) => {
   }, [isMenuOpen]);
 
   return (
-    <motion.div
-      className={`relative sm:hidden z-[80]`}
-      onClick={() => setIsMenuOpen(!isMenuOpen)}
-    >
-      <ul ref={scope} className={`flex flex-col`}>
-        {links.map((link, index) => {
-          return (
-            <li
-              key={`link-${link.slug}`}
-              className={`block relative h-0.5 w-5 overflow-hidden mb-[5px]`}
-            >
-              <div className="absolute bottom-0 w-full h-full bg-white" />
-              <span
-                className="relative block text-md bottom-1.5 uppercase text-white"
-                style={{ transform: "rotateX(90deg)" }}
+    <>
+      <motion.div
+        className={`relative sm:hidden z-[90] w-fit`}
+        onClick={() => setIsMenuOpen(true)}
+      >
+        <ul ref={scope} className={`flex flex-col w-fit`}>
+          {links.map((link, index) => {
+            return (
+              <li
+                key={`link-${link.slug}`}
+                className={`block relative h-0.5 w-5 overflow-hidden mb-[5px]`}
               >
-                {link.title}
-              </span>
-            </li>
-          );
-        })}
-      </ul>
-    </motion.div>
+                <div className="absolute bottom-0 w-full h-full bg-white" />
+                <Link href={link.slug}>
+                  <span
+                    className="relative block text-md bottom-1.5 uppercase text-white"
+                    style={{ transform: "rotateX(90deg)" }}
+                  >
+                    {link.title}
+                  </span>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </motion.div>
+      <div
+        className={`absolute -top-8 left-0 w-screen h-[90vh] z-[80] ${
+          isMenuOpen ? "block" : "hidden"
+        }`}
+        onClick={() => setIsMenuOpen(false)}
+      />
+    </>
   );
 };
 
