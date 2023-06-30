@@ -444,7 +444,7 @@
         "id":"10",
         "type":"category",
         "title":"Motorcycles",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
+        "description": "I was inspired to create some wallpaper of motorcycles. ",
         "slug":"motorcycles",
         "thumbnail": {
             "art":"/art/honda-repsol.svg",
@@ -457,9 +457,26 @@
             {
                 "id":"10-illo-1",
                 "type":"illustration",
-                "title":"",
+                "title":"Honda Repsol 2023",
                 "description":"",
-                "image":"/art/bird.png"
+                "image":"/art/motorcycles/honda-repsol-2023-wide.png",
+                "span": "md"
+            },
+            {
+                "id":"10-illo-2",
+                "type":"illustration",
+                "title":"Honda Repsol 2023",
+                "description":"Marc Marquez and Joan Mirs bikes for the 2023 season.",
+                "image":"/art/motorcycles/honda-repsol-team-2023-wide.png",
+                "span": "md"
+            },
+            {
+                "id":"10-illo-3",
+                "type":"illustration",
+                "title":"Triumph Bonneville T120",
+                "description":"",
+                "image":"/art/motorcycles/triumph-bonneville-t120-2023-wide.png",
+                "span": "md"
             }
         ]}
 ]}
