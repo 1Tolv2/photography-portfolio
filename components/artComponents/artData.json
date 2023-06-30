@@ -3,7 +3,7 @@
         "id":"1",
         "type":"category",
         "title":"Inktober 2022",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
+        "description": "Inktober is an art challenge where you draw on illustration for everyday of October based on a prompt. These are some of the illustrations from Inktober 2022. Instead of ink I've used aquarelle and some markers for details.",
         "slug":"inktober-2022",
         "thumbnail": {
             "art": "/art/camera.png",
@@ -256,7 +256,7 @@
         "id":"5",
         "type":"category",
         "title":"Inktober 2021",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
+        "description": "Inktober is an art challenge where you draw on illustration for everyday of October based on a prompt. These are some of the illustrations from Inktober 2021. Instead of ink I've used aquarelle and some markers for details.",
         "slug":"inktober-2021",
         "thumbnail": {
             "art":"/art/crystal.png",
@@ -269,9 +269,42 @@
             {
                 "id":"5-illo-1",
                 "type":"illustration",
-                "title":"",
+                "title":"'Crystal'",
                 "description":"",
-                "image":"/art/bird.png"
+                "image":"/art/inktober2021/rose-quartz-400-square.png",
+                "span":"md"
+            },
+            {
+                "id":"5-illo-2",
+                "type":"illustration",
+                "title":"'Suit'",
+                "description":"",
+                "image":"/art/inktober2021/suit-400-square.png",
+                "span":"md"
+            },
+            {
+                "id":"5-illo-3",
+                "type":"illustration",
+                "title":"'Vessel'",
+                "description":"",
+                "image":"/art/inktober2021/vessel-400-square.png",
+                "span":"md"
+            },
+            {
+                "id":"5-illo-4",
+                "type":"illustration",
+                "title":"'Knot'",
+                "description":"",
+                "image":"/art/inktober2021/knot-400-square.png",
+                "span":"md"
+            },
+            {
+                "id":"5-illo-5",
+                "type":"illustration",
+                "title":"'Spirit'",
+                "description":"",
+                "image":"/art/inktober2021/spirit-400-square.png",
+                "span":"md"
             }
         ]},
     {
@@ -315,7 +348,7 @@
                     "type":"illustration",
                     "title":"",
                     "description":"",
-                    "image":"/art/bird.png"
+                    "image":"/art/baking/vetemjol-400-square.png"
                 }
             ]},
     
