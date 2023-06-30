@@ -72,7 +72,7 @@ const CollapseMenu = ({ links }) => {
                   >
                     <CustomLink link={link} />
                     {link.sublinks && (
-                      <ul>
+                      <ul className="ml-4">
                         {link.sublinks.map((sublink, index) => {
                           return (
                             <li key={`sublink-${index}`}>
