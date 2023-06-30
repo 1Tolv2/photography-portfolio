@@ -389,7 +389,7 @@
         "id":"8",
         "type":"category",
         "title":"Food",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
+        "description": "A collection of illustrations of different foods.",
         "slug":"food",
         "thumbnail": {
             "art":"/art/frying-pan.png",
@@ -402,9 +402,42 @@
             {
                 "id":"8-illo-1",
                 "type":"illustration",
-                "title":"",
+                "title":"Pancakes",
                 "description":"",
-                "image":"/art/bird.png"
+                "image":"/art/food/pannkakor-400.png",
+                "span": "md"
+            },
+            {
+                "id":"8-illo-2",
+                "type":"illustration",
+                "title":"Fried fish",
+                "description":"",
+                "image":"/art/food/mannagrynsspatta-400.png",
+                "span": "md"
+            },
+            {
+                "id":"8-illo-3",
+                "type":"illustration",
+                "title":"Aluminiumfoiled baked potatoes",
+                "description":"",
+                "image":"/art/food/aluminiumfolie-potatis-400.png",
+                "span": "md"
+            },
+            {
+                "id":"8-illo-4",
+                "type":"illustration",
+                "title":"Sushi rolls",
+                "description":"",
+                "image":"/art/food/sushi-rullar-400.png",
+                "span": "lg"
+            },
+            {
+                "id":"8-illo-5",
+                "type":"illustration",
+                "title":"Hasselback mushroom",
+                "description":"",
+                "image":"/art/food/hasselbackad-svamp-400.png",
+                "span": "md"
             }
         ]},
     {
