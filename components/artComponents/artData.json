@@ -346,9 +346,42 @@
                 {
                     "id":"9-illo-1",
                     "type":"illustration",
-                    "title":"",
+                    "title":"Wheat flour",
                     "description":"",
-                    "image":"/art/baking/vetemjol-400-square.png"
+                    "image":"/art/baking/vetemjol-400-square.png",
+                    "span": "md"
+                },
+                {
+                    "id":"9-illo-2",
+                    "type":"illustration",
+                    "title":"Oatmeal",
+                    "description":"",
+                    "image":"/art/baking/havregryn-400-square.png",
+                    "span": "md"
+                },
+                {
+                    "id":"9-illo-3",
+                    "type":"illustration",
+                    "title":"Caster sugar",
+                    "description":"",
+                    "image":"/art/baking/strosocker-400-square.png",
+                    "span": "md"
+                },
+                {
+                    "id":"9-illo-4",
+                    "type":"illustration",
+                    "title":"Chocolate",
+                    "description":"",
+                    "image":"/art/baking/choklad-400.png",
+                    "span": "md"
+                },
+                {
+                    "id":"9-illo-5",
+                    "type":"illustration",
+                    "title":"Vanilla bean",
+                    "description":"",
+                    "image":"/art/baking/vaniljstang-400.png",
+                    "span": "md"
                 }
             ]},
     
