@@ -38,14 +38,16 @@ const CollapsedNavbar = ({ links }) => {
 
       <div
         className={`z-50 flex items-center cursor-pointer ${
-          isMenuOpen ? "fixed top-[27px] right-4" : ""
+          isMenuOpen ? "fixed top-[27px] right-8" : ""
         }`}
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         <div
           className={`collapsedMenu ${
-            isMenuOpen ? "collapsedMenuOpen" : ""
-          } bg-black before:bg-black after:bg-black`}
+            isMenuOpen
+              ? "collapsedMenuOpen bg-white before:bg-white after:bg-white"
+              : "bg-black before:bg-black after:bg-black"
+          } `}
         />
       </div>
       {isMenuOpen && (
