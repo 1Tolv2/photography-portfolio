@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const CollapsedNavbar = ({ links }) => {
+const CollapseMenu = ({ links }) => {
   const router = useRouter();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -102,4 +102,4 @@ const CollapsedNavbar = ({ links }) => {
   );
 };
 
-export default CollapsedNavbar;
+export default CollapseMenu;

@@ -1,7 +1,7 @@
 import React from "react";
 import artData from "../artData.json";
-import StandardNavbar from "./Navbar/StandardNavbar";
-import CollapsedNavbar from "./Navbar/CollapsedNavbar";
+import FullMenu from "./Menu/FullMenu";
+import CollapsedMenu from "./Menu/CollapsedMenu";
 
 const Header = () => {
   const links = [
@@ -11,8 +11,8 @@ const Header = () => {
 
   return (
     <header>
-      <StandardNavbar links={links} />
-      <CollapsedNavbar links={links} />
+      <FullMenu links={links} />
+      <CollapsedMenu links={links} />
     </header>
   );
 };

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const StandardNavbar = ({ links }) => {
+const FullMenu = ({ links }) => {
   const router = useRouter();
 
   const CustomLink = ({ slug, children }) =>
@@ -69,4 +69,4 @@ const StandardNavbar = ({ links }) => {
   );
 };
 
-export default StandardNavbar;
+export default FullMenu;
