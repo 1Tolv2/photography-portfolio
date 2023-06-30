@@ -333,7 +333,7 @@
             "id":"9",
             "type":"category",
             "title":"Baking",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
+            "description": "A collection of illustrations of baking ingredients.",
             "slug":"baking",
             "thumbnail": {
                 "art":"/art/caster-sugar.png",
