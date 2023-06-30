@@ -106,7 +106,7 @@
         "id":"4",
         "type":"category",
         "title":"Mushroomtober",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
+        "description": "A painting challenge inspired by Inktober, but with mushrooms!",
         "slug":"mushroomtober",
         "thumbnail": {
             "art":"/art/rafflad-nagelskivling.png",
@@ -118,121 +118,138 @@
             {
                 "id":"4-illo-1",
                 "type":"illustration",
-                "title":"",
-                "description":"",
-                "image":"/art/mushroomtober/blodriska-400-square.png"
+                "title":"Lactarius ceterrimus",
+                "description":"Orange Milkcap",
+                "image":"/art/mushroomtober/blodriska-400-square.png",
+                "span": "md"
             },
             {
                 "id":"4-illo-2",
                 "type":"illustration",
-                "title":"",
-                "description":"",
-                "image":"/art/mushroomtober/kantarell-400-square.png"
+                "title":"Cantharellus cibarius",
+                "description":"Golden Chanterelle",
+                "image":"/art/mushroomtober/kantarell-400-square.png",
+                "span": "md"
             },
             {
                 "id":"4-illo-3",
                 "type":"illustration",
-                "title":"",
-                "description":"",
-                "image":"/art/mushroomtober/blacksvamp-400-square.png"
+                "title":"Coprinus comatus",
+                "description":"Shaggy Ink Cap",
+                "image":"/art/mushroomtober/blacksvamp-400-square.png",
+                "span": "md"
             },
             {
                 "id":"4-illo-4",
                 "type":"illustration",
-                "title":"",
-                "description":"",
-                "image":"/art/mushroomtober/stolt-fjallskivling-400-square.png"
+                "title":"Macrolepiota procera",
+                "description":"Parasol Mushroom",
+                "image":"/art/mushroomtober/stolt-fjallskivling-400-square.png",
+                "span": "md"
             },
             {
                 "id":"4-illo-5",
                 "type":"illustration",
-                "title":"",
-                "description":"",
-                "image":"/art/mushroomtober/trattkantarell-400-square.png"
+                "title":"Craterellus tubaeformis",
+                "description":"Funnel Chanterelle",
+                "image":"/art/mushroomtober/trattkantarell-400-square.png",
+                "span": "md"
             },
             {
                 "id":"4-illo-6",
                 "type":"illustration",
-                "title":"",
-                "description":"",
-                "image":"/art/mushroomtober/stenmurkla-400-square.png"
+                "title":"Gyromitra escuelenta",
+                "description":"False Morel",
+                "image":"/art/mushroomtober/stenmurkla-400-square.png",
+                "span": "md"
             },
             {
                 "id":"4-illo-7",
                 "type":"illustration",
-                "title":"",
-                "description":"",
-                "image":"/art/mushroomtober/karljohan-400-square.png"
+                "title":"Boletus edulis",
+                "description":"Penny Bun",
+                "image":"/art/mushroomtober/karljohan-400-square.png",
+                "span": "md"
             },
             {
                 "id":"4-illo-8",
                 "type":"illustration",
-                "title":"",
-                "description":"",
-                "image":"/art/mushroomtober/falskdjavulssopp-400-square.png"
+                "title":"Rubroboletus legaliae",
+                "description":"False Devils Bolete",
+                "image":"/art/mushroomtober/falskdjavulssopp-400-square.png",
+                "span": "md"
             },
             {
                 "id":"4-illo-9",
                 "type":"illustration",
-                "title":"",
+                "title":"Morchella Galilaea",
                 "description":"",
-                "image":"/art/mushroomtober/murkla-400-square.png"
+                "image":"/art/mushroomtober/murkla-400-square.png",
+                "span": "md"
             },
             {
                 "id":"4-illo-10",
                 "type":"illustration",
-                "title":"",
+                "title":"Helvella leucopus",
                 "description":"",
-                "image":"/art/mushroomtober/hattmurkla-400-square.png"
+                "image":"/art/mushroomtober/hattmurkla-400-square.png",
+                "span": "md"
             },
             {
                 "id":"4-illo-11",
                 "type":"illustration",
-                "title":"",
-                "description":"",
-                "image":"/art/mushroomtober/stort-harora-400-square.png"
+                "title":"Otidea onotica",
+                "description":"Hare's Ear",
+                "image":"/art/mushroomtober/stort-harora-400-square.png",
+                "span": "md"
             },
             {
                 "id":"4-illo-12",
                 "type":"illustration",
-                "title":"",
+                "title":"Gymnopus fusipes",
                 "description":"",
-                "image":"/art/mushroomtober/rafflad-nagelskivling-400-square.png"
+                "image":"/art/mushroomtober/rafflad-nagelskivling-400-square.png",
+                "span": "md"
             },
             {
                 "id":"4-illo-13",
                 "type":"illustration",
-                "title":"",
-                "description":"",
-                "image":"/art/mushroomtober/gra-blacksvamp-400-square.png"
+                "title":"Sarcodon imbricatus",
+                "description":"Shingled Hedgehod",
+                "image":"/art/mushroomtober/fjallig-taggsvamp-400-square.png",
+                "span": "md"
             },
             {
                 "id":"4-illo-14",
                 "type":"illustration",
-                "title":"",
-                "description":"",
-                "image":"/art/mushroomtober/fjallig-taggsvamp-400-square.png"
+                "title":"Coprinopsis atramentaria",
+                "description":"Inky Cap",
+                "image":"/art/mushroomtober/gra-blacksvamp-400-square.png",
+                "span": "md"
             },
             {
                 "id":"4-illo-15",
                 "type":"illustration",
-                "title":"",
-                "description":"",
-                "image":"/art/mushroomtober/foranderlig-tofsskivling-400-square.png"
+                "title":"Kuehneromyces mutabilis",
+                "description":"Sheathed Woodtuft",
+                "image":"/art/mushroomtober/foranderlig-tofsskivling-400-square.png",
+                "span": "md"
             },
             {
                 "id":"4-illo-16",
                 "type":"illustration",
-                "title":"",
+                "title":"Leucopaxillus rhodoleucus",
                 "description":"",
-                "image":"/art/mushroomtober/rosentrattsskivling-400.png"
+                "image":"/art/mushroomtober/rosentrattsskivling-400.png",
+                "span": "lg"
             },
             {
                 "id":"4-illo-17",
                 "type":"illustration",
-                "title":"",
-                "description":"",
-                "image":"/art/mushroomtober/snobollschampinjon-400.png"
+                "title":"Agaricus arvensis",
+                "description":"Horse Mushroom",
+                "image":"/art/mushroomtober/snobollschampinjon-400.png",
+                "span": "lg"
             }
         ]},
     {
