@@ -41,6 +41,9 @@ const CollapsedMenu = ({ links }) => {
   return (
     <>
       <motion.div
+        initial={{ translateY: -40, opacity: 0 }}
+        animate={{ translateY: 0, opacity: 1 }}
+        transition={{ delay: 7.1, duration: 0.6, type: "tween" }}
         className={`relative sm:hidden z-[90] w-fit`}
         onClick={() => setIsMenuOpen(true)}
       >
