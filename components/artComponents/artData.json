@@ -311,7 +311,7 @@
         "id":"6",
         "type":"category",
         "title":"Bread",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
+        "description": "An ode to the wonderfulness of bread.",
         "slug":"bread",
         "thumbnail": {
             "art":"/art/mushroom-sandwich.png",
@@ -324,9 +324,42 @@
             {
                 "id":"6-illo-1",
                 "type":"illustration",
-                "title":"",
+                "title":"Mushroom sandwich",
                 "description":"",
-                "image":"/art/bird.png"
+                "image":"/art/mushroom-sandwich.png",
+                "span": "lg"
+            },
+            {
+                "id":"6-illo-2",
+                "type":"illustration",
+                "title":"Wrapped sandwich",
+                "description":"",
+                "image":"/art/bread/sandwich-400.png",
+                "span": "md"
+            },
+            {
+                "id":"6-illo-3",
+                "type":"illustration",
+                "title":"Cream cheese bagel",
+                "description":"",
+                "image":"/art/bread/cream-cheese-bagel-400.png",
+                "span": "md"
+            },
+            {
+                "id":"6-illo-4",
+                "type":"illustration",
+                "title":"Croissants",
+                "description":"",
+                "image":"/art/bread/croissanter-400.png",
+                "span": "md"
+            },
+            {
+                "id":"6-illo-5",
+                "type":"illustration",
+                "title":"Breadloaf",
+                "description":"",
+                "image":"/art/bread/breadloaf-400.png",
+                "span": "md"
             }
         ]},
         {
