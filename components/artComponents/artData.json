@@ -477,6 +477,14 @@
                 "description":"",
                 "image":"/art/motorcycles/triumph-bonneville-t120-2023-wide.png",
                 "span": "md"
+            },
+            {
+                "id":"10-illo-4",
+                "type":"illustration",
+                "title":"Honda CBR600 F-sport 2001",
+                "description":"",
+                "image":"/art/motorcycles/honda-cbr600fs-2001.png",
+                "span": "md"
             }
         ]}
 ]}
