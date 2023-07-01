@@ -222,7 +222,7 @@
             "id":"7",
             "type":"category",
             "title":"Miscellaneous",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
+            "description": "A collection of random illustrations I've done throughout the years.",
             "slug":"miscellaneous",
             "thumbnail": {
                 "art":"/art/radio.png",
@@ -235,9 +235,50 @@
                 {
                     "id":"7-illo-1",
                     "type":"illustration",
-                    "title":"",
+                    "title":"Pelisor castle",
                     "description":"",
-                    "image":"/art/bird.png"
+                    "image":"/art/miscellaneous/pelisor-castle.png",
+                    "span": "lg"
+                },
+                {
+                    "id":"7-illo-2",
+                    "type":"illustration",
+                    "title":"SAAB 96 '77",
+                    "description":"",
+                    "image":"/art/miscellaneous/saab.png",
+                    "span": "lg"
+                },
+                {
+                    "id":"7-illo-3",
+                    "type":"illustration",
+                    "title":"Radio",
+                    "description":"A Philco model 90",
+                    "image":"/art/radio.png",
+                    "span": "md"
+                },
+                {
+                    "id":"7-illo-4",
+                    "type":"illustration",
+                    "title":"Blue amethyst",
+                    "description":"",
+                    "image":"/art/miscellaneous/bla-ametist-300.png",
+                    "span": "md"
+                },
+                {
+                    "id":"7-illo-5",
+                    "type":"illustration",
+                    "title":"Emerald",
+                    "description":"",
+                    "image":"/art/miscellaneous/emerald-300.png",
+                    "span": "md"
+                },
+                {
+                    "id":"7-illo-6",
+                    "type":"illustration",
+                    "title":"Blanket",
+                    "description":"",
+                    "image":"/art/miscellaneous/plad.png",
+                    "span": "md"
                 }
             ]},
     {
