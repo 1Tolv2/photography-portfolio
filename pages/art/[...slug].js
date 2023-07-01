@@ -12,7 +12,7 @@ export default function CategoryPage({ category }) {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="description" content="Illustrator portfolio"></meta>
-        <title>Sofia Johnsson S.</title>
+        <title>{category.title}</title>
       </Head>
       <Layout>
         <div
