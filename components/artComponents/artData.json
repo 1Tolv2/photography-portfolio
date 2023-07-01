@@ -1,4 +1,4 @@
-{"categories": [
+{"categories": [    
     {
         "id":"1",
         "type":"category",
@@ -42,21 +42,78 @@
         "id":"2",
         "type":"category",
         "title":"Fauna",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
+        "description": "A collection of animal illustrations.",
         "slug":"fauna",
         "thumbnail": {
             "art":"/art/bird.png",
-    "alt": "white bird",
-    "bgColor": "#E4E5E4",
-    "span": "sm"
+        "alt": "white bird",
+        "bgColor": "#E4E5E4",
+        "span": "sm"
         },
         "illustrations":[
             {
                 "id":"2-illo-1",
                 "type":"illustration",
-                "title":"",
+                "title":"Fish",
                 "description":"",
-                "image":"/art/bird.png"
+                "image":"/art/fauna/fish-400.png",
+                "span": "md"
+            },
+            {
+                "id":"2-illo-2",
+                "type":"illustration",
+                "title":"Long-tailed tit",
+                "description":"",
+                "image":"/art/bird.png",
+                "span": "md"
+            },
+            {
+                "id":"2-illo-3",
+                "type":"illustration",
+                "title":"Cat skull",
+                "description":"",
+                "image":"/art/fauna/kattskalle-400.png",
+                "span": "md"
+            },
+            {
+                "id":"2-illo-4",
+                "type":"illustration",
+                "title":"Red fox",
+                "description":"",
+                "image":"/art/fauna/rav-400.png",
+                "span": "md"
+            },
+            {
+                "id":"2-illo-5",
+                "type":"illustration",
+                "title":"Shell",
+                "description":"",
+                "image":"/art/fauna/snacka-400.png",
+                "span": "md"
+            },
+            {
+                "id":"2-illo-6",
+                "type":"illustration",
+                "title":"Eel",
+                "description":"",
+                "image":"/art/fauna/al-400.png",
+                "span": "md"
+            },
+            {
+                "id":"2-illo-7",
+                "type":"illustration",
+                "title":"Gazelle",
+                "description":"",
+                "image":"/art/fauna/gazelle-400.png",
+                "span": "md"
+            },
+            {
+                "id":"2-illo-8",
+                "type":"illustration",
+                "title":"Snail shells",
+                "description":"",
+                "image":"/art/fauna/snackor-400.png",
+                "span": "md"
             }
         ]},
     {
