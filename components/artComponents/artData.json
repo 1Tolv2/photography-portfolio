@@ -63,7 +63,7 @@
         "id":"3",
         "type":"category",
         "title":"Fika",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem delectus reiciendis unde. Architecto, voluptate explicabo. Ipsum ad architecto dolor libero!",
+        "description": "Different fika has alway inspired me to paint, so these illustrations have been painted throughout the last couple of years.",
         "slug":"fika",
         "thumbnail": {
             "art":"/art/vaniljbulle.png",
@@ -75,9 +75,90 @@
             {
                 "id":"3-illo-1",
                 "type":"illustration",
-                "title":"",
+                "title":"Cinnamon roll",
                 "description":"",
-                "image":"/art/bird.png"
+                "image":"/art/fika/cinnamon-roll-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-2",
+                "type":"illustration",
+                "title":"Cup of tea",
+                "description":"",
+                "image":"/art/fika/te-ovan.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-3",
+                "type":"illustration",
+                "title":"Saffranbun",
+                "description":"",
+                "image":"/art/fika/lussebulle-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-4",
+                "type":"illustration",
+                "title":"Vanilla filled bun",
+                "description":"",
+                "image":"/art/fika/vaniljbulle-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-5",
+                "type":"illustration",
+                "title":"Chemex coffee maker",
+                "description":"",
+                "image":"/art/fika/chemex-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-6",
+                "type":"illustration",
+                "title":"French coffee press",
+                "description":"",
+                "image":"/art/fika/french-press-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-7",
+                "type":"illustration",
+                "title":"Mocka pot",
+                "description":"",
+                "image":"/art/fika/mocka-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-8",
+                "type":"illustration",
+                "title":"Cookie jar",
+                "description":"",
+                "image":"/art/fika/cookie-jar-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-9",
+                "type":"illustration",
+                "title":"Cardamom bun",
+                "description":"",
+                "image":"/art/fika/kardemummabulle-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-10",
+                "type":"illustration",
+                "title":"Cinnamon roll",
+                "description":"",
+                "image":"/art/fika/kanelsnurra-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-11",
+                "type":"illustration",
+                "title":"Frappuccino",
+                "description":"",
+                "image":"/art/fika/frappucino-400.png", 
+                "span": "md"
             }
         ]},
         {
