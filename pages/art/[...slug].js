@@ -27,7 +27,10 @@ export default function CategoryPage({ category }) {
           </div>
         </div>
         <div className="mt-[calc(50vh-60px)]">
-          <Gallery data={category.illustrations} bgColor={category.bgColor} />
+          <Gallery
+            data={category.illustrations}
+            bgColor={category.thumbnail.bgColor}
+          />
         </div>
       </Layout>
     </div>
