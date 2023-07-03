@@ -101,6 +101,22 @@
         },
         "illustrations":[
             {
+                "id":"2-illo-3",
+                "type":"illustration",
+                "title":"Cat skull",
+                "description":"",
+                "image":"/art/fauna/kattskalle-400.png",
+                "span": "md"
+            },
+            {
+                "id":"2-illo-8",
+                "type":"illustration",
+                "title":"Snail shells",
+                "description":"",
+                "image":"/art/fauna/snackor-400.png",
+                "span": "sm"
+            },
+            {
                 "id":"2-illo-1",
                 "type":"illustration",
                 "title":"Fish",
@@ -114,15 +130,7 @@
                 "title":"Long-tailed tit",
                 "description":"",
                 "image":"/art/bird.png",
-                "span": "md"
-            },
-            {
-                "id":"2-illo-3",
-                "type":"illustration",
-                "title":"Cat skull",
-                "description":"",
-                "image":"/art/fauna/kattskalle-400.png",
-                "span": "md"
+                "span": "sm"
             },
             {
                 "id":"2-illo-4",
@@ -154,14 +162,6 @@
                 "title":"Gazelle",
                 "description":"",
                 "image":"/art/fauna/gazelle-400.png",
-                "span": "md"
-            },
-            {
-                "id":"2-illo-8",
-                "type":"illustration",
-                "title":"Snail shells",
-                "description":"",
-                "image":"/art/fauna/snackor-400.png",
                 "span": "md"
             }
         ]},
