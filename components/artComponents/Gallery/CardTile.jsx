@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import Heading2 from "../../atoms/typography/Heading2";
 
 const CardTile = ({ data }) => {
-  console.log("CARD", data);
   return (
     <motion.div
       id={`category-${data.title}`}
