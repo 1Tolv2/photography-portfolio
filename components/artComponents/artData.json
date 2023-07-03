@@ -354,9 +354,9 @@
         "slug":"mushroomtober",
         "thumbnail": {
             "art":"/art/rafflad-nagelskivling.png",
-    "alt": "mushroom",
-    "bgColor": "#E8D9BB",
-    "span": "md"
+        "alt": "mushroom",
+        "bgColor": "#E8D9BB",
+        "span": "md"
         },
         "illustrations":[
             {
@@ -504,10 +504,10 @@
         "slug":"inktober-2021",
         "thumbnail": {
             "art":"/art/crystal.png",
-    "alt": "crystal",
-    "bgColor": "#F9E1EA",
-    "span": "sm",
-    "customClasses": "!p-8"
+        "alt": "crystal",
+        "bgColor": "#F9E1EA",
+        "span": "sm",
+        "customClasses": "!p-8"
         },
         "illustrations":[
             {
@@ -559,10 +559,10 @@
         "slug":"bread",
         "thumbnail": {
             "art":"/art/mushroom-sandwich.png",
-    "alt": "mushroom sandwich",
-    "bgColor": "#E5D6B5",
-    "span": "lg",
-    "customClasses": "!p-8"
+        "alt": "mushroom sandwich",
+        "bgColor": "#E5D6B5",
+        "span": "lg",
+        "customClasses": "!p-8"
         },
         "illustrations":[
             {
