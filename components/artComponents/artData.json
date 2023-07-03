@@ -173,19 +173,11 @@
         "slug":"fika",
         "thumbnail": {
             "art":"/art/vaniljbulle.png",
-    "alt": "vanilla bun",
-    "bgColor": "#FAF5BB", 
-    "span": "md"
+        "alt": "vanilla bun",
+        "bgColor": "#FAF5BB", 
+        "span": "md"
         },
         "illustrations":[
-            {
-                "id":"3-illo-1",
-                "type":"illustration",
-                "title":"Cinnamon roll",
-                "description":"",
-                "image":"/art/fika/cinnamon-roll-400.png", 
-                "span": "md"
-            },
             {
                 "id":"3-illo-2",
                 "type":"illustration",
@@ -195,27 +187,11 @@
                 "span": "md"
             },
             {
-                "id":"3-illo-3",
+                "id":"3-illo-12",
                 "type":"illustration",
-                "title":"Saffranbun",
+                "title":"Pretty cinnamon roll",
                 "description":"",
-                "image":"/art/fika/lussebulle-400.png", 
-                "span": "md"
-            },
-            {
-                "id":"3-illo-4",
-                "type":"illustration",
-                "title":"Vanilla filled bun",
-                "description":"",
-                "image":"/art/fika/vaniljbulle-400.png", 
-                "span": "md"
-            },
-            {
-                "id":"3-illo-5",
-                "type":"illustration",
-                "title":"Chemex coffee maker",
-                "description":"",
-                "image":"/art/fika/chemex-400.png", 
+                "image":"/art/fika/pretty-cinnamon-roll-400.png", 
                 "span": "md"
             },
             {
@@ -227,6 +203,38 @@
                 "span": "md"
             },
             {
+                "id":"3-illo-5",
+                "type":"illustration",
+                "title":"Chemex coffee maker",
+                "description":"",
+                "image":"/art/fika/chemex-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-1",
+                "type":"illustration",
+                "title":"Cinnamon roll",
+                "description":"",
+                "image":"/art/fika/cinnamon-roll-400.png", 
+                "span": "sm"
+            },
+            {
+                "id":"3-illo-3",
+                "type":"illustration",
+                "title":"Saffranbun",
+                "description":"",
+                "image":"/art/fika/lussebulle-400.png", 
+                "span": "sm"
+            },
+            {
+                "id":"3-illo-4",
+                "type":"illustration",
+                "title":"Vanilla filled bun",
+                "description":"",
+                "image":"/art/fika/vaniljbulle-400.png", 
+                "span": "md"
+            },
+            {
                 "id":"3-illo-7",
                 "type":"illustration",
                 "title":"Mocka pot",
@@ -235,19 +243,19 @@
                 "span": "md"
             },
             {
-                "id":"3-illo-8",
-                "type":"illustration",
-                "title":"Cookie jar",
-                "description":"",
-                "image":"/art/fika/cookie-jar-400.png", 
-                "span": "md"
-            },
-            {
                 "id":"3-illo-9",
                 "type":"illustration",
                 "title":"Cardamom bun",
                 "description":"",
                 "image":"/art/fika/kardemummabulle-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-8",
+                "type":"illustration",
+                "title":"Cookie jar",
+                "description":"",
+                "image":"/art/fika/cookie-jar-400.png", 
                 "span": "md"
             },
             {
@@ -264,6 +272,14 @@
                 "title":"Frappuccino",
                 "description":"",
                 "image":"/art/fika/frappucino-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-12",
+                "type":"illustration",
+                "title":"Blueberry Scone",
+                "description":"",
+                "image":"/art/fika/blueberry-scone-400.png", 
                 "span": "md"
             }
         ]},
