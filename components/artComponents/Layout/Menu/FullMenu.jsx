@@ -10,7 +10,7 @@ const FullMenu = ({ links }) => {
 
   const renderSubLinks = (sublinks, isHovered) => {
     return (
-      <ul className={`absolute bg-white ${isHovered ? "" : "hidden"}`}>
+      <ul className={`absolute bg-white ${isHovered ? "" : "hidden"} py-2`}>
         {sublinks.map(
           (sublink) =>
             sublink.type === "category" && (
