@@ -327,7 +327,7 @@
                     "title":"Blue amethyst",
                     "description":"",
                     "image":"/art/miscellaneous/bla-ametist-300.png",
-                    "span": "md"
+                    "span": "sm"
                 },
                 {
                     "id":"7-illo-5",
@@ -335,7 +335,7 @@
                     "title":"Emerald",
                     "description":"",
                     "image":"/art/miscellaneous/emerald-300.png",
-                    "span": "md"
+                    "span": "sm"
                 },
                 {
                     "id":"7-illo-6",
