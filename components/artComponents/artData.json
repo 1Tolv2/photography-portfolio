@@ -16,27 +16,76 @@
             {
                 "id":"1-illo-1",
                 "type":"illustration",
-                "title":"Lorem ipsum",
-                "description":"This is my description for this artwork.",
-                "image":"/art/bird.png",
-                "span":"sm"
+                "title":"'Nest'",
+                "description":"",
+                "image":"/art/inktober2022/birdnest-400.png",
+                "span":"md"
             },
             {
                 "id":"1-illo-2",
                 "type":"illustration",
-                "title":"Lorem ipsum",
-                "description":"This is my description for this artwork.",
+                "title":"'Trip'",
+                "description":"",
                 "image":"/art/camera.png",
                 "span":"lg"
             },
             {
                 "id":"1-illo-3",
                 "type":"illustration",
-                "title":"Lorem ipsum",
-                "description":"This is my description for this artwork.",
-                "image":"/art/bird.png",
+                "title":"'Flame'",
+                "description":"",
+                "image":"/art/inktober2022/lamp-400.png",
+                "span":"sm"
+            },
+            {
+                "id":"1-illo-8",
+                "type":"illustration",
+                "title":"'Scallop'",
+                "description":"",
+                "image":"/art/inktober2022/scallop-400.png",
+                "span":"md"
+            },
+            {
+                "id":"1-illo-5",
+                "type":"illustration",
+                "title":"'Snack'",
+                "description":"",
+                "image":"/art/inktober2022/snack-400.png",
+                "span":"md"
+            },
+            {
+                "id":"1-illo-7",
+                "type":"illustration",
+                "title":"'Empty'",
+                "description":"",
+                "image":"/art/inktober2022/empty-400.png",
+                "span":"md"
+            },
+            {
+                "id":"1-illo-6",
+                "type":"illustration",
+                "title":"'Forget'",
+                "description":"",
+                "image":"/art/inktober2022/car-wreck-400.png",
+                "span":"lg"
+            },
+            {
+                "id":"1-illo-4",
+                "type":"illustration",
+                "title":"'Match'",
+                "description":"",
+                "image":"/art/inktober2022/match-400.png",
+                "span":"sm"
+            },
+            {
+                "id":"1-illo-9",
+                "type":"illustration",
+                "title":"'Crabby'",
+                "description":"",
+                "image":"/art/inktober2022/hermitecrab-400.png",
                 "span":"md"
             }
+            
         ]},
     {
         "id":"2",
