@@ -1,0 +1,767 @@
+{"categories": [    
+    {
+        "id":"1",
+        "type":"category",
+        "title":"Inktober 2022",
+        "description": "Inktober is an art challenge where you draw on illustration for everyday of October based on a prompt. These are some of the illustrations from Inktober 2022. Instead of ink I've used aquarelle and some markers for details.",
+        "slug":"inktober-2022",
+        "thumbnail": {
+            "art": "/art/camera.png",
+            "alt": "camera",
+            "bgColor": "#8B8599",
+            "span": "lg",
+            "customClasses": "!p-8"
+        },
+        "illustrations":[
+            {
+                "id":"1-illo-1",
+                "type":"illustration",
+                "title":"'Nest'",
+                "description":"",
+                "image":"/art/inktober2022/birdnest-400.png",
+                "span":"md"
+            },
+            {
+                "id":"1-illo-2",
+                "type":"illustration",
+                "title":"'Trip'",
+                "description":"",
+                "image":"/art/camera.png",
+                "span":"lg"
+            },
+            {
+                "id":"1-illo-3",
+                "type":"illustration",
+                "title":"'Flame'",
+                "description":"",
+                "image":"/art/inktober2022/lamp-400.png",
+                "span":"sm"
+            },
+            {
+                "id":"1-illo-8",
+                "type":"illustration",
+                "title":"'Scallop'",
+                "description":"",
+                "image":"/art/inktober2022/scallop-400.png",
+                "span":"md"
+            },
+            {
+                "id":"1-illo-5",
+                "type":"illustration",
+                "title":"'Snack'",
+                "description":"",
+                "image":"/art/inktober2022/snack-400.png",
+                "span":"md"
+            },
+            {
+                "id":"1-illo-7",
+                "type":"illustration",
+                "title":"'Empty'",
+                "description":"",
+                "image":"/art/inktober2022/empty-400.png",
+                "span":"md"
+            },
+            {
+                "id":"1-illo-6",
+                "type":"illustration",
+                "title":"'Forget'",
+                "description":"",
+                "image":"/art/inktober2022/car-wreck-400.png",
+                "span":"lg"
+            },
+            {
+                "id":"1-illo-4",
+                "type":"illustration",
+                "title":"'Match'",
+                "description":"",
+                "image":"/art/inktober2022/match-400.png",
+                "span":"sm"
+            },
+            {
+                "id":"1-illo-9",
+                "type":"illustration",
+                "title":"'Crabby'",
+                "description":"",
+                "image":"/art/inktober2022/hermitecrab-400.png",
+                "span":"md"
+            }
+            
+        ]},
+    {
+        "id":"2",
+        "type":"category",
+        "title":"Fauna",
+        "description": "A collection of animal illustrations.",
+        "slug":"fauna",
+        "thumbnail": {
+            "art":"/art/bird.png",
+        "alt": "white bird",
+        "bgColor": "#E4E5E4",
+        "span": "sm"
+        },
+        "illustrations":[
+            {
+                "id":"2-illo-3",
+                "type":"illustration",
+                "title":"Cat skull",
+                "description":"",
+                "image":"/art/fauna/kattskalle-400.png",
+                "span": "md"
+            },
+            {
+                "id":"2-illo-8",
+                "type":"illustration",
+                "title":"Snail shells",
+                "description":"",
+                "image":"/art/fauna/snackor-400.png",
+                "span": "sm"
+            },
+            {
+                "id":"2-illo-1",
+                "type":"illustration",
+                "title":"Fish",
+                "description":"",
+                "image":"/art/fauna/fish-400.png",
+                "span": "md"
+            },
+            {
+                "id":"2-illo-2",
+                "type":"illustration",
+                "title":"Long-tailed tit",
+                "description":"",
+                "image":"/art/bird.png",
+                "span": "sm"
+            },
+            {
+                "id":"2-illo-4",
+                "type":"illustration",
+                "title":"Red fox",
+                "description":"",
+                "image":"/art/fauna/rav-400.png",
+                "span": "md"
+            },
+            {
+                "id":"2-illo-5",
+                "type":"illustration",
+                "title":"Shell",
+                "description":"",
+                "image":"/art/fauna/snacka-400.png",
+                "span": "md"
+            },
+            {
+                "id":"2-illo-6",
+                "type":"illustration",
+                "title":"Eel",
+                "description":"",
+                "image":"/art/fauna/al-400.png",
+                "span": "md"
+            },
+            {
+                "id":"2-illo-7",
+                "type":"illustration",
+                "title":"Gazelle",
+                "description":"",
+                "image":"/art/fauna/gazelle-400.png",
+                "span": "md"
+            }
+        ]},
+    {
+        "id":"3",
+        "type":"category",
+        "title":"Fika",
+        "description": "Different fika has alway inspired me to paint, so these illustrations have been painted throughout the last couple of years.",
+        "slug":"fika",
+        "thumbnail": {
+            "art":"/art/vaniljbulle.png",
+        "alt": "vanilla bun",
+        "bgColor": "#FAF5BB", 
+        "span": "md"
+        },
+        "illustrations":[
+            {
+                "id":"3-illo-2",
+                "type":"illustration",
+                "title":"Cup of tea",
+                "description":"",
+                "image":"/art/fika/te-ovan.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-12",
+                "type":"illustration",
+                "title":"Pretty cinnamon roll",
+                "description":"",
+                "image":"/art/fika/pretty-cinnamon-roll-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-6",
+                "type":"illustration",
+                "title":"French coffee press",
+                "description":"",
+                "image":"/art/fika/french-press-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-5",
+                "type":"illustration",
+                "title":"Chemex coffee maker",
+                "description":"",
+                "image":"/art/fika/chemex-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-1",
+                "type":"illustration",
+                "title":"Cinnamon roll",
+                "description":"",
+                "image":"/art/fika/cinnamon-roll-400.png", 
+                "span": "sm"
+            },
+            {
+                "id":"3-illo-3",
+                "type":"illustration",
+                "title":"Saffranbun",
+                "description":"",
+                "image":"/art/fika/lussebulle-400.png", 
+                "span": "sm"
+            },
+            {
+                "id":"3-illo-4",
+                "type":"illustration",
+                "title":"Vanilla filled bun",
+                "description":"",
+                "image":"/art/fika/vaniljbulle-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-7",
+                "type":"illustration",
+                "title":"Mocka pot",
+                "description":"",
+                "image":"/art/fika/mocka-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-9",
+                "type":"illustration",
+                "title":"Cardamom bun",
+                "description":"",
+                "image":"/art/fika/kardemummabulle-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-8",
+                "type":"illustration",
+                "title":"Cookie jar",
+                "description":"",
+                "image":"/art/fika/cookie-jar-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-10",
+                "type":"illustration",
+                "title":"Cinnamon roll",
+                "description":"",
+                "image":"/art/fika/kanelsnurra-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-11",
+                "type":"illustration",
+                "title":"Frappuccino",
+                "description":"",
+                "image":"/art/fika/frappucino-400.png", 
+                "span": "md"
+            },
+            {
+                "id":"3-illo-12",
+                "type":"illustration",
+                "title":"Blueberry Scone",
+                "description":"",
+                "image":"/art/fika/blueberry-scone-400.png", 
+                "span": "md"
+            }
+        ]},
+        {
+            "id":"7",
+            "type":"category",
+            "title":"Miscellaneous",
+            "description": "A collection of random illustrations I've done throughout the years.",
+            "slug":"miscellaneous",
+            "thumbnail": {
+                "art":"/art/radio.png",
+                "alt": "radio",
+                "bgColor": "#E1BC78",
+                "span": "sm",
+                "customClasses": "!p-8"
+            },
+            "illustrations":[
+                {
+                    "id":"7-illo-1",
+                    "type":"illustration",
+                    "title":"Pelisor castle",
+                    "description":"",
+                    "image":"/art/miscellaneous/pelisor-castle.png",
+                    "span": "lg"
+                },
+                {
+                    "id":"7-illo-2",
+                    "type":"illustration",
+                    "title":"SAAB 96 '77",
+                    "description":"",
+                    "image":"/art/miscellaneous/saab.png",
+                    "span": "lg"
+                },
+                {
+                    "id":"7-illo-3",
+                    "type":"illustration",
+                    "title":"Radio",
+                    "description":"A Philco model 90",
+                    "image":"/art/radio.png",
+                    "span": "md"
+                },
+                {
+                    "id":"7-illo-4",
+                    "type":"illustration",
+                    "title":"Blue amethyst",
+                    "description":"",
+                    "image":"/art/miscellaneous/bla-ametist-300.png",
+                    "span": "sm"
+                },
+                {
+                    "id":"7-illo-5",
+                    "type":"illustration",
+                    "title":"Emerald",
+                    "description":"",
+                    "image":"/art/miscellaneous/emerald-300.png",
+                    "span": "sm"
+                },
+                {
+                    "id":"7-illo-6",
+                    "type":"illustration",
+                    "title":"Blanket",
+                    "description":"",
+                    "image":"/art/miscellaneous/plad.png",
+                    "span": "md"
+                }
+            ]},
+    {
+        "id":"4",
+        "type":"category",
+        "title":"Mushroomtober",
+        "description": "A painting challenge inspired by Inktober, but with mushrooms!",
+        "slug":"mushroomtober",
+        "thumbnail": {
+            "art":"/art/rafflad-nagelskivling.png",
+        "alt": "mushroom",
+        "bgColor": "#E8D9BB",
+        "span": "md"
+        },
+        "illustrations":[
+            {
+                "id":"4-illo-1",
+                "type":"illustration",
+                "title":"Lactarius ceterrimus",
+                "description":"Orange Milkcap",
+                "image":"/art/mushroomtober/blodriska-400-square.png",
+                "span": "md"
+            },
+            {
+                "id":"4-illo-2",
+                "type":"illustration",
+                "title":"Cantharellus cibarius",
+                "description":"Golden Chanterelle",
+                "image":"/art/mushroomtober/kantarell-400-square.png",
+                "span": "md"
+            },
+            {
+                "id":"4-illo-3",
+                "type":"illustration",
+                "title":"Coprinus comatus",
+                "description":"Shaggy Ink Cap",
+                "image":"/art/mushroomtober/blacksvamp-400-square.png",
+                "span": "md"
+            },
+            {
+                "id":"4-illo-4",
+                "type":"illustration",
+                "title":"Macrolepiota procera",
+                "description":"Parasol Mushroom",
+                "image":"/art/mushroomtober/stolt-fjallskivling-400-square.png",
+                "span": "md"
+            },
+            {
+                "id":"4-illo-5",
+                "type":"illustration",
+                "title":"Craterellus tubaeformis",
+                "description":"Funnel Chanterelle",
+                "image":"/art/mushroomtober/trattkantarell-400-square.png",
+                "span": "md"
+            },
+            {
+                "id":"4-illo-6",
+                "type":"illustration",
+                "title":"Gyromitra escuelenta",
+                "description":"False Morel",
+                "image":"/art/mushroomtober/stenmurkla-400-square.png",
+                "span": "md"
+            },
+            {
+                "id":"4-illo-7",
+                "type":"illustration",
+                "title":"Boletus edulis",
+                "description":"Penny Bun",
+                "image":"/art/mushroomtober/karljohan-400-square.png",
+                "span": "md"
+            },
+            {
+                "id":"4-illo-8",
+                "type":"illustration",
+                "title":"Rubroboletus legaliae",
+                "description":"False Devils Bolete",
+                "image":"/art/mushroomtober/falskdjavulssopp-400-square.png",
+                "span": "md"
+            },
+            {
+                "id":"4-illo-9",
+                "type":"illustration",
+                "title":"Morchella Galilaea",
+                "description":"",
+                "image":"/art/mushroomtober/murkla-400-square.png",
+                "span": "md"
+            },
+            {
+                "id":"4-illo-10",
+                "type":"illustration",
+                "title":"Helvella leucopus",
+                "description":"",
+                "image":"/art/mushroomtober/hattmurkla-400-square.png",
+                "span": "md"
+            },
+            {
+                "id":"4-illo-11",
+                "type":"illustration",
+                "title":"Otidea onotica",
+                "description":"Hare's Ear",
+                "image":"/art/mushroomtober/stort-harora-400-square.png",
+                "span": "md"
+            },
+            {
+                "id":"4-illo-12",
+                "type":"illustration",
+                "title":"Gymnopus fusipes",
+                "description":"",
+                "image":"/art/mushroomtober/rafflad-nagelskivling-400-square.png",
+                "span": "md"
+            },
+            {
+                "id":"4-illo-13",
+                "type":"illustration",
+                "title":"Sarcodon imbricatus",
+                "description":"Shingled Hedgehod",
+                "image":"/art/mushroomtober/fjallig-taggsvamp-400-square.png",
+                "span": "md"
+            },
+            {
+                "id":"4-illo-14",
+                "type":"illustration",
+                "title":"Coprinopsis atramentaria",
+                "description":"Inky Cap",
+                "image":"/art/mushroomtober/gra-blacksvamp-400-square.png",
+                "span": "md"
+            },
+            {
+                "id":"4-illo-15",
+                "type":"illustration",
+                "title":"Kuehneromyces mutabilis",
+                "description":"Sheathed Woodtuft",
+                "image":"/art/mushroomtober/foranderlig-tofsskivling-400-square.png",
+                "span": "md"
+            },
+            {
+                "id":"4-illo-16",
+                "type":"illustration",
+                "title":"Leucopaxillus rhodoleucus",
+                "description":"",
+                "image":"/art/mushroomtober/rosentrattsskivling-400.png",
+                "span": "lg"
+            },
+            {
+                "id":"4-illo-17",
+                "type":"illustration",
+                "title":"Agaricus arvensis",
+                "description":"Horse Mushroom",
+                "image":"/art/mushroomtober/snobollschampinjon-400.png",
+                "span": "lg"
+            }
+        ]},
+    {
+        "id":"5",
+        "type":"category",
+        "title":"Inktober 2021",
+        "description": "Inktober is an art challenge where you draw on illustration for everyday of October based on a prompt. These are some of the illustrations from Inktober 2021. Instead of ink I've used aquarelle and some markers for details.",
+        "slug":"inktober-2021",
+        "thumbnail": {
+            "art":"/art/crystal.png",
+        "alt": "crystal",
+        "bgColor": "#F9E1EA",
+        "span": "sm",
+        "customClasses": "!p-8"
+        },
+        "illustrations":[
+            {
+                "id":"5-illo-1",
+                "type":"illustration",
+                "title":"'Crystal'",
+                "description":"",
+                "image":"/art/inktober2021/rose-quartz-400-square.png",
+                "span":"md"
+            },
+            {
+                "id":"5-illo-2",
+                "type":"illustration",
+                "title":"'Suit'",
+                "description":"",
+                "image":"/art/inktober2021/suit-400-square.png",
+                "span":"md"
+            },
+            {
+                "id":"5-illo-3",
+                "type":"illustration",
+                "title":"'Vessel'",
+                "description":"",
+                "image":"/art/inktober2021/vessel-400-square.png",
+                "span":"md"
+            },
+            {
+                "id":"5-illo-4",
+                "type":"illustration",
+                "title":"'Knot'",
+                "description":"",
+                "image":"/art/inktober2021/knot-400-square.png",
+                "span":"md"
+            },
+            {
+                "id":"5-illo-5",
+                "type":"illustration",
+                "title":"'Spirit'",
+                "description":"",
+                "image":"/art/inktober2021/spirit-400-square.png",
+                "span":"md"
+            }
+        ]},
+    {
+        "id":"6",
+        "type":"category",
+        "title":"Bread",
+        "description": "An ode to the wonderfulness of bread.",
+        "slug":"bread",
+        "thumbnail": {
+            "art":"/art/mushroom-sandwich.png",
+        "alt": "mushroom sandwich",
+        "bgColor": "#E5D6B5",
+        "span": "lg",
+        "customClasses": "!p-8"
+        },
+        "illustrations":[
+            {
+                "id":"6-illo-1",
+                "type":"illustration",
+                "title":"Mushroom sandwich",
+                "description":"",
+                "image":"/art/mushroom-sandwich.png",
+                "span": "lg"
+            },
+            {
+                "id":"6-illo-2",
+                "type":"illustration",
+                "title":"Wrapped sandwich",
+                "description":"",
+                "image":"/art/bread/sandwich-400.png",
+                "span": "md"
+            },
+            {
+                "id":"6-illo-3",
+                "type":"illustration",
+                "title":"Cream cheese bagel",
+                "description":"",
+                "image":"/art/bread/cream-cheese-bagel-400.png",
+                "span": "md"
+            },
+            {
+                "id":"6-illo-4",
+                "type":"illustration",
+                "title":"Croissants",
+                "description":"",
+                "image":"/art/bread/croissanter-400.png",
+                "span": "md"
+            },
+            {
+                "id":"6-illo-5",
+                "type":"illustration",
+                "title":"Breadloaf",
+                "description":"",
+                "image":"/art/bread/breadloaf-400.png",
+                "span": "md"
+            }
+        ]},
+        {
+            "id":"9",
+            "type":"category",
+            "title":"Baking",
+            "description": "A collection of illustrations of baking ingredients.",
+            "slug":"baking",
+            "thumbnail": {
+                "art":"/art/caster-sugar.png",
+                "alt": "caster sugar",
+                "bgColor": "#D9EBBE",
+                "span": "sm",
+                "customClasses": "!p-8"
+            },
+            "illustrations":[
+                {
+                    "id":"9-illo-1",
+                    "type":"illustration",
+                    "title":"Wheat flour",
+                    "description":"",
+                    "image":"/art/baking/vetemjol-400-square.png",
+                    "span": "md"
+                },
+                {
+                    "id":"9-illo-2",
+                    "type":"illustration",
+                    "title":"Oatmeal",
+                    "description":"",
+                    "image":"/art/baking/havregryn-400-square.png",
+                    "span": "md"
+                },
+                {
+                    "id":"9-illo-3",
+                    "type":"illustration",
+                    "title":"Caster sugar",
+                    "description":"",
+                    "image":"/art/baking/strosocker-400-square.png",
+                    "span": "md"
+                },
+                {
+                    "id":"9-illo-4",
+                    "type":"illustration",
+                    "title":"Chocolate",
+                    "description":"",
+                    "image":"/art/baking/choklad-400.png",
+                    "span": "md"
+                },
+                {
+                    "id":"9-illo-5",
+                    "type":"illustration",
+                    "title":"Vanilla bean",
+                    "description":"",
+                    "image":"/art/baking/vaniljstang-400.png",
+                    "span": "md"
+                }
+            ]},
+    
+    {
+        "id":"8",
+        "type":"category",
+        "title":"Food",
+        "description": "A collection of illustrations of different foods.",
+        "slug":"food",
+        "thumbnail": {
+            "art":"/art/frying-pan.png",
+            "alt": "frying pan",
+            "bgColor": "#B1AFB3",
+            "span": "md",
+            "customClasses": "!p-8"
+        },
+        "illustrations":[
+            {
+                "id":"8-illo-1",
+                "type":"illustration",
+                "title":"Pancakes",
+                "description":"",
+                "image":"/art/food/pannkakor-400.png",
+                "span": "md"
+            },
+            {
+                "id":"8-illo-2",
+                "type":"illustration",
+                "title":"Fried fish",
+                "description":"",
+                "image":"/art/food/mannagrynsspatta-400.png",
+                "span": "md"
+            },
+            {
+                "id":"8-illo-3",
+                "type":"illustration",
+                "title":"Aluminiumfoiled baked potatoes",
+                "description":"",
+                "image":"/art/food/aluminiumfolie-potatis-400.png",
+                "span": "md"
+            },
+            {
+                "id":"8-illo-4",
+                "type":"illustration",
+                "title":"Sushi rolls",
+                "description":"",
+                "image":"/art/food/sushi-rullar-400.png",
+                "span": "lg"
+            },
+            {
+                "id":"8-illo-5",
+                "type":"illustration",
+                "title":"Hasselback mushroom",
+                "description":"",
+                "image":"/art/food/hasselbackad-svamp-400.png",
+                "span": "md"
+            }
+        ]},
+    {
+        "id":"10",
+        "type":"category",
+        "title":"Motorcycles",
+        "description": "I was inspired to create some wallpaper of motorcycles. ",
+        "slug":"motorcycles",
+        "thumbnail": {
+            "art":"/art/honda-repsol.svg",
+            "alt": "motorcycle",
+            "bgColor": "#F6A60E",
+            "span": "md",
+            "customClasses": "!p-8"
+        },
+        "illustrations":[
+            {
+                "id":"10-illo-1",
+                "type":"illustration",
+                "title":"Honda Repsol 2023",
+                "description":"",
+                "image":"/art/motorcycles/honda-repsol-2023-wide.png",
+                "span": "md"
+            },
+            {
+                "id":"10-illo-2",
+                "type":"illustration",
+                "title":"Honda Repsol 2023",
+                "description":"Marc Marquez and Joan Mirs bikes for the 2023 season.",
+                "image":"/art/motorcycles/honda-repsol-team-2023-wide.png",
+                "span": "md"
+            },
+            {
+                "id":"10-illo-3",
+                "type":"illustration",
+                "title":"Triumph Bonneville T120",
+                "description":"",
+                "image":"/art/motorcycles/triumph-bonneville-t120-2023-wide.png",
+                "span": "md"
+            },
+            {
+                "id":"10-illo-4",
+                "type":"illustration",
+                "title":"Honda CBR600 F-sport 2001",
+                "description":"",
+                "image":"/art/motorcycles/honda-cbr600fs-2001.png",
+                "span": "md"
+            }
+        ]}
+]}
