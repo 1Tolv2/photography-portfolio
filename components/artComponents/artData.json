@@ -717,6 +717,60 @@
                 "span": "md"
             }
         ]},
+        {
+            "id":"10",
+            "type":"category",
+            "title":"Flora",
+            "description": "Collection of illustrations of plants and flowers.",
+            "slug":"flora",
+            "thumbnail": {
+                "art":"/art/flora/ginko-biloba-blad-400.png",
+                "alt": "ginko biloba leaf",
+                "bgColor": "#CCE495",
+                "span": "lg"
+            },
+            "illustrations":[
+                {
+                    "id":"10-illo-1",
+                    "type":"illustration",
+                    "title":"Pine cone",
+                    "description":"",
+                    "image":"/art/flora/kotte-400.png",
+                    "span": "md"
+                },
+                {
+                    "id":"10-illo-2",
+                    "type":"illustration",
+                    "title":"Ginko biloba leaf",
+                    "description":"",
+                    "image":"/art/flora/ginko-biloba-400.png",
+                    "span": "md"
+                },
+                {
+                    "id":"10-illo-3",
+                    "type":"illustration",
+                    "title":"Ginko biloba",
+                    "description":"",
+                    "image":"/art/flora/ginko-biloba-blad-400.png",
+                    "span": "md"
+                },
+                {
+                    "id":"10-illo-4",
+                    "type":"illustration",
+                    "title":"Pilea peperomioides",
+                    "description":"",
+                    "image":"/art/flora/pilea-400.png",
+                    "span": "lg"
+                },
+                {
+                    "id":"10-illo-5",
+                    "type":"illustration",
+                    "title":"Monstera adasonii",
+                    "description":"",
+                    "image":"/art/flora/monstera-adasonii-400.png",
+                    "span": "lg"
+                }
+            ]},
     {
         "id":"10",
         "type":"category",
@@ -727,12 +781,12 @@
             "art":"/art/honda-repsol.svg",
             "alt": "motorcycle",
             "bgColor": "#F6A60E",
-            "span": "md",
+            "span": "lg",
             "customClasses": "!p-8"
         },
         "illustrations":[
             {
-                "id":"10-illo-1",
+                "id":"11-illo-1",
                 "type":"illustration",
                 "title":"Honda Repsol 2023",
                 "description":"",
@@ -740,7 +794,7 @@
                 "span": "md"
             },
             {
-                "id":"10-illo-2",
+                "id":"11-illo-2",
                 "type":"illustration",
                 "title":"Honda Repsol 2023",
                 "description":"Marc Marquez and Joan Mirs bikes for the 2023 season.",
@@ -748,7 +802,7 @@
                 "span": "md"
             },
             {
-                "id":"10-illo-3",
+                "id":"11-illo-3",
                 "type":"illustration",
                 "title":"Triumph Bonneville T120",
                 "description":"",
@@ -756,7 +810,7 @@
                 "span": "md"
             },
             {
-                "id":"10-illo-4",
+                "id":"11-illo-4",
                 "type":"illustration",
                 "title":"Honda CBR600 F-sport 2001",
                 "description":"",
