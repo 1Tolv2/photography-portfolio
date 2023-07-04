@@ -23,9 +23,7 @@ code {
     monospace;
 }
 
-ul{
-  list-style-image: url('/rectangle.svg');
-}
+
 
 /* h1 {
   font-size: 1.625rem;
@@ -43,11 +41,12 @@ h3 {
 }
 
 @layer utilities {
+
   .linear-gradient-blue-bottom {
     background-image: linear-gradient(180deg, rgba(70, 162, 214, 0) 0%, rgba(37, 112, 136, 0.78) 47.45%, #0B2027 73.65%, #000000 90.49%);
   }
   .linear-gradient-blue-left {
-    background-image:linear-gradient(256.3deg, rgba(70, 162, 214, 0) 10%, rgba(37, 112, 136, 0.78) 35.99%, #0B2027 66.53%, #000000 91.23%);
+    background-image: linear-gradient(256.3deg, rgba(70, 162, 214, 0) 10%, rgba(37, 112, 136, 0.78) 35.99%, #0B2027 66.53%, #000000 91.23%);
   }
   .linear-x-gradient {
    background-image: linear-gradient(90deg, #000000 0%, rgba(217, 217, 217, 0) 31.25%, rgba(199, 199, 199, 0) 73.44%, #060B13 100%);
@@ -74,4 +73,64 @@ h3 {
     stroke-linejoin: round;
     stroke-linecap: round;
   }
+
+  .list-square {
+    list-style-image: url('/rectangle.svg');
+  }
+
+  /* art css */
+  .col-span-sm {
+    @apply col-span-1
+  }
+  .col-span-md {
+    @apply col-span-1 sm:col-span-2
+  }
+  .col-span-lg {
+    @apply col-span-1 sm:col-span-3
+  }
+
+  .col-span-cat-sm {
+    @apply col-span-1 sm:col-span-3 lg:col-span-1
+  }
+  .col-span-cat-md {
+    @apply col-span-1 sm:col-span-3 lg:col-span-2
+  }
+  .col-span-cat-lg {
+    @apply col-span-1 sm:col-span-3
+  }
+
+
+  .collapsedMenu {
+    @apply w-5 h-0.5 my-auto transition-all;
+  }
+  .collapsedMenu::before {
+    @apply block w-5 h-0.5 my-auto;
+    content: "";
+    position: relative;
+    top: 0.4rem;
+    transition: all 0.3s ease-in-out;
+
+  }
+  .collapsedMenu::after {
+    @apply block w-5 h-0.5 my-auto;
+    content: "";
+    position: relative;
+    bottom: 0.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .collapsedMenuOpen {
+    @apply w-0 h-0.5 mr-5 bg-white;
+  }
+  .collapsedMenuOpen::before {
+    @apply rotate-45 top-px left-px bg-white;
+    content: "";
+    position: relative;
+  }
+  .collapsedMenuOpen::after {
+    @apply -rotate-45 bottom-px left-px bg-white;
+    content: "";
+    position: relative;
+  }
 }
+

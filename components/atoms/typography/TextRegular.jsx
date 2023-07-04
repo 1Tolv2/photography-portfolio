@@ -1,7 +1,7 @@
 import React from "react";
 
-const TextRegular = ({ children }) => {
-  return <p className="text-base text-white">{children}</p>;
+const TextRegular = ({ className, children }) => {
+  return <p className={`text-base text-white ${className}`}>{children}</p>;
 };
 
 export default TextRegular;
