@@ -6,7 +6,6 @@ import artData from "../../components/artComponents/artData.json";
 import Gallery from "../../components/artComponents/Gallery";
 
 export default function CategoryPage({ category }) {
-  console.log("CAT", category.thumbnail.bgColor);
   return (
     <div>
       <Head>
