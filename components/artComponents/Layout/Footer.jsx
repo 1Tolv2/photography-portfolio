@@ -16,13 +16,13 @@ const Footer = () => {
             alt="instagram"
           />
         </a>
-        <a href="https://www.deviantart.com/laiany" target="_blank">
-          <Image src="/art/etsy.svg" height="30" width="30" alt="etsy" />
-        </a>
         <a
           href="https://www.etsy.com/se-en/shop/Sofiaillustrations?ref=profile_header"
           target="_blank"
         >
+          <Image src="/art/etsy.svg" height="30" width="30" alt="etsy" />
+        </a>
+        <a href="https://www.deviantart.com/laiany" target="_blank">
           <Image
             src="/art/deviantart.svg"
             height="18"
