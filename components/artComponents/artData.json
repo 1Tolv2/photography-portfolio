@@ -13,13 +13,13 @@
             "customClasses": "!p-8"
         },
         "illustrations":[
+            
             {
-                "id":"1-illo-1",
+                "id":"1-illo-4",
                 "type":"illustration",
-                "title":"'Nest'",
+                "title":"'Match'",
                 "description":"",
-                "image":"/art/inktober2022/birdnest-400.png",
-                "span":"md"
+                "image":"/art/inktober2022/match-400.png"
             },
             {
                 "id":"1-illo-2",
@@ -27,7 +27,7 @@
                 "title":"'Trip'",
                 "description":"",
                 "image":"/art/camera.png",
-                "span":"lg"
+                "span":"colRectangle"
             },
             {
                 "id":"1-illo-3",
@@ -35,31 +35,21 @@
                 "title":"'Flame'",
                 "description":"",
                 "image":"/art/inktober2022/lamp-400.png",
-                "span":"sm"
+                "span":"rowRectangle"
             },
             {
                 "id":"1-illo-8",
                 "type":"illustration",
                 "title":"'Scallop'",
                 "description":"",
-                "image":"/art/inktober2022/scallop-400.png",
-                "span":"md"
+                "image":"/art/inktober2022/scallop-400.png"
             },
             {
-                "id":"1-illo-5",
+                "id":"1-illo-9",
                 "type":"illustration",
-                "title":"'Snack'",
+                "title":"'Crabby'",
                 "description":"",
-                "image":"/art/inktober2022/snack-400.png",
-                "span":"md"
-            },
-            {
-                "id":"1-illo-7",
-                "type":"illustration",
-                "title":"'Empty'",
-                "description":"",
-                "image":"/art/inktober2022/empty-400.png",
-                "span":"md"
+                "image":"/art/inktober2022/hermitecrab-400.png"
             },
             {
                 "id":"1-illo-6",
@@ -67,23 +57,30 @@
                 "title":"'Forget'",
                 "description":"",
                 "image":"/art/inktober2022/car-wreck-400.png",
-                "span":"lg"
+                "span":"square"
             },
             {
-                "id":"1-illo-4",
+                "id":"1-illo-1",
                 "type":"illustration",
-                "title":"'Match'",
+                "title":"'Nest'",
                 "description":"",
-                "image":"/art/inktober2022/match-400.png",
-                "span":"sm"
+                "image":"/art/inktober2022/birdnest-400.png"  
             },
             {
-                "id":"1-illo-9",
+                "id":"1-illo-5",
                 "type":"illustration",
-                "title":"'Crabby'",
+                "title":"'Snack'",
                 "description":"",
-                "image":"/art/inktober2022/hermitecrab-400.png",
-                "span":"md"
+                "image":"/art/inktober2022/snack-400.png",
+                "span":"colRectangle"
+            },
+            {
+                "id":"1-illo-7",
+                "type":"illustration",
+                "title":"'Empty'",
+                "description":"",
+                "image":"/art/inktober2022/empty-400.png",
+                "span":"colRectangle"
             }
             
         ]},

@@ -40,6 +40,7 @@ h3 {
   font-size: clamp(1.125rem, 0.9721786833855799rem + 0.7523510971786834vw, 1.875rem);
 }
 
+
 @layer utilities {
 
   .linear-gradient-blue-bottom {
@@ -98,6 +99,17 @@ h3 {
   .col-span-cat-lg {
     @apply col-span-1 sm:col-span-3
   }
+
+  .art-colRectangle {
+    @apply row-span-1 col-span-1 sm:col-span-2
+  }
+  .art-rowRectangle {
+    @apply col-span-1 row-span-1 sm:row-span-2
+  }
+  .art-square {
+    @apply col-span-1 row-span-1 sm:row-span-2 sm:col-span-2
+  }
+
 
 
   .collapsedMenu {

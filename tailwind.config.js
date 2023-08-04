@@ -13,6 +13,7 @@ module.exports = {
           DEFAULT: "#060B13",
         },
         purpleGrey: "#777086",
+        customBlack: "#2d2c30",
       },
     },
   },
@@ -21,6 +22,7 @@ module.exports = {
     { pattern: /opacity-\d+/ },
     { pattern: /(bg|object)-\w+/ },
     { pattern: /(w|h)-\w+/ },
-    { pattern: /(col-span)-\w+/ },
+    { pattern: /(col|row)-span-\w+/ },
+    { pattern: /art-(rowRectangle|colRectangle|square)/ },
   ],
 };

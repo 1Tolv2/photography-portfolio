@@ -14,7 +14,10 @@ const CardTile = ({ data }) => {
       whileInView={{ translateY: 0, opacity: 1 }}
       viewport={{ once: true }}
     >
-      <div className="relative h-[250px] md:h-[300px] lg:h-[350px] w-full">
+      <div
+        className="relative h-[250px] md:h-[300px] lg:h-[350px] w-full"
+        style={{ backgroundColor: data.bgColor || "#ebebeb" }}
+      >
         <Image
           className={`object-contain p-4 z-0 ${
             data.customClasses ? data.customClasses : ""
@@ -27,11 +30,15 @@ const CardTile = ({ data }) => {
       </div>
       <div className="w-full max-w-[300px] p-3">
         {data.title && (
-          <Heading2 className="!text-black lg:!text-2xl text-center mb-2">
+          <Heading2 className="!text-customBlack lg:!text-base font-semibold uppercase tracking-wider text-center">
             {data.title}
           </Heading2>
         )}
-        {data.description && <p className="!text-black">{data.description}</p>}
+        {data.description && (
+          <p className="!text-purpleGrey text-center text-sm">
+            {data.description}
+          </p>
+        )}
       </div>
     </motion.div>
   );
