@@ -4,11 +4,53 @@ import { motion } from "framer-motion";
 
 import Layout from "../../components/artComponents/Layout";
 import artData from "../../components/artComponents/artData.json";
-import Gallery from "../../components/artComponents/Gallery";
 import Section from "../../components/atoms/Section";
 import Heading2 from "../../components/atoms/typography/Heading2";
 
+function convertHexToRgb(hex) {
+  // converts the hex from base 16 to base 10
+  const [r, g, b] = hex.match(/\w\w/g).map((x) => parseInt(x, 16));
+
+  return [r, g, b];
+}
+
+function getLuminance(r, g, b) {
+  let [lumR, lumG, lumB] = [r, g, b].map((part) => {
+    const proportion = part / 255;
+
+    return proportion <= 0.03928
+      ? proportion / 12.92
+      : Math.pow((proportion + 0.055) / 1.055, 2.4);
+  });
+  return 0.2126 * lumR + 0.7152 * lumG + 0.0722 * lumB;
+}
+
+function checkContrast(x, y) {
+  const lighter = Math.max(x, y);
+  const darker = Math.min(x, y);
+
+  return (lighter + 0.05) / (darker + 0.05);
+}
+
+function getTextColorFromContrast(colorValues) {
+  const blackContrast = checkContrast(
+    getLuminance(...colorValues),
+    getLuminance(0, 0, 0)
+  );
+
+  const whiteContrast = checkContrast(
+    getLuminance(...colorValues),
+    getLuminance(255, 255, 255)
+  );
+
+  return blackContrast >= whiteContrast ? "text-black" : "text-white";
+}
+
 export default function CategoryPage({ category }) {
+  const textColor = getTextColorFromContrast(
+    convertHexToRgb(category.thumbnail.bgColor)
+  );
+
   return (
     <div>
       <Head>
@@ -22,10 +64,10 @@ export default function CategoryPage({ category }) {
           style={{ backgroundColor: category.thumbnail.bgColor }}
         >
           <div className="w-10/12 h-[50vh] flex flex-col justify-center items-center sm:w-1/2 sm:min-w-[400px] max-w-[800px] mx-auto">
-            <h1 className="text-4xl mb-4 sm:mb-6 text-black text-center">
+            <h1 className={`text-4xl mb-4 sm:mb-6 text-center ${textColor}`}>
               {category.title}
             </h1>
-            <p>{category.description}</p>
+            <p className={textColor}>{category.description}</p>
           </div>
         </div>
         <div className="mt-[calc(50vh-60px)]">
@@ -37,8 +79,6 @@ export default function CategoryPage({ category }) {
                   "col-art-span-" + (item?.span?.col ? item.span.col : "1");
                 const rowSpan =
                   "row-art-span-" + (item?.span?.row ? item.span.row : "1");
-
-                console.log("SPANS: ", item.title, colSpan, rowSpan);
 
                 return (
                   <motion.div
@@ -52,7 +92,7 @@ export default function CategoryPage({ category }) {
                     viewport={{ once: true }}
                   >
                     <div
-                      className="relative h-full md:!min-h-[300px] 2xl:!min-h-[350px] w-full"
+                      className="relative h-full 2xl:!min-h-[350px] w-full"
                       style={{
                         backgroundColor: item.bgColor || "#ebebeb",
                         minHeight:

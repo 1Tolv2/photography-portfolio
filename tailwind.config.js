@@ -24,5 +24,6 @@ module.exports = {
     { pattern: /(w|h)-\w+/ },
     { pattern: /(col|row)-span-\w+/ },
     { pattern: /art-(rowRectangle|colRectangle|square)/ },
+    { pattern: /text-(black|white)/ },
   ],
 };
