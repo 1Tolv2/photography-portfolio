@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Heading2 from "../../atoms/typography/Heading2";
+
+import Heading2 from "../../../atoms/typography/Heading2";
 
 const CardTile = ({ data }) => {
   return (

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-import Heading2 from "../../atoms/typography/Heading2";
+import Heading2 from "../../../atoms/typography/Heading2";
 
 const ImageTile = ({ data }) => {
   const [isHovered, setIsHovered] = React.useState(false);
