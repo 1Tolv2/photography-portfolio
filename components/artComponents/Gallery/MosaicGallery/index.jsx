@@ -8,7 +8,7 @@ const MosaicGallery = ({ data }) => {
     <Section className="bg-white">
       <div className="grid gap-2 grid-cols-1 sm:grid-cols-3 2xl:grid-cols-6 w-screen">
         {data.map((item, index) => (
-          <Tile data={item} />
+          <Tile data={item} key={`mosaic-tile-${item.id}`} />
         ))}
       </div>
     </Section>
