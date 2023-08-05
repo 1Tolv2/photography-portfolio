@@ -3,7 +3,6 @@ import Section from "../../../atoms/Section";
 import Tile from "./Tile";
 
 const MosaicGallery = ({ data }) => {
-  console.log(data);
   return (
     <Section className="bg-white">
       <div className="grid gap-2 grid-cols-1 sm:grid-cols-3 2xl:grid-cols-6 w-screen">
